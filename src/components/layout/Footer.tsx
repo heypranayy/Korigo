@@ -55,6 +55,9 @@ export const Footer: React.FC = () => {
             <p className="text-white/85 text-sm leading-relaxed font-serif">
               100% slow-roasted, non-fried flavoured makhana pops. Handcrafted with authentic spices for clean, guilt-free crunch.
             </p>
+            <div className="inline-block text-[11px] font-mono uppercase tracking-wider text-amber-200/90 font-semibold bg-white/10 px-2.5 py-1 rounded border border-white/15">
+              A UNIT OF KLOVE PRIVATE LIMITED
+            </div>
             <div className="space-y-2 text-white/80 text-xs pt-2 font-serif">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-amber-300 flex-shrink-0 mt-0.5" />
@@ -171,10 +174,30 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Bottom Copyright Row */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-white/70 gap-4 font-serif">
-          <p>© 2026 Korigo Snacks. All Rights Reserved.</p>
-          <div className="flex flex-wrap gap-4">
+        {/* Bottom Copyright & Credit Row */}
+        <div className="pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-white/75 gap-4 font-serif">
+          <div className="flex flex-col sm:flex-row items-center gap-2 text-center sm:text-left">
+            <p>© 2026 Korigo Snacks. All Rights Reserved.</p>
+            <span className="hidden sm:inline text-white/40">•</span>
+            <p className="font-semibold text-white tracking-wide">
+              A UNIT OF KLOVE PRIVATE LIMITED
+            </p>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <a
+              href="https://gexart.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 text-white text-[11px] font-mono tracking-wider transition hover:scale-105 active:scale-95 shadow-sm"
+              title="Built by Gexart Design & Development Studio"
+            >
+              <span>BUILT BY GEXART</span>
+              <span className="text-amber-300 font-bold">(GEXART.COM)</span>
+            </a>
+          </div>
+
+          <div className="flex flex-wrap items-center justify-center gap-4 text-xs">
             <Link href="/privacy-policy" className="hover:text-white transition">
               Privacy
             </Link>
