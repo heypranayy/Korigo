@@ -192,21 +192,10 @@ export const Footer: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-amber-300 font-black underline underline-offset-2 hover:text-white transition cursor-pointer"
-                title="Visit GEXART"
+                title="GEXART"
               >
                 GEXART
               </a>
-              <span className="text-white/60">(</span>
-              <a
-                href="https://gexart.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-amber-300 font-bold hover:underline transition cursor-pointer"
-                title="https://gexart.com"
-              >
-                GEXART.COM
-              </a>
-              <span className="text-white/60">)</span>
             </div>
           </div>
 
