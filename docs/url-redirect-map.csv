@@ -1,0 +1,39 @@
+old_url,new_url,redirect_type,page_type,notes
+/,/,200,homepage,Homepage maintained at root
+/collections/all,/shop,301,collection,Catalog page standardized to /shop with legacy alias
+/collections/frontpage,/shop,301,collection,Shop collection alias
+/collections/product,/shop?category=singles,301,collection,Filter to individual flavour snacks
+/collections/combo,/shop?category=combos,301,collection,Filter to dual-pack combos
+/products/citrus-cartel-makhana,/products/citrus-cartel-makhana,200,product,Direct slug preservation
+/products/coco-world-makhana,/products/coco-world-makhana,200,product,Direct slug preservation (Sold Out preserved)
+/products/creme-d-onion-makhana,/products/creme-d-onion-makhana,200,product,Direct slug preservation
+/products/garlicked-cheese-makhana,/products/garlicked-cheese-makhana,200,product,Direct slug preservation
+/products/cinnamon-drip,/products/cinnamon-drip,200,product,Direct slug preservation
+/products/sassy-sriracha,/products/sassy-sriracha,200,product,Direct slug preservation
+/products/garlic-cheese-sassy-sriracha-combo,/products/garlic-cheese-sassy-sriracha-combo,200,product,Direct slug preservation
+/products/citrus-cartel-sassy-sriracha-combo,/products/citrus-cartel-sassy-sriracha-combo,200,product,Direct slug preservation
+/products/citrus-cartel-garlicked-cheese-combo,/products/citrus-cartel-garlicked-cheese-combo,200,product,Direct slug preservation
+/products/garlicked-cheese-cinnamon-drip-combo,/products/garlicked-cheese-cinnamon-drip-combo,200,product,Direct slug preservation
+/products/cinnamon-drip-sour-cream-onion-combo,/products/cinnamon-drip-sour-cream-onion-combo,200,product,Direct slug preservation
+/products/sassy-sriracha-sour-cream-onion-combo,/products/sassy-sriracha-sour-cream-onion-combo,200,product,Direct slug preservation
+/pages/about-us,/pages/about-us,200,page,Brand and founder story
+/pages/our-story,/pages/about-us,301,page,Canonical redirect to avoid duplicate content
+/pages/contact,/pages/contact,200,page,Customer care bulk order and review form
+/pages/reviews-form,/pages/reviews-form,200,page,Review submission page maintained
+/blogs/news,/blog,301,blog_index,Blog archive migration to /blog
+/blogs/news/top-health-benefits-of-makhana-fox-nuts-lotus-seeds,/blog/top-health-benefits-of-makhana-fox-nuts-lotus-seeds,301,blog_post,Slug preserved under clean /blog hierarchy
+/blogs/news/makhana-for-weight-loss-how-to-eat,/blog/makhana-for-weight-loss-how-to-eat,301,blog_post,Slug preserved under clean /blog hierarchy
+/blogs/news/makhana-vs-other-snacks-why-its-the-healthiest,/blog/makhana-vs-other-snacks-why-its-the-healthiest,301,blog_post,Slug preserved under clean /blog hierarchy
+/blogs/news/why-cheese-makhana-is-becoming-india-s-favorite-healthy-snack,/blog/why-cheese-makhana-is-becoming-india-s-favorite-healthy-snack,301,blog_post,Slug preserved under clean /blog hierarchy
+/blogs/news/healthy-makhana-recipes-you-can-make-at-home,/blog/healthy-makhana-recipes-you-can-make-at-home,301,blog_post,Slug preserved under clean /blog hierarchy
+/blogs/news/top-5-healthy-snacks-for-desk-jobs,/blog/top-5-healthy-snacks-for-desk-jobs,301,blog_post,Slug preserved under clean /blog hierarchy
+/blogs/news/late-night-healthy-snacks-that-won-t-make-you-feel-guilty,/blog/late-night-healthy-snacks-that-won-t-make-you-feel-guilty,301,blog_post,Slug preserved under clean /blog hierarchy
+/policies/refund-policy,/policies/refund-policy,200,policy,Refund policy page preserved
+/policies/privacy-policy,/policies/privacy-policy,200,policy,Privacy policy page preserved
+/policies/shipping-policy,/policies/shipping-policy,200,policy,Shipping policy page preserved
+/policies/terms-of-service,/policies/terms-of-service,200,policy,Terms of service page preserved
+/cart,/cart,200,cart,Headless shopping cart
+/search,/search,200,search,Site-wide product search
+/account/login,/account/login,200,auth,WooCommerce authenticated customer login
+/account/register,/account/register,200,auth,Customer account registration
+/agents.md,/agents.md,200,meta,Universal Commerce Protocol and agent instructions

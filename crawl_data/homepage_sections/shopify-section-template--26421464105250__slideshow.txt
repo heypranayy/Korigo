@@ -1,0 +1,5 @@
+SECTION ID: shopify-section-template--26421464105250__slideshow
+HEADING: (no heading)
+IMAGES: ['//korigosnacks.com/cdn/shop/files/Roasted_Makhan_Pops_in_Irrestible_Flavours_2250_x_2780_px_286aafb1-b5ad-44e6-a073-96792ddb46fa.png?v=1777262445&width=1500', '//korigosnacks.com/cdn/shop/files/Roasted_Makhan_Pops_in_Irrestible_Flavours_7536984f-9e7c-49de-9f74-4943aad71e73.png?v=1777139050&width=1500']
+
+--- TEXT CONTENT ---

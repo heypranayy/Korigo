@@ -1,0 +1,122 @@
+{
+  "citrus-cartel-makhana": [
+    {
+      "name": "Bhel",
+      "image": "//korigosnacks.com/cdn/shop/files/c9f98e1f-a65b-411d-8aea-ba76f77c7452.jpg?v=1773170848&width=600",
+      "ingredients": "1 cup puffed rice, 1/2 onion chopped, 1 tomato chopped, coriander leaves, 1/4 cup Korigo Chilli Lime Makhana.",
+      "instructions": "Combine puffed rice, onion and tomato in a bowl, mix well and top with Korigo Chilli Lime Makhana and coriander before serving"
+    },
+    {
+      "name": "Pani Puri Filling Bowl",
+      "image": "//korigosnacks.com/cdn/shop/files/81639176-9ba7-44cd-a8b5-359378230827.jpg?v=1773170587&width=600",
+      "ingredients": "1 boiled potato chopped, 1/4 cup boiled chana, onion and coriander, 1/4 cup Korigo Chilli Lime Makhana.",
+      "instructions": "Mix potato, chana, onion and coriander in a bowl and add Korigo Chilli Lime Makhana for crunch before serving."
+    },
+    {
+      "name": "Citrus Salad",
+      "image": "//korigosnacks.com/cdn/shop/files/b47ebe72-b4fe-4737-a98c-4a678c6190db.jpg?v=1773170412&width=600",
+      "ingredients": "1 cucumber chopped, 1 avocado sliced, lime juice, onion slices, 1/4 cup Korigo Chilli Lime Makhana.",
+      "instructions": "Combine cucumber, avocado and onion in a bowl, drizzle lime juice and gently mix. Top with Korigo Chilli Lime Makhana."
+    }
+  ],
+  "coco-world-makhana": [
+    {
+      "name": "Banana / Berry Smoothie Bowl",
+      "image": "//korigosnacks.com/cdn/shop/files/unnamed.jpg?v=1772999781&width=600",
+      "ingredients": "1 banana or 1 cup mixed berries, 1/2 cup yogurt or milk, 1/4 cup granola (optional), 1/4 cup Korigo Chocolate Makhana, coconut flakes or almonds",
+      "instructions": "Blend banana or berries with yogurt or milk to make a smoothie base. Pour into a bowl and add granola, coconut flakes or almonds and Korigo Chocolate Makhana on top. Serve immediately."
+    },
+    {
+      "name": "Healthy Trail Mix",
+      "image": "//korigosnacks.com/cdn/shop/files/unnamed_de1781e8-0705-49b3-b36a-c80299a61206.jpg?v=1773171875&width=600",
+      "ingredients": "1/4 cup almonds, 1/4 cup cashews, 1/4 cup raisins, 1/2 cup Korigo Chocolate Makhana.",
+      "instructions": "Combine almonds, cashews, raisins and Korigo Chocolate Makhana in a bowl. Mix well and store in an airtight container for a quick energy boosting snack."
+    },
+    {
+      "name": "Chia Pudding Bowl",
+      "image": "//korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-03-11_at_1.11.19_AM.jpg?v=1773171829&width=600",
+      "ingredients": "2 tbsp chia seeds, 1 cup milk, 1 tsp honey or maple syrup, 1/4 cup Korigo Chocolate Makhana.",
+      "instructions": "Soak chia seeds in milk overnight until thick. Add honey or maple syrup and top with Korigo Chocolate Makhana before serving"
+    }
+  ],
+  "creme-d-onion-makhana": [
+    {
+      "name": "Savory Oats Bowl",
+      "image": "//korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-03-11_at_1.18.26_AM.jpg?v=1773172203&width=600",
+      "ingredients": "1/2 cup oats, 1 cup water or milk, mixed vegetables, 1/4 cup Korigo Cream & Onion Makhana.",
+      "instructions": "Cook oats with water or milk and add vegetables while cooking. Transfer to a bowl and top with Korigo Cream & Onion Makhana."
+    },
+    {
+      "name": "Yogurt Dip Bowl",
+      "image": "//korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-03-11_at_1.23.02_AM.jpg?v=1773172423&width=600",
+      "ingredients": "1 cup Greek yogurt, 1/2 cucumber chopped, fresh herbs, 1/4 cup Korigo Cream & Onion Makhana.",
+      "instructions": "Mix Greek yogurt with cucumber and herbs in a bowl and sprinkle Korigo Cream & Onion Makhana on top before serving."
+    },
+    {
+      "name": "Stuffed Sandwich",
+      "image": "//korigosnacks.com/cdn/shop/files/unnamed_7db7f77e-6d96-44e1-941e-3345f2513085.jpg?v=1773172449&width=600",
+      "ingredients": "2 slices whole wheat bread, hummus or mashed avocado, fresh vegetables, 1/4 cup Korigo Cream & Onion Makhana.",
+      "instructions": "Spread hummus or avocado on bread, add vegetables and Korigo Cream & Onion Makhana, then close the sandwich and serve."
+    }
+  ],
+  "garlicked-cheese-makhana": [
+    {
+      "name": "Avocado Toast",
+      "image": "//korigosnacks.com/cdn/shop/files/unnamed_608da05b-7adc-46f9-acbf-d77685370238.jpg?v=1773172001&width=600",
+      "ingredients": "1 slice whole grain bread, 1/2 avocado mashed, salt and pepper, 1/4 cup Korigo Garlic Cheese Makhana.",
+      "instructions": "Toast the bread and spread mashed avocado on top. Season with salt and pepper and sprinkle Korigo Garlic Cheese Makhana for a crunchy topping."
+    },
+    {
+      "name": "Buddha Bowl",
+      "image": "//korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-03-11_at_1.16.01_AM.jpg?v=1773172045&width=600",
+      "ingredients": "1/2 cup quinoa or brown rice, 1/2 cup roasted vegetables, 1/4 cup chickpeas, 1/4 cup Korigo Garlic Cheese Makhana.",
+      "instructions": "Place quinoa or rice in a bowl and add roasted vegetables and chickpeas. Finish by sprinkling Korigo Garlic Cheese Makhana for added flavor and texture."
+    },
+    {
+      "name": "Creamy Soup Topping",
+      "image": "//korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-03-11_at_1.12.47_AM.jpg?v=1773172080&width=600",
+      "ingredients": "1 bowl tomato, mushroom or pumpkin soup, 1/4 cup Korigo Garlic Cheese Makhana.",
+      "instructions": "Prepare your soup and pour it into a bowl. Add Korigo Garlic Cheese Makhana on top just before serving to create a crunchy topping."
+    }
+  ],
+  "cinnamon-drip": [
+    {
+      "name": "Apple Cinnamon Toast",
+      "image": "//korigosnacks.com/cdn/shop/files/97c5157c-01ac-4306-9a30-a08094902fad.jpg?v=1773170179&width=600",
+      "ingredients": "1 slice whole grain bread, peanut or almond butter, apple slices, 1/4 cup Korigo Cinnamon Honey Makhana.",
+      "instructions": "Toast bread and spread peanut or almond butter on top. Add apple slices and sprinkle Korigo Cinnamon Honey Makhana"
+    },
+    {
+      "name": "Ricotta Honey Dessert Bowl",
+      "image": "//korigosnacks.com/cdn/shop/files/f2f95fb0-f9f4-475c-8616-10c6cfda3e71.jpg?v=1773170251&width=600",
+      "ingredients": "1/2 cup ricotta cheese, 1 tsp honey, 1/4 cup Korigo Cinnamon Honey Makhana",
+      "instructions": "Add ricotta to a bowl, drizzle honey and top with Korigo Cinnamon Honey Makhana for a creamy dessert"
+    },
+    {
+      "name": "Frozen Yogurt Bark",
+      "image": "//korigosnacks.com/cdn/shop/files/5419cb35-46fc-4931-bbfa-6a709423ee8a.jpg?v=1773170303&width=600",
+      "ingredients": "1 cup Greek yogurt, mixed fruits, 1/4 cup Korigo Cinnamon Honey Makhana",
+      "instructions": "Spread yogurt on a tray, add fruits and Korigo Cinnamon Honey Makhana and freeze until solid. Break into pieces before serving"
+    }
+  ],
+  "sassy-sriracha": [
+    {
+      "name": "Spicy Wrap",
+      "image": "//korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-03-11_at_1.03.22_AM.jpg?v=1773171374&width=600",
+      "ingredients": "1 whole wheat tortilla, lettuce leaves, grilled vegetables, 1/4 cup Korigo Sweet Sriracha Makhana.",
+      "instructions": "Place lettuce and grilled vegetables on the tortilla, add Korigo Sweet Sriracha Makhana, roll the wrap tightly and slice before serving."
+    },
+    {
+      "name": "Asian Salad",
+      "image": "//korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-03-11_at_12.58.37_AM.jpg?v=1773171322&width=600",
+      "ingredients": "1 cup shredded cabbage, 1/2 cup carrot, 1/2 cup cucumber, sesame dressing, 1/4 cup Korigo Sweet Sriracha Makhana.",
+      "instructions": "Mix cabbage, carrot and cucumber in a bowl and toss with sesame dressing. Top with Korigo Sweet Sriracha Makhana for extra crunch."
+    },
+    {
+      "name": "Rice Paper Rolls",
+      "image": "//korigosnacks.com/cdn/shop/files/unnamed_ac989fcd-85b0-4538-aa80-52bbdb160fdd.jpg?v=1773001446&width=600",
+      "ingredients": "Rice paper sheets, mixed vegetables, fresh herbs, 1/4 cup Korigo Sweet Sriracha Makhana.",
+      "instructions": "Soften rice paper in warm water, add vegetables, herbs and Korigo Sweet Sriracha Makhana, then roll tightly and serve with dipping sauce"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+[
+  {
+    "loc": "https://korigosnacks.com/agents.md",
+    "lastmod": null,
+    "sitemap": "sitemap_agentic_discovery.xml",
+    "images": []
+  },
+  {
+    "loc": "https://korigosnacks.com/",
+    "lastmod": null,
+    "sitemap": "sitemap_products_1.xml",
+    "images": []
+  },
+  {
+    "loc": "https://korigosnacks.com/products/sassy-sriracha",
+    "lastmod": "2026-09-28T13:08:35-04:00",
+    "sitemap": "sitemap_products_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/3_9c34a3c2-3828-4bd9-8a64-75fc16af7b40.png?v=1782500076",
+        "title": "Korigo Pops Sassy Sriracha Flavoured Makhana Foxnuts | Spicy |35g"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/products/cinnamon-drip",
+    "lastmod": "2026-09-28T13:08:35-04:00",
+    "sitemap": "sitemap_products_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/6_a811079f-436d-4f6f-bf05-dac281c5c5e8.png?v=1782500076",
+        "title": "Korigo Pops Cinnamon Drip Makhana Foxnuts | Roasted | 35g"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/products/garlicked-cheese-makhana",
+    "lastmod": "2026-09-28T13:08:35-04:00",
+    "sitemap": "sitemap_products_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/1_352042ac-b02b-4f54-add6-83ebb031abb6.png?v=1782500076",
+        "title": "Korigo Pops Garlicked Cheese Makhana Foxnuts | Savoury Snack | 35g"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/products/creme-d-onion-makhana",
+    "lastmod": "2026-09-28T13:08:35-04:00",
+    "sitemap": "sitemap_products_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/4_81665c1c-4948-45d8-8ef0-fed0d1bb7d25.png?v=1782500076",
+        "title": "Korigo Pops Sour Cr\u00e8me d' Onion Makhana Foxnuts | Creamy Snack | 35g"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/products/coco-world-makhana",
+    "lastmod": "2026-09-28T13:08:35-04:00",
+    "sitemap": "sitemap_products_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/2_00f95c46-8497-45e9-8b34-538289ea0bef.png?v=1782500076",
+        "title": "Korigo Pops Coco Island Chocolate Makhana Foxnuts | Sweet Snack | 35g"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/products/citrus-cartel-makhana",
+    "lastmod": "2026-09-28T13:08:35-04:00",
+    "sitemap": "sitemap_products_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/5_dd1f10bc-c51c-4988-9411-2ee28ce00aa4.png?v=1782500076",
+        "title": "Korigo Pops Citrus Cartel Tangy Makhana Foxnuts | Spicy Citrus | 35g"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/products/garlic-cheese-sassy-sriracha-combo",
+    "lastmod": "2026-09-28T13:08:35-04:00",
+    "sitemap": "sitemap_products_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/garlic_sasy.png?v=1782534948",
+        "title": "Garlic Cheese + Sassy Sriracha Combo"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/products/citrus-cartel-sassy-sriracha-combo",
+    "lastmod": "2026-09-28T13:08:35-04:00",
+    "sitemap": "sitemap_products_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/citrus_sassy.png?v=1782535631",
+        "title": "Citrus Cartel + Sassy Sriracha Combo"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/products/citrus-cartel-garlicked-cheese-combo",
+    "lastmod": "2026-09-28T13:08:35-04:00",
+    "sitemap": "sitemap_products_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/garlc_citrus.png?v=1782536254",
+        "title": "Citrus Cartel + Garlicked Cheese Combo"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/products/garlicked-cheese-cinnamon-drip-combo",
+    "lastmod": "2026-09-28T13:08:35-04:00",
+    "sitemap": "sitemap_products_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/garlic_cinemon.png?v=1782536265",
+        "title": "Garlicked Cheese + Cinnamon Drip Combo"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/products/cinnamon-drip-sour-cream-onion-combo",
+    "lastmod": "2026-09-28T13:08:35-04:00",
+    "sitemap": "sitemap_products_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/creme_cinemo.png?v=1782536274",
+        "title": "Cinnamon Drip + Sour Cr\u00e8me d' Onion Combo"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/products/sassy-sriracha-sour-cream-onion-combo",
+    "lastmod": "2026-09-28T13:08:35-04:00",
+    "sitemap": "sitemap_products_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/creamonion_sassy.png?v=1782536295",
+        "title": "Sour Cr\u00e8me d' Onion + Sassy Sriracha Combo"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/pages/contact",
+    "lastmod": "2026-03-05T14:54:18-05:00",
+    "sitemap": "sitemap_pages_1.xml",
+    "images": []
+  },
+  {
+    "loc": "https://korigosnacks.com/pages/about-us",
+    "lastmod": "2026-02-01T13:43:54-05:00",
+    "sitemap": "sitemap_pages_1.xml",
+    "images": []
+  },
+  {
+    "loc": "https://korigosnacks.com/pages/our-story",
+    "lastmod": "2026-02-23T00:27:49-05:00",
+    "sitemap": "sitemap_pages_1.xml",
+    "images": []
+  },
+  {
+    "loc": "https://korigosnacks.com/pages/reviews-form",
+    "lastmod": "2026-03-28T15:55:50-04:00",
+    "sitemap": "sitemap_pages_1.xml",
+    "images": []
+  },
+  {
+    "loc": "https://korigosnacks.com/collections/frontpage",
+    "lastmod": "2026-07-04T15:39:49-04:00",
+    "sitemap": "sitemap_collections_1.xml",
+    "images": []
+  },
+  {
+    "loc": "https://korigosnacks.com/collections/product",
+    "lastmod": "2026-07-04T15:39:49-04:00",
+    "sitemap": "sitemap_collections_1.xml",
+    "images": []
+  },
+  {
+    "loc": "https://korigosnacks.com/collections/combo",
+    "lastmod": "2026-07-04T15:41:36-04:00",
+    "sitemap": "sitemap_collections_1.xml",
+    "images": []
+  },
+  {
+    "loc": "https://korigosnacks.com/blogs/news",
+    "lastmod": "2026-09-16T07:04:31-04:00",
+    "sitemap": "sitemap_blogs_1.xml",
+    "images": []
+  },
+  {
+    "loc": "https://korigosnacks.com/blogs/news/top-health-benefits-of-makhana-fox-nuts-lotus-seeds",
+    "lastmod": "2026-07-07T04:21:41-04:00",
+    "sitemap": "sitemap_blogs_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/articles/ChatGPT_Image_Jun_29_2026_09_28_14_PM_66d2b53a-03d2-4720-9afd-8d0c03cb9694.png?v=1783412501",
+        "title": "Top Health Benefits of Makhana (Fox Nuts / Lotus Seeds)"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/blogs/news/makhana-for-weight-loss-how-to-eat",
+    "lastmod": "2026-07-07T04:18:01-04:00",
+    "sitemap": "sitemap_blogs_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/articles/ChatGPT_Image_Jul_4_2026_11_41_48_AM_7f20d58a-70d4-48ff-b8e1-65d4ddb80d65.png?v=1783412281",
+        "title": "Makhana for Weight Loss: How to Eat?"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/blogs/news/makhana-vs-other-snacks-why-its-the-healthiest",
+    "lastmod": "2026-07-19T11:23:11-04:00",
+    "sitemap": "sitemap_blogs_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/articles/ChatGPT_Image_Jul_4_2026_11_46_18_AM_effa2536-0c61-4d96-8d96-7784735fd0a7.png?v=1784474591",
+        "title": "Makhana vs Other Snacks: Why It's the Healthiest?"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/blogs/news/why-cheese-makhana-is-becoming-india-s-favorite-healthy-snack",
+    "lastmod": "2026-07-27T06:31:46-04:00",
+    "sitemap": "sitemap_blogs_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/articles/ChatGPT_Image_Jul_27_2026_04_00_55_PM.png?v=1785148306",
+        "title": "Why Cheese Makhana Is Becoming India\u2019s Favorite Healthy Snack"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/blogs/news/healthy-makhana-recipes-you-can-make-at-home",
+    "lastmod": "2026-08-08T09:29:34-04:00",
+    "sitemap": "sitemap_blogs_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/articles/ChatGPT_Image_Aug_8_2026_06_57_20_PM.png?v=1786195774",
+        "title": "Healthy Makhana Recipes You Can Make at Home"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/blogs/news/top-5-healthy-snacks-for-desk-jobs",
+    "lastmod": "2026-09-06T03:03:49-04:00",
+    "sitemap": "sitemap_blogs_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/articles/7add9947-3744-4199-b0a6-c6e752231b31.png?v=1788678229",
+        "title": "Top 4 Healthy Snacks for Desk Jobs"
+      }
+    ]
+  },
+  {
+    "loc": "https://korigosnacks.com/blogs/news/late-night-healthy-snacks-that-won-t-make-you-feel-guilty",
+    "lastmod": "2026-09-16T07:04:31-04:00",
+    "sitemap": "sitemap_blogs_1.xml",
+    "images": [
+      {
+        "loc": "https://cdn.shopify.com/s/files/1/0985/2895/2610/articles/ChatGPT_Image_Sep_16_2026_04_34_01_PM.png?v=1789556671",
+        "title": "Late Night Healthy Snacks That Won\u2019t Make You Feel Guilty"
+      }
+    ]
+  }
+]

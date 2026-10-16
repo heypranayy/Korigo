@@ -1,0 +1,24 @@
+SECTION ID: shopify-section-template--26421464105250__featured_collection_iGLQhm
+HEADING: Explore Our Combos
+IMAGES: ['data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', '//korigosnacks.com/cdn/shop/files/creamonion_sassy.png?v=1782536295&width=600', 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', '//korigosnacks.com/cdn/shop/files/creme_cinemo.png?v=1782536274&width=600', 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', '//korigosnacks.com/cdn/shop/files/garlic_cinemon.png?v=1782536265&width=600', 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', '//korigosnacks.com/cdn/shop/files/garlc_citrus.png?v=1782536254&width=600', 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', '//korigosnacks.com/cdn/shop/files/citrus_sassy.png?v=1782535631&width=600', 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', '//korigosnacks.com/cdn/shop/files/garlic_sasy.png?v=1782534948&width=600']
+
+--- TEXT CONTENT ---
+Explore Our Combos
+Sour Crème d' Onion + Sassy Sriracha Combo
+Rs. 199.00
+Rs. 159.00
+Cinnamon Drip + Sour Crème d' Onion Combo
+Rs. 199.00
+Rs. 159.00
+Garlicked Cheese + Cinnamon Drip Combo
+Rs. 199.00
+Rs. 159.00
+Citrus Cartel + Garlicked Cheese Combo
+Rs. 199.00
+Rs. 159.00
+Citrus Cartel + Sassy Sriracha Combo
+Rs. 199.00
+Rs. 159.00
+Garlic Cheese + Sassy Sriracha Combo
+Rs. 199.00
+Rs. 159.00

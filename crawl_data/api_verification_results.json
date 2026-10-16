@@ -1,0 +1,123 @@
+{
+  "store_api_products": {
+    "status": "PASS",
+    "count": 12,
+    "items": [
+      {
+        "id": 133,
+        "name": "Korigo Pops Sassy Sriracha Flavoured Makhana Foxnuts | Spicy |35g",
+        "price": "9900",
+        "in_stock": true
+      },
+      {
+        "id": 132,
+        "name": "Korigo Pops Cinnamon Drip Makhana Foxnuts | Roasted | 35g",
+        "price": "9900",
+        "in_stock": true
+      },
+      {
+        "id": 131,
+        "name": "Korigo Pops Garlicked Cheese Makhana Foxnuts | Savoury Snack | 35g",
+        "price": "9900",
+        "in_stock": true
+      },
+      {
+        "id": 130,
+        "name": "Korigo Pops Sour Cr\u00e8me d&#8217; Onion Makhana Foxnuts | Creamy Snack | 35g",
+        "price": "9900",
+        "in_stock": true
+      },
+      {
+        "id": 129,
+        "name": "Korigo Pops Coco Island Chocolate Makhana Foxnuts | Sweet Snack | 35g",
+        "price": "9900",
+        "in_stock": false
+      },
+      {
+        "id": 128,
+        "name": "Korigo Pops Citrus Cartel Tangy Makhana Foxnuts | Spicy Citrus | 35g",
+        "price": "9900",
+        "in_stock": true
+      },
+      {
+        "id": 127,
+        "name": "Garlic Cheese + Sassy Sriracha Combo",
+        "price": "15900",
+        "in_stock": true
+      },
+      {
+        "id": 126,
+        "name": "Citrus Cartel + Sassy Sriracha Combo",
+        "price": "15900",
+        "in_stock": true
+      },
+      {
+        "id": 125,
+        "name": "Citrus Cartel + Garlicked Cheese Combo",
+        "price": "15900",
+        "in_stock": true
+      },
+      {
+        "id": 124,
+        "name": "Garlicked Cheese + Cinnamon Drip Combo",
+        "price": "15900",
+        "in_stock": true
+      },
+      {
+        "id": 123,
+        "name": "Cinnamon Drip + Sour Cr\u00e8me d&#8217; Onion Combo",
+        "price": "15900",
+        "in_stock": true
+      },
+      {
+        "id": 122,
+        "name": "Sour Cr\u00e8me d&#8217; Onion + Sassy Sriracha Combo",
+        "price": "15900",
+        "in_stock": true
+      }
+    ]
+  },
+  "store_api_cart": {
+    "status": "PASS",
+    "currency": "INR",
+    "symbol": "\u20b9"
+  },
+  "store_api_categories": {
+    "status": "PASS",
+    "count": 2,
+    "categories": [
+      "Individual Flavours",
+      "Value Combos"
+    ]
+  },
+  "wordpress_posts": {
+    "status": "PASS",
+    "count": 7,
+    "titles": [
+      "Late Night Healthy Snacks That Won\u2019t Make You Feel Guilty",
+      "Top 4 Healthy Snacks for Desk Jobs",
+      "Healthy Makhana Recipes You Can Make at Home",
+      "Why Cheese Makhana Is Becoming India\u2019s Favorite Healthy Snack",
+      "Makhana vs Other Snacks: Why It&#8217;s the Healthiest?",
+      "Makhana for Weight Loss: How to Eat?",
+      "Top Health Benefits of Makhana (Fox Nuts / Lotus Seeds)"
+    ]
+  },
+  "wordpress_pages": {
+    "status": "PASS",
+    "count": 11,
+    "pages": [
+      "Terms of Service",
+      "Shipping Policy",
+      "Privacy Policy",
+      "Refund Policy",
+      "Reviews Form",
+      "Contact Us",
+      "About Us",
+      "My account",
+      "Checkout",
+      "Cart",
+      "Shop"
+    ]
+  }
+}

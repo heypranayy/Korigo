@@ -1,0 +1,763 @@
+{
+  "woocommerce-placeholder.webp": {
+    "id": 6,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/woocommerce-placeholder.webp",
+    "title": "woocommerce-placeholder"
+  },
+  "7add9947-3744-4199-b0a6-c6e752231b31.png": {
+    "id": 14,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/7add9947-3744-4199-b0a6-c6e752231b31.png",
+    "local_path": "/assets/korigo/blogs/7add9947-3744-4199-b0a6-c6e752231b31.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/articles/7add9947-3744-4199-b0a6-c6e752231b31.png?v=1788678229",
+    "alt_text": "Top 4 Healthy Snacks for Desk Jobs"
+  },
+  "ChatGPT_Image_Aug_8_2026_06_57_20_PM.png": {
+    "id": 15,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPT_Image_Aug_8_2026_06_57_20_PM.png",
+    "local_path": "/assets/korigo/blogs/ChatGPT_Image_Aug_8_2026_06_57_20_PM.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/articles/ChatGPT_Image_Aug_8_2026_06_57_20_PM.png?v=1786195774",
+    "alt_text": "Healthy Makhana Recipes You Can Make at Home"
+  },
+  "ChatGPT_Image_Jul_27_2026_04_00_55_PM.png": {
+    "id": 16,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPT_Image_Jul_27_2026_04_00_55_PM.png",
+    "local_path": "/assets/korigo/blogs/ChatGPT_Image_Jul_27_2026_04_00_55_PM.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/articles/ChatGPT_Image_Jul_27_2026_04_00_55_PM.png?v=1785148306",
+    "alt_text": "Why Cheese Makhana Is Becoming India\u2019s Favorite Healthy Snack"
+  },
+  "ChatGPT_Image_Jul_4_2026_11_41_48_AM_7f20d58a-70d4-48ff-b8e1-65d4ddb80d65.png": {
+    "id": 17,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPT_Image_Jul_4_2026_11_41_48_AM_7f20d58a-70d4-48ff-b8e1-65d4ddb80d65.png",
+    "local_path": "/assets/korigo/blogs/ChatGPT_Image_Jul_4_2026_11_41_48_AM_7f20d58a-70d4-48ff-b8e1-65d4ddb80d65.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/articles/ChatGPT_Image_Jul_4_2026_11_41_48_AM_7f20d58a-70d4-48ff-b8e1-65d4ddb80d65.png?v=1783412281",
+    "alt_text": "Makhana for Weight Loss: How to Eat?"
+  },
+  "ChatGPT_Image_Jul_4_2026_11_46_18_AM_effa2536-0c61-4d96-8d96-7784735fd0a7.png": {
+    "id": 18,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPT_Image_Jul_4_2026_11_46_18_AM_effa2536-0c61-4d96-8d96-7784735fd0a7.png",
+    "local_path": "/assets/korigo/blogs/ChatGPT_Image_Jul_4_2026_11_46_18_AM_effa2536-0c61-4d96-8d96-7784735fd0a7.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/articles/ChatGPT_Image_Jul_4_2026_11_46_18_AM_effa2536-0c61-4d96-8d96-7784735fd0a7.png?v=1784474591",
+    "alt_text": "Makhana vs Other Snacks: Why It's the Healthiest?"
+  },
+  "ChatGPT_Image_Jun_29_2026_09_28_14_PM_66d2b53a-03d2-4720-9afd-8d0c03cb9694.png": {
+    "id": 19,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPT_Image_Jun_29_2026_09_28_14_PM_66d2b53a-03d2-4720-9afd-8d0c03cb9694.png",
+    "local_path": "/assets/korigo/blogs/ChatGPT_Image_Jun_29_2026_09_28_14_PM_66d2b53a-03d2-4720-9afd-8d0c03cb9694.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/articles/ChatGPT_Image_Jun_29_2026_09_28_14_PM_66d2b53a-03d2-4720-9afd-8d0c03cb9694.png?v=1783412501",
+    "alt_text": "Top Health Benefits of Makhana (Fox Nuts / Lotus Seeds)"
+  },
+  "ChatGPT_Image_Sep_16_2026_04_34_01_PM.png": {
+    "id": 20,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPT_Image_Sep_16_2026_04_34_01_PM.png",
+    "local_path": "/assets/korigo/blogs/ChatGPT_Image_Sep_16_2026_04_34_01_PM.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/articles/ChatGPT_Image_Sep_16_2026_04_34_01_PM.png?v=1789556671",
+    "alt_text": "Late Night Healthy Snacks That Won\u2019t Make You Feel Guilty"
+  },
+  "Gemini_Generated_Image_mb7co0mb7co0mb7c_adc6621f-f87f-4148-ac65-8bae4b70b01a.png": {
+    "id": 21,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Gemini_Generated_Image_mb7co0mb7co0mb7c_adc6621f-f87f-4148-ac65-8bae4b70b01a.png",
+    "local_path": "/assets/korigo/certifications/Gemini_Generated_Image_mb7co0mb7co0mb7c_adc6621f-f87f-4148-ac65-8bae4b70b01a.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/Gemini_Generated_Image_mb7co0mb7co0mb7c_adc6621f-f87f-4148-ac65-8bae4b70b01a.png?v=1773082581&width=300",
+    "alt_text": ""
+  },
+  "Untitled_design_10_a79ccb9b-cfe1-4c3b-a4be-6b614b6fa975.png": {
+    "id": 22,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Untitled_design_10_a79ccb9b-cfe1-4c3b-a4be-6b614b6fa975.png",
+    "local_path": "/assets/korigo/certifications/Untitled_design_10_a79ccb9b-cfe1-4c3b-a4be-6b614b6fa975.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/Untitled_design_10_a79ccb9b-cfe1-4c3b-a4be-6b614b6fa975.png?v=1773595976&width=300",
+    "alt_text": ""
+  },
+  "WhatsApp_Image_2026-02-15_at_2.03.49_PM.jpg": {
+    "id": 23,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/WhatsApp_Image_2026-02-15_at_2.03.49_PM.jpg",
+    "local_path": "/assets/korigo/certifications/WhatsApp_Image_2026-02-15_at_2.03.49_PM.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-02-15_at_2.03.49_PM.jpg?v=1772652632&width=300",
+    "alt_text": ""
+  },
+  "WhatsApp_Image_2026-02-15_at_2.03.50_PM.jpg": {
+    "id": 24,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/WhatsApp_Image_2026-02-15_at_2.03.50_PM.jpg",
+    "local_path": "/assets/korigo/certifications/WhatsApp_Image_2026-02-15_at_2.03.50_PM.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-02-15_at_2.03.50_PM.jpg?v=1771781435&width=300",
+    "alt_text": ""
+  },
+  "citrus_sassy.png": {
+    "id": 25,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/citrus_sassy.png",
+    "local_path": "/assets/korigo/combos/citrus_sassy.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/citrus_sassy.png?v=1782535631",
+    "alt_text": "Citrus Cartel + Sassy Sriracha Combo"
+  },
+  "creamonion_sassy.png": {
+    "id": 26,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/creamonion_sassy.png",
+    "local_path": "/assets/korigo/combos/creamonion_sassy.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/creamonion_sassy.png?v=1782536295",
+    "alt_text": "Sour Cr\u00e8me d' Onion + Sassy Sriracha Combo"
+  },
+  "creme_cinemo.png": {
+    "id": 27,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/creme_cinemo.png",
+    "local_path": "/assets/korigo/combos/creme_cinemo.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/creme_cinemo.png?v=1782536274",
+    "alt_text": "Cinnamon Drip + Sour Cr\u00e8me d' Onion Combo"
+  },
+  "garlc_citrus.png": {
+    "id": 28,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/garlc_citrus.png",
+    "local_path": "/assets/korigo/combos/garlc_citrus.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/garlc_citrus.png?v=1782536254",
+    "alt_text": "Citrus Cartel + Garlicked Cheese Combo"
+  },
+  "garlic_cinemon.png": {
+    "id": 29,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/garlic_cinemon.png",
+    "local_path": "/assets/korigo/combos/garlic_cinemon.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/garlic_cinemon.png?v=1782536265",
+    "alt_text": "Garlicked Cheese + Cinnamon Drip Combo"
+  },
+  "garlic_sasy.png": {
+    "id": 30,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/garlic_sasy.png",
+    "local_path": "/assets/korigo/combos/garlic_sasy.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/garlic_sasy.png?v=1782534948",
+    "alt_text": "Garlic Cheese + Sassy Sriracha Combo"
+  },
+  "1_352042ac-b02b-4f54-add6-83ebb031abb6.png": {
+    "id": 31,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/1_352042ac-b02b-4f54-add6-83ebb031abb6.png",
+    "local_path": "/assets/korigo/combos/1_352042ac-b02b-4f54-add6-83ebb031abb6.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/1_352042ac-b02b-4f54-add6-83ebb031abb6.png?v=1782500076&width=288",
+    "alt_text": "Korigo Pops Garlicked Cheese Makhana Foxnuts | Savoury Snack | 35g"
+  },
+  "2_00f95c46-8497-45e9-8b34-538289ea0bef.png": {
+    "id": 32,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/2_00f95c46-8497-45e9-8b34-538289ea0bef.png",
+    "local_path": "/assets/korigo/combos/2_00f95c46-8497-45e9-8b34-538289ea0bef.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/2_00f95c46-8497-45e9-8b34-538289ea0bef.png?v=1782500076&width=576",
+    "alt_text": "Korigo Pops Coco Island Chocolate Makhana Foxnuts | Sweet Snack | 35g"
+  },
+  "3_9c34a3c2-3828-4bd9-8a64-75fc16af7b40.png": {
+    "id": 33,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/3_9c34a3c2-3828-4bd9-8a64-75fc16af7b40.png",
+    "local_path": "/assets/korigo/combos/3_9c34a3c2-3828-4bd9-8a64-75fc16af7b40.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/3_9c34a3c2-3828-4bd9-8a64-75fc16af7b40.png?v=1782500076&width=600",
+    "alt_text": "Korigo Pops Sassy Sriracha Flavoured Makhana Foxnuts | Spicy |35g"
+  },
+  "4_81665c1c-4948-45d8-8ef0-fed0d1bb7d25.png": {
+    "id": 34,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/4_81665c1c-4948-45d8-8ef0-fed0d1bb7d25.png",
+    "local_path": "/assets/korigo/combos/4_81665c1c-4948-45d8-8ef0-fed0d1bb7d25.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/4_81665c1c-4948-45d8-8ef0-fed0d1bb7d25.png?v=1782500076&width=600",
+    "alt_text": "Korigo Pops Sour Cr\u00e8me d' Onion Makhana Foxnuts | Creamy Snack | 35g"
+  },
+  "5_dd1f10bc-c51c-4988-9411-2ee28ce00aa4.png": {
+    "id": 35,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/5_dd1f10bc-c51c-4988-9411-2ee28ce00aa4.png",
+    "local_path": "/assets/korigo/combos/5_dd1f10bc-c51c-4988-9411-2ee28ce00aa4.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/5_dd1f10bc-c51c-4988-9411-2ee28ce00aa4.png?v=1782500076&width=720",
+    "alt_text": "Korigo Pops Citrus Cartel Tangy Makhana Foxnuts | Spicy Citrus | 35g"
+  },
+  "6_a811079f-436d-4f6f-bf05-dac281c5c5e8.png": {
+    "id": 36,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/6_a811079f-436d-4f6f-bf05-dac281c5c5e8.png",
+    "local_path": "/assets/korigo/combos/6_a811079f-436d-4f6f-bf05-dac281c5c5e8.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/6_a811079f-436d-4f6f-bf05-dac281c5c5e8.png?v=1782500076&width=720",
+    "alt_text": "Korigo Pops Cinnamon Drip Makhana Foxnuts | Roasted | 35g"
+  },
+  "Ingredients_0cdedc16-06ee-4284-bc59-6732dc151171.png": {
+    "id": 37,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Ingredients_0cdedc16-06ee-4284-bc59-6732dc151171.png",
+    "local_path": "/assets/korigo/combos/Ingredients_0cdedc16-06ee-4284-bc59-6732dc151171.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/Ingredients_0cdedc16-06ee-4284-bc59-6732dc151171.png?v=1782479464&width=576",
+    "alt_text": "Korigo Pops Cheese & Garlic Makhana's nutritional value"
+  },
+  "Ingredients_5639beb5-012e-406a-8701-8f34177f4bee.png": {
+    "id": 38,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Ingredients_5639beb5-012e-406a-8701-8f34177f4bee.png",
+    "local_path": "/assets/korigo/combos/Ingredients_5639beb5-012e-406a-8701-8f34177f4bee.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/Ingredients_5639beb5-012e-406a-8701-8f34177f4bee.png?v=1782479928&width=576",
+    "alt_text": "Korigo Pops Cinnamon Drip honey cinnamon makhana's nutritional value"
+  },
+  "Ingredients_cc66fbec-2f50-424b-90c9-3eee2e94a863.png": {
+    "id": 39,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Ingredients_cc66fbec-2f50-424b-90c9-3eee2e94a863.png",
+    "local_path": "/assets/korigo/combos/Ingredients_cc66fbec-2f50-424b-90c9-3eee2e94a863.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/Ingredients_cc66fbec-2f50-424b-90c9-3eee2e94a863.png?v=1782479964&width=288",
+    "alt_text": "Korigo Pops Sriracha Fox Nuts nutritional informations"
+  },
+  "Ingredients_f31bc9c8-9be9-40ab-a6b9-7aae1d0637da.png": {
+    "id": 40,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Ingredients_f31bc9c8-9be9-40ab-a6b9-7aae1d0637da.png",
+    "local_path": "/assets/korigo/combos/Ingredients_f31bc9c8-9be9-40ab-a6b9-7aae1d0637da.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/Ingredients_f31bc9c8-9be9-40ab-a6b9-7aae1d0637da.png?v=1782479032&width=288",
+    "alt_text": "Korigo Pops Tangy flavoured Makhana nutritional information"
+  },
+  "Ingredients_f749e9c9-86f2-4cea-bfef-9a903c5e49ad.png": {
+    "id": 41,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Ingredients_f749e9c9-86f2-4cea-bfef-9a903c5e49ad.png",
+    "local_path": "/assets/korigo/combos/Ingredients_f749e9c9-86f2-4cea-bfef-9a903c5e49ad.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/Ingredients_f749e9c9-86f2-4cea-bfef-9a903c5e49ad.png?v=1782479385&width=576",
+    "alt_text": "Korigo Pops Makhana Sour Cream And Onion nutritional value"
+  },
+  "cinemon_drip.png": {
+    "id": 42,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/cinemon_drip.png",
+    "local_path": "/assets/korigo/combos/cinemon_drip.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/cinemon_drip.png?v=1782479086&width=720",
+    "alt_text": "Buy Korigo Pops Cinnamon Drip honey cinnamon makhana online for a delicious and guilt-free snack"
+  },
+  "citru.png": {
+    "id": 43,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/citru.png",
+    "local_path": "/assets/korigo/combos/citru.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/citru.png?v=1782479079&width=720",
+    "alt_text": "Korigo Pops Citrus Cartel lemon flavoured makhana crafted from premium roasted fox nuts with a citrus twist"
+  },
+  "creme.png": {
+    "id": 44,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/creme.png",
+    "local_path": "/assets/korigo/combos/creme.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/creme.png?v=1782479079&width=720",
+    "alt_text": "Korigo Pops Cream N Onion Makhana with crunchy roasted fox nuts and a delicious creamy onion taste"
+  },
+  "garliced_cheese.png": {
+    "id": 45,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/garliced_cheese.png",
+    "local_path": "/assets/korigo/combos/garliced_cheese.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/garliced_cheese.png?v=1782479086&width=720",
+    "alt_text": "Korigo Pops Cheese & Garlic Makhana crafted from crunchy roasted fox nuts with a delicious cheesy garlic taste"
+  },
+  "sassy_sirsa.png": {
+    "id": 46,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/sassy_sirsa.png",
+    "local_path": "/assets/korigo/combos/sassy_sirsa.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/sassy_sirsa.png?v=1782479079&width=720",
+    "alt_text": "Korigo Pops Sriracha Fox Nuts offering a bold blend of spicy, smoky and savoury flavours for guilt-free snacking."
+  },
+  "white_front_cinemon_drip.png": {
+    "id": 47,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/white_front_cinemon_drip.png",
+    "local_path": "/assets/korigo/combos/white_front_cinemon_drip.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/white_front_cinemon_drip.png?v=1782479928&width=720",
+    "alt_text": "Korigo Pops Cinnamon Drip honey cinnamon makhana with crunchy roasted fox nuts for healthy snacking"
+  },
+  "white_front_f9e72cdd-78fc-4c01-a7ff-182a7df4a9bc.png": {
+    "id": 48,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/white_front_f9e72cdd-78fc-4c01-a7ff-182a7df4a9bc.png",
+    "local_path": "/assets/korigo/combos/white_front_f9e72cdd-78fc-4c01-a7ff-182a7df4a9bc.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/white_front_f9e72cdd-78fc-4c01-a7ff-182a7df4a9bc.png?v=1782479379&width=576",
+    "alt_text": "Buy Korigo Pops Sour Cr\u00e8me d' Onion makhana online featuring roasted fox nuts with rich cream and onion flavour"
+  },
+  "whitefrontcitruscirtel.png": {
+    "id": 49,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/whitefrontcitruscirtel.png",
+    "local_path": "/assets/korigo/combos/whitefrontcitruscirtel.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/whitefrontcitruscirtel.png?v=1782479032&width=720",
+    "alt_text": "Korigo Pops Citrus Cartel citrus flavoured makhana with roasted fox nuts and a refreshing tangy taste"
+  },
+  "whitefrontgarlickedcheese_1.png": {
+    "id": 50,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/whitefrontgarlickedcheese_1.png",
+    "local_path": "/assets/korigo/combos/whitefrontgarlickedcheese_1.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/whitefrontgarlickedcheese_1.png?v=1782479473&width=720",
+    "alt_text": "Buy Korigo Pops Garlicked Cheese makhana online featuring roasted fox nuts with rich garlic and cheese flavour"
+  },
+  "whitefrontssasysiracha.png": {
+    "id": 51,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/whitefrontssasysiracha.png",
+    "local_path": "/assets/korigo/combos/whitefrontssasysiracha.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/whitefrontssasysiracha.png?v=1782479975&width=288",
+    "alt_text": "Korigo Pops Sriracha Spice Roasted Makhana crafted from crunchy roasted fox nuts and authentic sriracha seasoning."
+  },
+  "WhatsApp_Image_2026-04-27_at_1.03.35_PM.png": {
+    "id": 52,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/WhatsApp_Image_2026-04-27_at_1.03.35_PM.png",
+    "local_path": "/assets/korigo/founders/WhatsApp_Image_2026-04-27_at_1.03.35_PM.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-04-27_at_1.03.35_PM.png?v=1777276079&width=600",
+    "alt_text": "Piya Kar"
+  },
+  "WhatsApp_Image_2026-04-27_at_12.39.04_PM.png": {
+    "id": 53,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/WhatsApp_Image_2026-04-27_at_12.39.04_PM.png",
+    "local_path": "/assets/korigo/founders/WhatsApp_Image_2026-04-27_at_12.39.04_PM.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-04-27_at_12.39.04_PM.png?v=1777276109&width=600",
+    "alt_text": "Sohini Kar"
+  },
+  "1_cadfef2d-934e-4cc6-b139-bc6f5cdb38f9.png": {
+    "id": 54,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/1_cadfef2d-934e-4cc6-b139-bc6f5cdb38f9.png",
+    "local_path": "/assets/korigo/general/1_cadfef2d-934e-4cc6-b139-bc6f5cdb38f9.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/1_cadfef2d-934e-4cc6-b139-bc6f5cdb38f9.png?v=1773079175&width=400",
+    "alt_text": "Certification 5"
+  },
+  "2_15419f25-53eb-47cd-9c8f-44b806843f2c.png": {
+    "id": 55,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/2_15419f25-53eb-47cd-9c8f-44b806843f2c.png",
+    "local_path": "/assets/korigo/general/2_15419f25-53eb-47cd-9c8f-44b806843f2c.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/2_15419f25-53eb-47cd-9c8f-44b806843f2c.png?v=1773079175&width=400",
+    "alt_text": "Certification 4"
+  },
+  "3_02a62b20-3fcd-4e1f-a3b5-bb93d4f77110.png": {
+    "id": 56,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/3_02a62b20-3fcd-4e1f-a3b5-bb93d4f77110.png",
+    "local_path": "/assets/korigo/general/3_02a62b20-3fcd-4e1f-a3b5-bb93d4f77110.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/3_02a62b20-3fcd-4e1f-a3b5-bb93d4f77110.png?v=1773079175&width=400",
+    "alt_text": "Certification 3"
+  },
+  "4_b064a3d0-2cc6-4f51-9a0b-dec64bb3d90a.png": {
+    "id": 57,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/4_b064a3d0-2cc6-4f51-9a0b-dec64bb3d90a.png",
+    "local_path": "/assets/korigo/general/4_b064a3d0-2cc6-4f51-9a0b-dec64bb3d90a.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/4_b064a3d0-2cc6-4f51-9a0b-dec64bb3d90a.png?v=1773079175&width=400",
+    "alt_text": "Certification 1"
+  },
+  "5_00ed0e48-5c9a-423b-83f4-d0d34d16a4a9.png": {
+    "id": 58,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/5_00ed0e48-5c9a-423b-83f4-d0d34d16a4a9.png",
+    "local_path": "/assets/korigo/general/5_00ed0e48-5c9a-423b-83f4-d0d34d16a4a9.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/5_00ed0e48-5c9a-423b-83f4-d0d34d16a4a9.png?v=1773079175&width=400",
+    "alt_text": "Certification 2"
+  },
+  "6_a1d0a702-193e-45d4-9287-6cdb35635bf9.png": {
+    "id": 59,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/6_a1d0a702-193e-45d4-9287-6cdb35635bf9.png",
+    "local_path": "/assets/korigo/general/6_a1d0a702-193e-45d4-9287-6cdb35635bf9.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/6_a1d0a702-193e-45d4-9287-6cdb35635bf9.png?v=1773079174&width=400",
+    "alt_text": "Certification 6"
+  },
+  "ChatGPT_Image_Jul_17_2026_06_47_34_PM.png": {
+    "id": 60,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPT_Image_Jul_17_2026_06_47_34_PM.png",
+    "local_path": "/assets/korigo/general/ChatGPT_Image_Jul_17_2026_06_47_34_PM.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/ChatGPT_Image_Jul_17_2026_06_47_34_PM.png?v=1784294278&width=1200",
+    "alt_text": ""
+  },
+  "ChatGPT_Image_Mar_28_2026_06_54_32_PM.png": {
+    "id": 61,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPT_Image_Mar_28_2026_06_54_32_PM.png",
+    "local_path": "/assets/korigo/general/ChatGPT_Image_Mar_28_2026_06_54_32_PM.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/ChatGPT_Image_Mar_28_2026_06_54_32_PM.png?v=1774704293&width=900",
+    "alt_text": "Korigo Pops makhana flavours including Coco Island, Garlicked Cheese, Citrus Cartel, Sour Cr\u00e8me d' Onion, Sassy Sriracha and Cinnamon Drip"
+  },
+  "Title_4.png": {
+    "id": 62,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Title_4.png",
+    "local_path": "/assets/korigo/general/Title_4.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/Title_4.png?v=1771679973&width=440",
+    "alt_text": ""
+  },
+  "c07f77a1-d7f6-421f-aab0-d32f5562b060.png": {
+    "id": 63,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/c07f77a1-d7f6-421f-aab0-d32f5562b060.png",
+    "local_path": "/assets/korigo/general/c07f77a1-d7f6-421f-aab0-d32f5562b060.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/c07f77a1-d7f6-421f-aab0-d32f5562b060.png?v=1773134272&width=1000",
+    "alt_text": "Premium Korigo Pops makhana online in unique roasted flavours for healthy snacking"
+  },
+  "Roasted_Makhan_Pops_in_Irrestible_Flavours_2250_x_2780_px_286aafb1-b5ad-44e6-a073-96792ddb46fa.png": {
+    "id": 64,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Roasted_Makhan_Pops_in_Irrestible_Flavours_2250_x_2780_px_286aafb1-b5ad-44e6-a073-96792ddb46fa-scaled.png",
+    "local_path": "/assets/korigo/hero/Roasted_Makhan_Pops_in_Irrestible_Flavours_2250_x_2780_px_286aafb1-b5ad-44e6-a073-96792ddb46fa.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/Roasted_Makhan_Pops_in_Irrestible_Flavours_2250_x_2780_px_286aafb1-b5ad-44e6-a073-96792ddb46fa.png?v=1777262445",
+    "alt_text": "Korigo Pops flavoured makhana assortment with six roasted gourmet fox nut flavours"
+  },
+  "Roasted_Makhan_Pops_in_Irrestible_Flavours_7536984f-9e7c-49de-9f74-4943aad71e73.png": {
+    "id": 65,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Roasted_Makhan_Pops_in_Irrestible_Flavours_7536984f-9e7c-49de-9f74-4943aad71e73.png",
+    "local_path": "/assets/korigo/hero/Roasted_Makhan_Pops_in_Irrestible_Flavours_7536984f-9e7c-49de-9f74-4943aad71e73.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/Roasted_Makhan_Pops_in_Irrestible_Flavours_7536984f-9e7c-49de-9f74-4943aad71e73.png?v=1777139050&width=1500",
+    "alt_text": "Korigo Pops flavour makhana collection featuring cheese, citrus, onion, sriracha, chocolate and cinnamon flavours"
+  },
+  "Untitled_design_8_9a03f168-3203-4942-b0b0-e445ec329911.png": {
+    "id": 66,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Untitled_design_8_9a03f168-3203-4942-b0b0-e445ec329911.png",
+    "local_path": "/assets/korigo/logo/Untitled_design_8_9a03f168-3203-4942-b0b0-e445ec329911.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/Untitled_design_8_9a03f168-3203-4942-b0b0-e445ec329911.png?v=1771825261",
+    "alt_text": ""
+  },
+  "ChatGPTImageJun12_2026_01_46_57AM.png": {
+    "id": 67,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPTImageJun12_2026_01_46_57AM.png",
+    "local_path": "/assets/korigo/products/ChatGPTImageJun12_2026_01_46_57AM.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/ChatGPTImageJun12_2026_01_46_57AM.png?v=1782479189",
+    "alt_text": "Korigo Pops Coco Island Chocolate Makhana Foxnuts | Sweet Snack | 35g"
+  },
+  "ChatGPTImageJun12_2026_02_05_48AM.png": {
+    "id": 68,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPTImageJun12_2026_02_05_48AM.png",
+    "local_path": "/assets/korigo/products/ChatGPTImageJun12_2026_02_05_48AM.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/ChatGPTImageJun12_2026_02_05_48AM.png?v=1782479189",
+    "alt_text": "Korigo Pops Coco Island Chocolate Makhana Foxnuts | Sweet Snack | 35g"
+  },
+  "ChatGPTImageJun12_2026_02_12_48AM_9ca5c814-9350-471c-a9f0-99464303148d.png": {
+    "id": 69,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPTImageJun12_2026_02_12_48AM_9ca5c814-9350-471c-a9f0-99464303148d.png",
+    "local_path": "/assets/korigo/products/ChatGPTImageJun12_2026_02_12_48AM_9ca5c814-9350-471c-a9f0-99464303148d.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/ChatGPTImageJun12_2026_02_12_48AM_9ca5c814-9350-471c-a9f0-99464303148d.png?v=1782479899",
+    "alt_text": "Korigo Pops Cinnamon Drip Makhana Foxnuts | Roasted | 35g"
+  },
+  "ChatGPTImageJun12_2026_12_33_02AM_8ffc3e6c-77ca-4008-8fae-2a27ee13d1e2.png": {
+    "id": 70,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPTImageJun12_2026_12_33_02AM_8ffc3e6c-77ca-4008-8fae-2a27ee13d1e2.png",
+    "local_path": "/assets/korigo/products/ChatGPTImageJun12_2026_12_33_02AM_8ffc3e6c-77ca-4008-8fae-2a27ee13d1e2.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/ChatGPTImageJun12_2026_12_33_02AM_8ffc3e6c-77ca-4008-8fae-2a27ee13d1e2.png?v=1782479889",
+    "alt_text": "Korigo Pops Cinnamon Drip Makhana Foxnuts | Roasted | 35g"
+  },
+  "ChatGPT_Image_Jun_12_2026_01_05_00_AM.png": {
+    "id": 71,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPT_Image_Jun_12_2026_01_05_00_AM.png",
+    "local_path": "/assets/korigo/products/ChatGPT_Image_Jun_12_2026_01_05_00_AM.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/ChatGPT_Image_Jun_12_2026_01_05_00_AM.png?v=1782479493",
+    "alt_text": "Korigo Pops Garlicked Cheese Makhana Foxnuts | Savoury Snack | 35g"
+  },
+  "ChatGPT_Image_Jun_12_2026_01_10_18_AM.png": {
+    "id": 72,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPT_Image_Jun_12_2026_01_10_18_AM.png",
+    "local_path": "/assets/korigo/products/ChatGPT_Image_Jun_12_2026_01_10_18_AM.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/ChatGPT_Image_Jun_12_2026_01_10_18_AM.png?v=1782480001",
+    "alt_text": "Korigo Pops Sassy Sriracha Flavoured Makhana Foxnuts | Spicy |35g"
+  },
+  "ChatGPT_Image_Jun_12_2026_01_14_10_AM.png": {
+    "id": 73,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPT_Image_Jun_12_2026_01_14_10_AM.png",
+    "local_path": "/assets/korigo/products/ChatGPT_Image_Jun_12_2026_01_14_10_AM.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/ChatGPT_Image_Jun_12_2026_01_14_10_AM.png?v=1782480012",
+    "alt_text": "Korigo Pops Sassy Sriracha Flavoured Makhana Foxnuts | Spicy |35g"
+  },
+  "ChatGPT_Image_Jun_12_2026_01_38_19_AM.png": {
+    "id": 74,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPT_Image_Jun_12_2026_01_38_19_AM.png",
+    "local_path": "/assets/korigo/products/ChatGPT_Image_Jun_12_2026_01_38_19_AM.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/ChatGPT_Image_Jun_12_2026_01_38_19_AM.png?v=1782480001",
+    "alt_text": "Korigo Pops Sassy Sriracha Flavoured Makhana Foxnuts | Spicy |35g"
+  },
+  "ChatGPT_Image_Jun_12_2026_01_40_08_AM.png": {
+    "id": 75,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ChatGPT_Image_Jun_12_2026_01_40_08_AM.png",
+    "local_path": "/assets/korigo/products/ChatGPT_Image_Jun_12_2026_01_40_08_AM.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/ChatGPT_Image_Jun_12_2026_01_40_08_AM.png?v=1782479119",
+    "alt_text": "Korigo Pops Citrus Cartel Tangy Makhana Foxnuts | Spicy Citrus | 35g"
+  },
+  "Ingredients_525f9196-c7ac-473e-ba96-033c92e956e5.png": {
+    "id": 76,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Ingredients_525f9196-c7ac-473e-ba96-033c92e956e5.png",
+    "local_path": "/assets/korigo/products/Ingredients_525f9196-c7ac-473e-ba96-033c92e956e5.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/Ingredients_525f9196-c7ac-473e-ba96-033c92e956e5.png?v=1782479237",
+    "alt_text": "Korigo Pops Coco Island Chocolate Makhana Foxnuts | Sweet Snack | 35g"
+  },
+  "Moodshot1.png": {
+    "id": 77,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Moodshot1.png",
+    "local_path": "/assets/korigo/products/Moodshot1.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/Moodshot1.png?v=1782479340",
+    "alt_text": "Korigo Pops Sour Cr\u00e8me d' Onion Makhana Foxnuts | Creamy Snack | 35g"
+  },
+  "Moodshot2_80dfedcc-526a-437f-a561-6f8d8082d094.png": {
+    "id": 78,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Moodshot2_80dfedcc-526a-437f-a561-6f8d8082d094.png",
+    "local_path": "/assets/korigo/products/Moodshot2_80dfedcc-526a-437f-a561-6f8d8082d094.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/Moodshot2_80dfedcc-526a-437f-a561-6f8d8082d094.png?v=1782479341",
+    "alt_text": "Korigo Pops Sour Cr\u00e8me d' Onion Makhana Foxnuts | Creamy Snack | 35g"
+  },
+  "Moodshot3.png": {
+    "id": 79,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Moodshot3.png",
+    "local_path": "/assets/korigo/products/Moodshot3.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/Moodshot3.png?v=1782479189",
+    "alt_text": "Korigo Pops Coco Island Chocolate Makhana Foxnuts | Sweet Snack | 35g"
+  },
+  "Moodshot3_5988ddd3-28a4-42eb-97c0-35145d18ef65.png": {
+    "id": 80,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Moodshot3_5988ddd3-28a4-42eb-97c0-35145d18ef65.png",
+    "local_path": "/assets/korigo/products/Moodshot3_5988ddd3-28a4-42eb-97c0-35145d18ef65.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/Moodshot3_5988ddd3-28a4-42eb-97c0-35145d18ef65.png?v=1782479889",
+    "alt_text": "Korigo Pops Cinnamon Drip Makhana Foxnuts | Roasted | 35g"
+  },
+  "Moodshot4.png": {
+    "id": 81,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Moodshot4.png",
+    "local_path": "/assets/korigo/products/Moodshot4.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/Moodshot4.png?v=1782479349",
+    "alt_text": "Korigo Pops Sour Cr\u00e8me d' Onion Makhana Foxnuts | Creamy Snack | 35g"
+  },
+  "Moodshot_2.png": {
+    "id": 82,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Moodshot_2.png",
+    "local_path": "/assets/korigo/products/Moodshot_2.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/Moodshot_2.png?v=1782479126",
+    "alt_text": "Korigo Pops Citrus Cartel Tangy Makhana Foxnuts | Spicy Citrus | 35g"
+  },
+  "Moodshot_2_d64a3724-c4e4-436e-bd27-aa2ddc90d727.png": {
+    "id": 83,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Moodshot_2_d64a3724-c4e4-436e-bd27-aa2ddc90d727.png",
+    "local_path": "/assets/korigo/products/Moodshot_2_d64a3724-c4e4-436e-bd27-aa2ddc90d727.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/Moodshot_2_d64a3724-c4e4-436e-bd27-aa2ddc90d727.png?v=1782479493",
+    "alt_text": "Korigo Pops Garlicked Cheese Makhana Foxnuts | Savoury Snack | 35g"
+  },
+  "Moodshot_3.png": {
+    "id": 84,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Moodshot_3.png",
+    "local_path": "/assets/korigo/products/Moodshot_3.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/Moodshot_3.png?v=1782479127",
+    "alt_text": "Korigo Pops Citrus Cartel Tangy Makhana Foxnuts | Spicy Citrus | 35g"
+  },
+  "a952062c-633f-42e4-a39c-ababe40943e4.png": {
+    "id": 85,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/a952062c-633f-42e4-a39c-ababe40943e4.png",
+    "local_path": "/assets/korigo/products/a952062c-633f-42e4-a39c-ababe40943e4.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/a952062c-633f-42e4-a39c-ababe40943e4.png?v=1782479493",
+    "alt_text": "Korigo Pops Garlicked Cheese Makhana Foxnuts | Savoury Snack | 35g"
+  },
+  "choco_831e67b9-b7b0-405d-8b70-7bee25b6ef52.png": {
+    "id": 86,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/choco_831e67b9-b7b0-405d-8b70-7bee25b6ef52.png",
+    "local_path": "/assets/korigo/products/choco_831e67b9-b7b0-405d-8b70-7bee25b6ef52.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/choco_831e67b9-b7b0-405d-8b70-7bee25b6ef52.png?v=1782479080",
+    "alt_text": "Korigo Pops Coco Island Chocolate Makhana Foxnuts | Sweet Snack | 35g"
+  },
+  "colorfront_99bca94b-337c-46e6-a88b-7f1b51fe0d82.png": {
+    "id": 87,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/colorfront_99bca94b-337c-46e6-a88b-7f1b51fe0d82.png",
+    "local_path": "/assets/korigo/products/colorfront_99bca94b-337c-46e6-a88b-7f1b51fe0d82.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/colorfront_99bca94b-337c-46e6-a88b-7f1b51fe0d82.png?v=1782479899",
+    "alt_text": "Korigo Pops Cinnamon Drip Makhana Foxnuts | Roasted | 35g"
+  },
+  "ed86da5a-21ac-4170-a49d-a2095f8d99ef.png": {
+    "id": 88,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/ed86da5a-21ac-4170-a49d-a2095f8d99ef.png",
+    "local_path": "/assets/korigo/products/ed86da5a-21ac-4170-a49d-a2095f8d99ef.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/ed86da5a-21ac-4170-a49d-a2095f8d99ef.png?v=1782479493",
+    "alt_text": "Korigo Pops Garlicked Cheese Makhana Foxnuts | Savoury Snack | 35g"
+  },
+  "info.png": {
+    "id": 89,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/info.png",
+    "local_path": "/assets/korigo/products/info.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/info.png?v=1782479039",
+    "alt_text": "Korigo Pops Citrus Cartel Tangy Makhana Foxnuts | Spicy Citrus | 35g"
+  },
+  "info_ae0eca67-c443-4d15-93f8-c656f745e793.png": {
+    "id": 90,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/info_ae0eca67-c443-4d15-93f8-c656f745e793.png",
+    "local_path": "/assets/korigo/products/info_ae0eca67-c443-4d15-93f8-c656f745e793.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/info_ae0eca67-c443-4d15-93f8-c656f745e793.png?v=1782479238",
+    "alt_text": "Korigo Pops Coco Island Chocolate Makhana Foxnuts | Sweet Snack | 35g"
+  },
+  "info_d1f1fecb-b1af-4230-8fb6-210e5f43afe6.png": {
+    "id": 91,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/info_d1f1fecb-b1af-4230-8fb6-210e5f43afe6.png",
+    "local_path": "/assets/korigo/products/info_d1f1fecb-b1af-4230-8fb6-210e5f43afe6.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/info_d1f1fecb-b1af-4230-8fb6-210e5f43afe6.png?v=1782479975",
+    "alt_text": "Korigo Pops Sassy Sriracha Flavoured Makhana Foxnuts | Spicy |35g"
+  },
+  "info_efbe8f36-0010-4b71-bc1a-a72ef71e6f8c.png": {
+    "id": 92,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/info_efbe8f36-0010-4b71-bc1a-a72ef71e6f8c.png",
+    "local_path": "/assets/korigo/products/info_efbe8f36-0010-4b71-bc1a-a72ef71e6f8c.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/info_efbe8f36-0010-4b71-bc1a-a72ef71e6f8c.png?v=1782479938",
+    "alt_text": "Korigo Pops Cinnamon Drip Makhana Foxnuts | Roasted | 35g"
+  },
+  "info_f38b7bc7-9c57-4755-b623-f16f1a2ac8c2.png": {
+    "id": 93,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/info_f38b7bc7-9c57-4755-b623-f16f1a2ac8c2.png",
+    "local_path": "/assets/korigo/products/info_f38b7bc7-9c57-4755-b623-f16f1a2ac8c2.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/info_f38b7bc7-9c57-4755-b623-f16f1a2ac8c2.png?v=1782479385",
+    "alt_text": "Korigo Pops Sour Cr\u00e8me d' Onion Makhana Foxnuts | Creamy Snack | 35g"
+  },
+  "infoo.png": {
+    "id": 94,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/infoo.png",
+    "local_path": "/assets/korigo/products/infoo.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/infoo.png?v=1782479473",
+    "alt_text": "Korigo Pops Garlicked Cheese Makhana Foxnuts | Savoury Snack | 35g"
+  },
+  "white_front_coco_island_1.png": {
+    "id": 95,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/white_front_coco_island_1.png",
+    "local_path": "/assets/korigo/products/white_front_coco_island_1.png",
+    "original_url": "https://cdn.shopify.com/s/files/1/0985/2895/2610/files/white_front_coco_island_1.png?v=1782479238",
+    "alt_text": "Korigo Pops Coco Island Chocolate Makhana Foxnuts | Sweet Snack | 35g"
+  },
+  "citrus.png": {
+    "id": 96,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/citrus.png",
+    "local_path": "/assets/korigo/products/citrus.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/citrus.png?v=1777142628&width=800",
+    "alt_text": "Sassy Sriracha"
+  },
+  "white_front.png": {
+    "id": 97,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/white_front.png",
+    "local_path": "/assets/korigo/products/white_front.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/white_front.png?v=1777138800&width=800",
+    "alt_text": "Sour Cr\u00e8me d' Onion"
+  },
+  "white_front_4f0147d5-d483-4ef7-b6be-8e6e3e3c0c33.png": {
+    "id": 98,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/white_front_4f0147d5-d483-4ef7-b6be-8e6e3e3c0c33.png",
+    "local_path": "/assets/korigo/products/white_front_4f0147d5-d483-4ef7-b6be-8e6e3e3c0c33.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/white_front_4f0147d5-d483-4ef7-b6be-8e6e3e3c0c33.png?v=1777138901&width=800",
+    "alt_text": "Cinnamon Drip"
+  },
+  "white_front_citrus_cirtel.png": {
+    "id": 99,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/white_front_citrus_cirtel.png",
+    "local_path": "/assets/korigo/products/white_front_citrus_cirtel.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/white_front_citrus_cirtel.png?v=1777138687&width=800",
+    "alt_text": "Citrus Cartel"
+  },
+  "white_front_coco_island.png": {
+    "id": 100,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/white_front_coco_island.png",
+    "local_path": "/assets/korigo/products/white_front_coco_island.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/white_front_coco_island.png?v=1777138737&width=800",
+    "alt_text": "Coco Island"
+  },
+  "white_front_garlicked_cheese.png": {
+    "id": 101,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/white_front_garlicked_cheese.png",
+    "local_path": "/assets/korigo/products/white_front_garlicked_cheese.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/white_front_garlicked_cheese.png?v=1777138852&width=800",
+    "alt_text": "Garlicked Cheese"
+  },
+  "white_front_ssasy_siracha.png": {
+    "id": 102,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/white_front_ssasy_siracha.png",
+    "local_path": "/assets/korigo/products/white_front_ssasy_siracha.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/white_front_ssasy_siracha.png?v=1777139133&width=440",
+    "alt_text": ""
+  },
+  "5419cb35-46fc-4931-bbfa-6a709423ee8a.jpg": {
+    "id": 103,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/5419cb35-46fc-4931-bbfa-6a709423ee8a.jpg",
+    "local_path": "/assets/korigo/recipes/5419cb35-46fc-4931-bbfa-6a709423ee8a.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/5419cb35-46fc-4931-bbfa-6a709423ee8a.jpg?v=1773170303&width=600",
+    "alt_text": "Frozen Yogurt Bark"
+  },
+  "81639176-9ba7-44cd-a8b5-359378230827.jpg": {
+    "id": 104,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/81639176-9ba7-44cd-a8b5-359378230827.jpg",
+    "local_path": "/assets/korigo/recipes/81639176-9ba7-44cd-a8b5-359378230827.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/81639176-9ba7-44cd-a8b5-359378230827.jpg?v=1773170587&width=600",
+    "alt_text": "Pani Puri Filling Bowl"
+  },
+  "97c5157c-01ac-4306-9a30-a08094902fad.jpg": {
+    "id": 105,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/97c5157c-01ac-4306-9a30-a08094902fad.jpg",
+    "local_path": "/assets/korigo/recipes/97c5157c-01ac-4306-9a30-a08094902fad.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/97c5157c-01ac-4306-9a30-a08094902fad.jpg?v=1773170179&width=600",
+    "alt_text": "Apple Cinnamon Toast"
+  },
+  "Untitled_design_9_608d9fb8-661a-4627-acdf-018e6c725534.png": {
+    "id": 106,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/Untitled_design_9_608d9fb8-661a-4627-acdf-018e6c725534.png",
+    "local_path": "/assets/korigo/recipes/Untitled_design_9_608d9fb8-661a-4627-acdf-018e6c725534.png",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/Untitled_design_9_608d9fb8-661a-4627-acdf-018e6c725534.png?v=1772619135&width=240",
+    "alt_text": "Korigo Snacks"
+  },
+  "WhatsApp_Image_2026-03-11_at_1.03.22_AM.jpg": {
+    "id": 107,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/WhatsApp_Image_2026-03-11_at_1.03.22_AM.jpg",
+    "local_path": "/assets/korigo/recipes/WhatsApp_Image_2026-03-11_at_1.03.22_AM.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-03-11_at_1.03.22_AM.jpg?v=1773171374&width=600",
+    "alt_text": "Spicy Wrap"
+  },
+  "WhatsApp_Image_2026-03-11_at_1.11.19_AM.jpg": {
+    "id": 108,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/WhatsApp_Image_2026-03-11_at_1.11.19_AM.jpg",
+    "local_path": "/assets/korigo/recipes/WhatsApp_Image_2026-03-11_at_1.11.19_AM.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-03-11_at_1.11.19_AM.jpg?v=1773171829&width=600",
+    "alt_text": "Chia Pudding Bowl"
+  },
+  "WhatsApp_Image_2026-03-11_at_1.12.47_AM.jpg": {
+    "id": 109,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/WhatsApp_Image_2026-03-11_at_1.12.47_AM.jpg",
+    "local_path": "/assets/korigo/recipes/WhatsApp_Image_2026-03-11_at_1.12.47_AM.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-03-11_at_1.12.47_AM.jpg?v=1773172080&width=600",
+    "alt_text": "Creamy Soup Topping"
+  },
+  "WhatsApp_Image_2026-03-11_at_1.16.01_AM.jpg": {
+    "id": 110,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/WhatsApp_Image_2026-03-11_at_1.16.01_AM.jpg",
+    "local_path": "/assets/korigo/recipes/WhatsApp_Image_2026-03-11_at_1.16.01_AM.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-03-11_at_1.16.01_AM.jpg?v=1773172045&width=600",
+    "alt_text": "Buddha Bowl"
+  },
+  "WhatsApp_Image_2026-03-11_at_1.18.26_AM.jpg": {
+    "id": 111,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/WhatsApp_Image_2026-03-11_at_1.18.26_AM.jpg",
+    "local_path": "/assets/korigo/recipes/WhatsApp_Image_2026-03-11_at_1.18.26_AM.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-03-11_at_1.18.26_AM.jpg?v=1773172203&width=600",
+    "alt_text": "Savory Oats Bowl"
+  },
+  "WhatsApp_Image_2026-03-11_at_1.23.02_AM.jpg": {
+    "id": 112,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/WhatsApp_Image_2026-03-11_at_1.23.02_AM.jpg",
+    "local_path": "/assets/korigo/recipes/WhatsApp_Image_2026-03-11_at_1.23.02_AM.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-03-11_at_1.23.02_AM.jpg?v=1773172423&width=600",
+    "alt_text": "Yogurt Dip Bowl"
+  },
+  "WhatsApp_Image_2026-03-11_at_12.58.37_AM.jpg": {
+    "id": 113,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/WhatsApp_Image_2026-03-11_at_12.58.37_AM.jpg",
+    "local_path": "/assets/korigo/recipes/WhatsApp_Image_2026-03-11_at_12.58.37_AM.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/WhatsApp_Image_2026-03-11_at_12.58.37_AM.jpg?v=1773171322&width=600",
+    "alt_text": "Asian Salad"
+  },
+  "b47ebe72-b4fe-4737-a98c-4a678c6190db.jpg": {
+    "id": 114,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/b47ebe72-b4fe-4737-a98c-4a678c6190db.jpg",
+    "local_path": "/assets/korigo/recipes/b47ebe72-b4fe-4737-a98c-4a678c6190db.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/b47ebe72-b4fe-4737-a98c-4a678c6190db.jpg?v=1773170412&width=600",
+    "alt_text": "Citrus Salad"
+  },
+  "c9f98e1f-a65b-411d-8aea-ba76f77c7452.jpg": {
+    "id": 115,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/c9f98e1f-a65b-411d-8aea-ba76f77c7452.jpg",
+    "local_path": "/assets/korigo/recipes/c9f98e1f-a65b-411d-8aea-ba76f77c7452.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/c9f98e1f-a65b-411d-8aea-ba76f77c7452.jpg?v=1773170848&width=600",
+    "alt_text": "Bhel"
+  },
+  "f2f95fb0-f9f4-475c-8616-10c6cfda3e71.jpg": {
+    "id": 116,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/f2f95fb0-f9f4-475c-8616-10c6cfda3e71.jpg",
+    "local_path": "/assets/korigo/recipes/f2f95fb0-f9f4-475c-8616-10c6cfda3e71.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/f2f95fb0-f9f4-475c-8616-10c6cfda3e71.jpg?v=1773170251&width=600",
+    "alt_text": "Ricotta Honey Dessert Bowl"
+  },
+  "unnamed.jpg": {
+    "id": 117,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/unnamed.jpg",
+    "local_path": "/assets/korigo/recipes/unnamed.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/unnamed.jpg?v=1772999781&width=600",
+    "alt_text": "Banana / Berry Smoothie Bowl"
+  },
+  "unnamed_608da05b-7adc-46f9-acbf-d77685370238.jpg": {
+    "id": 118,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/unnamed_608da05b-7adc-46f9-acbf-d77685370238.jpg",
+    "local_path": "/assets/korigo/recipes/unnamed_608da05b-7adc-46f9-acbf-d77685370238.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/unnamed_608da05b-7adc-46f9-acbf-d77685370238.jpg?v=1773172001&width=600",
+    "alt_text": "Avocado Toast"
+  },
+  "unnamed_7db7f77e-6d96-44e1-941e-3345f2513085.jpg": {
+    "id": 119,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/unnamed_7db7f77e-6d96-44e1-941e-3345f2513085.jpg",
+    "local_path": "/assets/korigo/recipes/unnamed_7db7f77e-6d96-44e1-941e-3345f2513085.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/unnamed_7db7f77e-6d96-44e1-941e-3345f2513085.jpg?v=1773172449&width=600",
+    "alt_text": "Stuffed Sandwich"
+  },
+  "unnamed_ac989fcd-85b0-4538-aa80-52bbdb160fdd.jpg": {
+    "id": 120,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/unnamed_ac989fcd-85b0-4538-aa80-52bbdb160fdd.jpg",
+    "local_path": "/assets/korigo/recipes/unnamed_ac989fcd-85b0-4538-aa80-52bbdb160fdd.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/unnamed_ac989fcd-85b0-4538-aa80-52bbdb160fdd.jpg?v=1773001446&width=600",
+    "alt_text": "Rice Paper Rolls"
+  },
+  "unnamed_de1781e8-0705-49b3-b36a-c80299a61206.jpg": {
+    "id": 121,
+    "source_url": "https://backend-korigo.sampledomain.online/wp-content/uploads/2026/09/unnamed_de1781e8-0705-49b3-b36a-c80299a61206.jpg",
+    "local_path": "/assets/korigo/recipes/unnamed_de1781e8-0705-49b3-b36a-c80299a61206.jpg",
+    "original_url": "https://korigosnacks.com/cdn/shop/files/unnamed_de1781e8-0705-49b3-b36a-c80299a61206.jpg?v=1773171875&width=600",
+    "alt_text": "Healthy Trail Mix"
+  }
+}

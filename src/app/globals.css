@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-heading-family: "Andada Pro", Georgia, serif;
+  --font-body-family: "Andada Pro", Georgia, serif;
+  
+  --accent-color: #528663;
+  --accent-color-darken: #3a794a;
+  --heading-color: #000000;
+  --text-color: #555555;
+  --primary-price-color: #010101;
+  --sale-price-color: #fa0000;
+  --secondary-price-color: #868686;
+  --t4s-body-background: #ffffff;
+  --border-color: #e6e6e6;
+  
+  --wrapper-mw: 1440px;
+  --width-nt-stretch: 1200px;
+}
+
+body {
+  color: #222222;
+  background-color: #ffffff;
+  font-family: var(--font-andada), Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+  font-family: var(--font-andada), Georgia, serif;
+  letter-spacing: -0.01em;
+}
+
+/* 3D Transform Utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.perspective-2000 {
+  perspective: 2000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.translate-z-10 {
+  transform: translateZ(10px);
+}
+.translate-z-20 {
+  transform: translateZ(20px);
+}
+.translate-z-30 {
+  transform: translateZ(30px);
+}
+.translate-z-40 {
+  transform: translateZ(40px);
+}
+.translate-z-50 {
+  transform: translateZ(50px);
+}
+
+/* High-End Glassmorphism */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.glass-green {
+  background: rgba(82, 134, 99, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(82, 134, 99, 0.22);
+}
+
+.glass-dark-green {
+  background: rgba(58, 121, 74, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(82, 134, 99, 0.35);
+}
+
+/* High-End 3D CRO Buttons */
+.btn-korigo-primary {
+  background: linear-gradient(135deg, #528663 0%, #3a794a 100%);
+  color: #ffffff;
+  font-family: var(--font-andada), Georgia, serif;
+  font-weight: 700;
+  padding: 14px 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 8px 20px -4px rgba(82, 134, 99, 0.4), inset 0 1px 0 0 rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-korigo-primary:hover {
+  background: linear-gradient(135deg, #467655 0%, #326940 100%);
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 14px 28px -4px rgba(82, 134, 99, 0.5), inset 0 1px 0 0 rgba(255, 255, 255, 0.4);
+}
+
+.btn-korigo-secondary {
+  background: #ffffff;
+  color: #3a794a;
+  border: 1.5px solid #528663;
+  font-family: var(--font-andada), Georgia, serif;
+  font-weight: 700;
+  padding: 12px 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 12px rgba(20, 143, 44, 0.08);
+}
+
+.btn-korigo-secondary:hover {
+  background: #f0fdf4;
+  border-color: #0b4c17;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(20, 143, 44, 0.15);
+}
+
+/* 3D Glowing Card Hover */
+.card-3d-wrap {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+.card-3d-wrap:hover {
+  box-shadow: 0 25px 50px -12px rgba(20, 143, 44, 0.25), 0 0 20px rgba(20, 143, 44, 0.1);
+}
+
+/* Subtle 3D Depth Shimmer */
+.shimmer-green {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 200% 100%;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f4fbf5;
+}
+::-webkit-scrollbar-thumb {
+  background: #148f2c;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0b4c17;
+}

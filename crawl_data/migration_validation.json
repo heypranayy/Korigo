@@ -1,0 +1,318 @@
+{
+  "timestamp": "2026-09-29T00:08:00+05:30",
+  "woocommerce_settings": {
+    "currency": "INR",
+    "default_country": "IN:WB",
+    "prices_include_tax": "yes",
+    "status": "PASS"
+  },
+  "products": {
+    "total": 12,
+    "passed": 12,
+    "failed": 0,
+    "details": [
+      {
+        "id": 122,
+        "slug": "sassy-sriracha-sour-cream-onion-combo",
+        "title": "Sour Cr\u00e8me d' Onion + Sassy Sriracha Combo",
+        "stock_status": "instock",
+        "expected_stock": "instock",
+        "regular_price": "199.00",
+        "sale_price": "159.00",
+        "image_count": 7,
+        "all_images_local_wp": true,
+        "has_recipes": true,
+        "has_nutrition": true,
+        "status": "PASS"
+      },
+      {
+        "id": 123,
+        "slug": "cinnamon-drip-sour-cream-onion-combo",
+        "title": "Cinnamon Drip + Sour Cr\u00e8me d' Onion Combo",
+        "stock_status": "instock",
+        "expected_stock": "instock",
+        "regular_price": "199.00",
+        "sale_price": "159.00",
+        "image_count": 7,
+        "all_images_local_wp": true,
+        "has_recipes": true,
+        "has_nutrition": true,
+        "status": "PASS"
+      },
+      {
+        "id": 124,
+        "slug": "garlicked-cheese-cinnamon-drip-combo",
+        "title": "Garlicked Cheese + Cinnamon Drip Combo",
+        "stock_status": "instock",
+        "expected_stock": "instock",
+        "regular_price": "199.00",
+        "sale_price": "159.00",
+        "image_count": 7,
+        "all_images_local_wp": true,
+        "has_recipes": true,
+        "has_nutrition": true,
+        "status": "PASS"
+      },
+      {
+        "id": 125,
+        "slug": "citrus-cartel-garlicked-cheese-combo",
+        "title": "Citrus Cartel + Garlicked Cheese Combo",
+        "stock_status": "instock",
+        "expected_stock": "instock",
+        "regular_price": "199.00",
+        "sale_price": "159.00",
+        "image_count": 7,
+        "all_images_local_wp": true,
+        "has_recipes": true,
+        "has_nutrition": true,
+        "status": "PASS"
+      },
+      {
+        "id": 126,
+        "slug": "citrus-cartel-sassy-sriracha-combo",
+        "title": "Citrus Cartel + Sassy Sriracha Combo",
+        "stock_status": "instock",
+        "expected_stock": "instock",
+        "regular_price": "199.00",
+        "sale_price": "159.00",
+        "image_count": 7,
+        "all_images_local_wp": true,
+        "has_recipes": true,
+        "has_nutrition": true,
+        "status": "PASS"
+      },
+      {
+        "id": 127,
+        "slug": "garlic-cheese-sassy-sriracha-combo",
+        "title": "Garlic Cheese + Sassy Sriracha Combo",
+        "stock_status": "instock",
+        "expected_stock": "instock",
+        "regular_price": "199.00",
+        "sale_price": "159.00",
+        "image_count": 7,
+        "all_images_local_wp": true,
+        "has_recipes": true,
+        "has_nutrition": true,
+        "status": "PASS"
+      },
+      {
+        "id": 128,
+        "slug": "citrus-cartel-makhana",
+        "title": "Korigo Pops Citrus Cartel Tangy Makhana Foxnuts | Spicy Citrus | 35g",
+        "stock_status": "instock",
+        "expected_stock": "instock",
+        "regular_price": "99.00",
+        "sale_price": "",
+        "image_count": 8,
+        "all_images_local_wp": true,
+        "has_recipes": true,
+        "has_nutrition": true,
+        "status": "PASS"
+      },
+      {
+        "id": 129,
+        "slug": "coco-world-makhana",
+        "title": "Korigo Pops Coco Island Chocolate Makhana Foxnuts | Sweet Snack | 35g",
+        "stock_status": "outofstock",
+        "expected_stock": "outofstock",
+        "regular_price": "99.00",
+        "sale_price": "",
+        "image_count": 8,
+        "all_images_local_wp": true,
+        "has_recipes": true,
+        "has_nutrition": true,
+        "status": "PASS"
+      },
+      {
+        "id": 130,
+        "slug": "creme-d-onion-makhana",
+        "title": "Korigo Pops Sour Cr\u00e8me d' Onion Makhana Foxnuts | Creamy Snack | 35g",
+        "stock_status": "instock",
+        "expected_stock": "instock",
+        "regular_price": "99.00",
+        "sale_price": "",
+        "image_count": 8,
+        "all_images_local_wp": true,
+        "has_recipes": true,
+        "has_nutrition": true,
+        "status": "PASS"
+      },
+      {
+        "id": 131,
+        "slug": "garlicked-cheese-makhana",
+        "title": "Korigo Pops Garlicked Cheese Makhana Foxnuts | Savoury Snack | 35g",
+        "stock_status": "instock",
+        "expected_stock": "instock",
+        "regular_price": "99.00",
+        "sale_price": "",
+        "image_count": 9,
+        "all_images_local_wp": true,
+        "has_recipes": true,
+        "has_nutrition": true,
+        "status": "PASS"
+      },
+      {
+        "id": 132,
+        "slug": "cinnamon-drip",
+        "title": "Korigo Pops Cinnamon Drip Makhana Foxnuts | Roasted | 35g",
+        "stock_status": "instock",
+        "expected_stock": "instock",
+        "regular_price": "99.00",
+        "sale_price": "",
+        "image_count": 9,
+        "all_images_local_wp": true,
+        "has_recipes": true,
+        "has_nutrition": true,
+        "status": "PASS"
+      },
+      {
+        "id": 133,
+        "slug": "sassy-sriracha",
+        "title": "Korigo Pops Sassy Sriracha Flavoured Makhana Foxnuts | Spicy |35g",
+        "stock_status": "instock",
+        "expected_stock": "instock",
+        "regular_price": "99.00",
+        "sale_price": "",
+        "image_count": 8,
+        "all_images_local_wp": true,
+        "has_recipes": true,
+        "has_nutrition": true,
+        "status": "PASS"
+      }
+    ]
+  },
+  "blogs": {
+    "total": 7,
+    "passed": 7,
+    "failed": 0,
+    "details": [
+      {
+        "id": 134,
+        "slug": "late-night-healthy-snacks-that-won-t-make-you-feel-guilty",
+        "title": "Late Night Healthy Snacks That Won\u2019t Make You Feel Guilty",
+        "featured_media_id": 20,
+        "has_featured_media": true,
+        "content_length": 11583,
+        "status": "PASS"
+      },
+      {
+        "id": 135,
+        "slug": "top-5-healthy-snacks-for-desk-jobs",
+        "title": "Top 4 Healthy Snacks for Desk Jobs",
+        "featured_media_id": 14,
+        "has_featured_media": true,
+        "content_length": 10746,
+        "status": "PASS"
+      },
+      {
+        "id": 136,
+        "slug": "healthy-makhana-recipes-you-can-make-at-home",
+        "title": "Healthy Makhana Recipes You Can Make at Home",
+        "featured_media_id": 15,
+        "has_featured_media": true,
+        "content_length": 12030,
+        "status": "PASS"
+      },
+      {
+        "id": 137,
+        "slug": "why-cheese-makhana-is-becoming-india-s-favorite-healthy-snack",
+        "title": "Why Cheese Makhana Is Becoming India\u2019s Favorite Healthy Snack",
+        "featured_media_id": 16,
+        "has_featured_media": true,
+        "content_length": 11069,
+        "status": "PASS"
+      },
+      {
+        "id": 138,
+        "slug": "makhana-vs-other-snacks-why-its-the-healthiest",
+        "title": "Makhana vs Other Snacks: Why It&#8217;s the Healthiest?",
+        "featured_media_id": 18,
+        "has_featured_media": true,
+        "content_length": 11721,
+        "status": "PASS"
+      },
+      {
+        "id": 139,
+        "slug": "makhana-for-weight-loss-how-to-eat",
+        "title": "Makhana for Weight Loss: How to Eat?",
+        "featured_media_id": 17,
+        "has_featured_media": true,
+        "content_length": 10502,
+        "status": "PASS"
+      },
+      {
+        "id": 140,
+        "slug": "top-health-benefits-of-makhana-fox-nuts-lotus-seeds",
+        "title": "Top Health Benefits of Makhana (Fox Nuts / Lotus Seeds)",
+        "featured_media_id": 19,
+        "has_featured_media": true,
+        "content_length": 14090,
+        "status": "PASS"
+      }
+    ]
+  },
+  "pages": {
+    "total": 7,
+    "passed": 7,
+    "failed": 0,
+    "details": [
+      {
+        "id": 141,
+        "slug": "about-us",
+        "title": "About Us",
+        "content_length": 21931,
+        "status": "PASS"
+      },
+      {
+        "id": 142,
+        "slug": "contact",
+        "title": "Contact Us",
+        "content_length": 41056,
+        "status": "PASS"
+      },
+      {
+        "id": 143,
+        "slug": "reviews-form",
+        "title": "Reviews Form",
+        "content_length": 41060,
+        "status": "PASS"
+      },
+      {
+        "id": 144,
+        "slug": "refund-policy",
+        "title": "Refund Policy",
+        "content_length": 1570,
+        "status": "PASS"
+      },
+      {
+        "id": 145,
+        "slug": "privacy-policy",
+        "title": "Privacy Policy",
+        "content_length": 15868,
+        "status": "PASS"
+      },
+      {
+        "id": 146,
+        "slug": "shipping-policy",
+        "title": "Shipping Policy",
+        "content_length": 2568,
+        "status": "PASS"
+      },
+      {
+        "id": 147,
+        "slug": "terms-of-service",
+        "title": "Terms of Service",
+        "content_length": 3329,
+        "status": "PASS"
+      }
+    ]
+  },
+  "media": {
+    "total": 109,
+    "verified_urls": 0
+  },
+  "store_api": {
+    "products_count": 12,
+    "status": "PASS"
+  }
+}
