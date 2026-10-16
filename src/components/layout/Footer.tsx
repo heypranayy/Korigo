@@ -185,16 +185,29 @@ export const Footer: React.FC = () => {
           </div>
 
           <div className="flex items-center gap-2">
-            <a
-              href="https://gexart.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 text-white text-[11px] font-mono tracking-wider transition hover:scale-105 active:scale-95 shadow-sm"
-              title="Built by Gexart Design & Development Studio"
-            >
-              <span>BUILT BY GEXART</span>
-              <span className="text-amber-300 font-bold">(GEXART.COM)</span>
-            </a>
+            <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/20 text-white text-[11px] font-mono tracking-wider shadow-sm">
+              <span className="text-white/90">BUILT BY</span>
+              <a
+                href="https://gexart.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-amber-300 font-black underline underline-offset-2 hover:text-white transition cursor-pointer"
+                title="Visit GEXART"
+              >
+                GEXART
+              </a>
+              <span className="text-white/60">(</span>
+              <a
+                href="https://gexart.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-amber-300 font-bold hover:underline transition cursor-pointer"
+                title="https://gexart.com"
+              >
+                GEXART.COM
+              </a>
+              <span className="text-white/60">)</span>
+            </div>
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-4 text-xs">
