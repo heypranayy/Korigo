@@ -19,11 +19,11 @@ const config: Config = {
       colors: {
         korigo: {
           green: "#528663", // Exact brand logo green
-          forest: "#3a794a", // Darkest green from logo (max as dark as logo)
-          deep: "#3a794a",
-          darkGreen: "#3a794a",
-          emerald: "#457453",
-          mint: "#629774",
+          forest: "#467655", // Refined deeper logo green
+          deep: "#416f4f",
+          darkGreen: "#467655",
+          emerald: "#528663",
+          mint: "#68a07a",
           brightGreen: "#528663",
           lightGreen: "#eef5f0",
           lightBg: "#f6faf7",

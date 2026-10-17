@@ -18,8 +18,8 @@ export default async function HomePage() {
     <div className="flex flex-col min-h-screen">
       <HeroBanner />
       <FlavoursMarquee />
-      <CombosSection products={products} />
       <SingleFlavoursSection products={products} />
+      <CombosSection products={products} />
       <SuperfoodComparison />
       <Certifications />
       <ReviewsSection />

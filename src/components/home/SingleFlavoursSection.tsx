@@ -20,21 +20,21 @@ export const SingleFlavoursSection: React.FC<SingleFlavoursSectionProps> = ({ pr
   );
 
   return (
-    <section className="py-16 md:py-24 bg-white relative overflow-hidden border-b border-gray-100">
+    <section className="py-8 sm:py-12 md:py-16 bg-white relative overflow-hidden border-b border-gray-100">
       {/* Background radial accent */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-korigo-lightGreen/20 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-[1440px] mx-auto px-4 md:px-8 relative z-10">
         {/* Editorial Story Header */}
-        <div className="max-w-3xl mx-auto text-center mb-10">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-korigo-lightGreen text-korigo-darkGreen text-xs font-bold uppercase tracking-widest mb-3 border border-korigo-green/20">
+        <div className="max-w-3xl mx-auto text-center mb-6 sm:mb-8">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-korigo-lightGreen text-korigo-darkGreen text-[11px] sm:text-xs font-bold uppercase tracking-widest mb-2.5 border border-korigo-green/20">
             <Sparkles className="w-3.5 h-3.5 text-korigo-green" />
             <span>100% Roasted Superfood Snack</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-black mb-4 leading-tight">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl font-serif font-bold text-black mb-2.5 leading-tight">
             Crunch Into Korigo <span className="text-korigo-green">Signature Flavours</span>
           </h2>
-          <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6 font-serif">
+          <p className="text-gray-600 text-xs sm:text-sm md:text-base leading-relaxed mb-4 sm:mb-6 font-serif max-w-2xl mx-auto">
             Makhana is the no-kernel superfood pop you will fall in love with. Slow-roasted to crunchy perfection and coated in authentic spices, every bite provides dietary fibre, plant protein, and antioxidants with zero cholesterol.
           </p>
 
@@ -46,47 +46,47 @@ export const SingleFlavoursSection: React.FC<SingleFlavoursSectionProps> = ({ pr
                   setViewMode("deck");
                   soundFx.playPop();
                 }}
-                className={`flex items-center gap-2 px-4 py-2 rounded-full font-bold transition-all duration-200 ${
+                className={`flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-full font-bold transition-all duration-200 text-xs ${
                   viewMode === "deck"
-                    ? "bg-black text-white shadow-md scale-102"
+                    ? "bg-[#528663] text-white shadow-md shadow-[#528663]/30 scale-102"
                     : "text-gray-600 hover:text-black"
                 }`}
               >
                 <Layers className="w-3.5 h-3.5 text-amber-300" />
-                <span>🎮 3D Card Deck</span>
+                <span>🎮 3D Deck</span>
               </button>
               <button
                 onClick={() => {
                   setViewMode("grid");
                   soundFx.playPop();
                 }}
-                className={`flex items-center gap-2 px-4 py-2 rounded-full font-bold transition-all duration-200 ${
+                className={`flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-full font-bold transition-all duration-200 text-xs ${
                   viewMode === "grid"
-                    ? "bg-black text-white shadow-md scale-102"
+                    ? "bg-[#528663] text-white shadow-md shadow-[#528663]/30 scale-102"
                     : "text-gray-600 hover:text-black"
                 }`}
               >
-                <LayoutGrid className="w-3.5 h-3.5 text-emerald-400" />
+                <LayoutGrid className="w-3.5 h-3.5 text-emerald-300" />
                 <span>▦ Grid View</span>
               </button>
             </div>
 
             <Link
               href="/shop?category=flavours"
-              className="btn-korigo-primary text-xs uppercase tracking-wider px-6 py-2.5 font-serif hidden sm:flex items-center gap-2"
+              className="btn-korigo-primary text-xs uppercase tracking-wider px-5 py-2 font-serif hidden sm:flex items-center gap-1.5"
             >
               <span>Explore All (35g)</span>
-              <ArrowRight className="w-4 h-4" />
+              <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>
         </div>
 
         {/* 3D Game Card Deck vs 6 Singles Grid */}
-        <div className="mb-16">
+        <div className="mb-8 sm:mb-12">
           {viewMode === "deck" ? (
             <Makhana3DCardDeck />
           ) : (
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6 animate-in fade-in duration-300">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 md:gap-6 animate-in fade-in duration-300">
               {singles.slice(0, 6).map((product) => (
                 <ProductCard key={product.id} product={product} />
               ))}
@@ -94,54 +94,62 @@ export const SingleFlavoursSection: React.FC<SingleFlavoursSectionProps> = ({ pr
           )}
         </div>
 
-        {/* 4 Superfood Benefits Grid with 3D Hover Depth */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-12 border-t border-gray-200">
-          <div className="bg-white p-6 rounded-2xl border border-gray-200/80 hover:border-korigo-green shadow-sm hover:shadow-xl hover:shadow-korigo-green/10 transition-all duration-300 group -translate-y-0 hover:-translate-y-1">
-            <div className="w-12 h-12 rounded-xl bg-korigo-lightGreen flex items-center justify-center text-korigo-green mb-4 group-hover:scale-110 transition-transform">
-              <Flame className="w-6 h-6" />
+        {/* 4 Superfood Benefits Grid with Distinct Crisp Borders in Logo Green (2x2 on Mobile, 4 across on Desktop) */}
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 pt-5 sm:pt-8 border-t border-gray-200">
+          <div className="bg-white p-3.5 sm:p-6 rounded-2xl border-2 border-stone-200 hover:border-[#528663] shadow-sm hover:shadow-md transition-all duration-300 group flex flex-col justify-between">
+            <div>
+              <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-[#eef5f0] border border-[#528663]/30 flex items-center justify-center text-[#528663] mb-2.5 sm:mb-3.5 group-hover:scale-105 transition-transform">
+                <Flame className="w-4 h-4 sm:w-5 sm:h-5" />
+              </div>
+              <h3 className="font-serif font-bold text-xs sm:text-base text-black mb-1 group-hover:text-[#528663] transition-colors leading-snug">
+                100% Slow-Roasted
+              </h3>
+              <p className="text-[11px] sm:text-xs text-gray-600 leading-relaxed font-serif">
+                Never fried. Gently slow-roasted over low heat for crispness with 0% palm oil.
+              </p>
             </div>
-            <h3 className="font-serif font-bold text-base text-black mb-1 group-hover:text-korigo-green transition-colors">
-              100% Slow-Roasted
-            </h3>
-            <p className="text-xs text-gray-500 leading-relaxed font-serif">
-              Never fried. Gently slow-roasted over low heat to lock in natural crispiness without greasy palm oils.
-            </p>
           </div>
 
-          <div className="bg-white p-6 rounded-2xl border border-gray-200/80 hover:border-korigo-green shadow-sm hover:shadow-xl hover:shadow-korigo-green/10 transition-all duration-300 group -translate-y-0 hover:-translate-y-1">
-            <div className="w-12 h-12 rounded-xl bg-korigo-lightGreen flex items-center justify-center text-korigo-green mb-4 group-hover:scale-110 transition-transform">
-              <Sparkles className="w-6 h-6" />
+          <div className="bg-white p-3.5 sm:p-6 rounded-2xl border-2 border-stone-200 hover:border-[#528663] shadow-sm hover:shadow-md transition-all duration-300 group flex flex-col justify-between">
+            <div>
+              <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-[#eef5f0] border border-[#528663]/30 flex items-center justify-center text-[#528663] mb-2.5 sm:mb-3.5 group-hover:scale-105 transition-transform">
+                <Sparkles className="w-4 h-4 sm:w-5 sm:h-5" />
+              </div>
+              <h3 className="font-serif font-bold text-xs sm:text-base text-black mb-1 group-hover:text-[#528663] transition-colors leading-snug">
+                High Plant Protein
+              </h3>
+              <p className="text-[11px] sm:text-xs text-gray-600 leading-relaxed font-serif">
+                Provides nearly 10g natural plant protein per 100g for sustained fullness.
+              </p>
             </div>
-            <h3 className="font-serif font-bold text-base text-black mb-1 group-hover:text-korigo-green transition-colors">
-              High Plant Protein
-            </h3>
-            <p className="text-xs text-gray-500 leading-relaxed font-serif">
-              Provides nearly 10g of natural plant-based protein per 100g, supporting sustained energy and healthy fullness.
-            </p>
           </div>
 
-          <div className="bg-white p-6 rounded-2xl border border-gray-200/80 hover:border-korigo-green shadow-sm hover:shadow-xl hover:shadow-korigo-green/10 transition-all duration-300 group -translate-y-0 hover:-translate-y-1">
-            <div className="w-12 h-12 rounded-xl bg-korigo-lightGreen flex items-center justify-center text-korigo-green mb-4 group-hover:scale-110 transition-transform">
-              <Heart className="w-6 h-6" />
+          <div className="bg-white p-3.5 sm:p-6 rounded-2xl border-2 border-stone-200 hover:border-[#528663] shadow-sm hover:shadow-md transition-all duration-300 group flex flex-col justify-between">
+            <div>
+              <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-[#eef5f0] border border-[#528663]/30 flex items-center justify-center text-[#528663] mb-2.5 sm:mb-3.5 group-hover:scale-105 transition-transform">
+                <Heart className="w-4 h-4 sm:w-5 sm:h-5" />
+              </div>
+              <h3 className="font-serif font-bold text-xs sm:text-base text-black mb-1 group-hover:text-[#528663] transition-colors leading-snug">
+                Heart & Low GI
+              </h3>
+              <p className="text-[11px] sm:text-xs text-gray-600 leading-relaxed font-serif">
+                Naturally low in sodium, zero cholesterol, and low glycemic load for smart snacking.
+              </p>
             </div>
-            <h3 className="font-serif font-bold text-base text-black mb-1 group-hover:text-korigo-green transition-colors">
-              Heart-Friendly & Low GI
-            </h3>
-            <p className="text-xs text-gray-500 leading-relaxed font-serif">
-              Naturally low in sodium, zero cholesterol, and low glycemic load — the ideal smart snack for active lifestyles.
-            </p>
           </div>
 
-          <div className="bg-white p-6 rounded-2xl border border-gray-200/80 hover:border-korigo-green shadow-sm hover:shadow-xl hover:shadow-korigo-green/10 transition-all duration-300 group -translate-y-0 hover:-translate-y-1">
-            <div className="w-12 h-12 rounded-xl bg-korigo-lightGreen flex items-center justify-center text-korigo-green mb-4 group-hover:scale-110 transition-transform">
-              <ShieldCheck className="w-6 h-6" />
+          <div className="bg-white p-3.5 sm:p-6 rounded-2xl border-2 border-stone-200 hover:border-[#528663] shadow-sm hover:shadow-md transition-all duration-300 group flex flex-col justify-between">
+            <div>
+              <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-[#eef5f0] border border-[#528663]/30 flex items-center justify-center text-[#528663] mb-2.5 sm:mb-3.5 group-hover:scale-105 transition-transform">
+                <ShieldCheck className="w-4 h-4 sm:w-5 sm:h-5" />
+              </div>
+              <h3 className="font-serif font-bold text-xs sm:text-base text-black mb-1 group-hover:text-[#528663] transition-colors leading-snug">
+                Clean Ingredients
+              </h3>
+              <p className="text-[11px] sm:text-xs text-gray-600 leading-relaxed font-serif">
+                Real spices, zero chemical preservatives, no artificial colors, 100% vegetarian.
+              </p>
             </div>
-            <h3 className="font-serif font-bold text-base text-black mb-1 group-hover:text-korigo-green transition-colors">
-              Clean Ingredients
-            </h3>
-            <p className="text-xs text-gray-500 leading-relaxed font-serif">
-              Real spices, no chemical preservatives, no artificial food colors, and 100% vegetarian goodness in every pack.
-            </p>
           </div>
         </div>
       </div>

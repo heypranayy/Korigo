@@ -43,7 +43,7 @@ interface CarouselSliderProps {
 export const DEFAULT_SLIDES: Slide[] = [
   {
     id: 1,
-    img: "/assets/korigo/products/white_front_ssasy_siracha.png",
+    img: "/assets/korigo/products/transparent_sassy_sriracha.png",
     title: "Sassy Sriracha",
     subtitle: "Fiery Chilli • Smoky Garlic",
     price: "₹99",
@@ -54,7 +54,7 @@ export const DEFAULT_SLIDES: Slide[] = [
   },
   {
     id: 2,
-    img: "/assets/korigo/products/white_front_garlicked_cheese.png",
+    img: "/assets/korigo/products/transparent_garlicked_cheese.png",
     title: "Garlicked Cheese",
     subtitle: "Aged Cheddar • Golden Garlic",
     price: "₹99",
@@ -65,7 +65,7 @@ export const DEFAULT_SLIDES: Slide[] = [
   },
   {
     id: 3,
-    img: "/assets/korigo/products/white_front_citrus_cirtel.png",
+    img: "/assets/korigo/products/transparent_citrus_cartel.png",
     title: "Citrus Cartel",
     subtitle: "Zesty Lime • Crushed Mint",
     price: "₹99",
@@ -76,7 +76,7 @@ export const DEFAULT_SLIDES: Slide[] = [
   },
   {
     id: 4,
-    img: "/assets/korigo/products/white_front.png",
+    img: "/assets/korigo/products/transparent_creme_onion.png",
     title: "Sour Crème d' Onion",
     subtitle: "French Herbs • Velvet Cream",
     price: "₹99",
@@ -87,7 +87,7 @@ export const DEFAULT_SLIDES: Slide[] = [
   },
   {
     id: 5,
-    img: "/assets/korigo/products/white_front_cinemon_drip.png",
+    img: "/assets/korigo/products/transparent_cinnamon_drip.png",
     title: "Cinnamon Drip",
     subtitle: "Ceylon Cinnamon • Caramel Glaze",
     price: "₹99",
@@ -98,7 +98,7 @@ export const DEFAULT_SLIDES: Slide[] = [
   },
   {
     id: 6,
-    img: "/assets/korigo/products/white_front_coco_island.png",
+    img: "/assets/korigo/products/transparent_coco_island.png",
     title: "Coco Island",
     subtitle: "Toasted Coconut • Vanilla Drift",
     price: "₹99",
@@ -213,17 +213,17 @@ export const CarouselSlider: React.FC<CarouselSliderProps> = ({
             dragConstraints={{ left: 0, right: 0 }}
             style={{ rotate, x: dragX }}
             onDragEnd={handleDragEnd}
-            className={`absolute w-full h-full bg-[#FDFDFD] dark:bg-zinc-900 rounded-[40px] p-2.5 shadow-[0_20px_50px_rgba(0,0,0,0.18)] border-[1.6px] border-[#E6E6EA] dark:border-zinc-800 overflow-hidden cursor-grab active:cursor-grabbing will-change-transform ${cardClassName}`}
+            className={`absolute w-full h-full bg-white rounded-[40px] p-2.5 shadow-[0_20px_50px_rgba(82,134,99,0.18)] border-2 border-[#528663]/30 overflow-hidden cursor-grab active:cursor-grabbing will-change-transform ${cardClassName}`}
           >
-            <div className="w-full h-full rounded-[32px] overflow-hidden bg-gradient-to-b from-[#f8faf8] via-[#f1f5f2] to-[#e7ece8] dark:from-zinc-950 dark:to-zinc-900 relative flex flex-col justify-between p-4">
+            <div className="w-full h-full rounded-[32px] overflow-hidden bg-gradient-to-b from-white via-[#f7faf8] to-[#eef5f0] border border-[#528663]/15 relative flex flex-col justify-between p-4">
               {/* Top Tag & Like Button */}
               <div className="flex items-center justify-between z-10">
                 {currentSlide.badge ? (
-                  <span className="text-[10px] font-mono font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-white/90 dark:bg-black/60 shadow-sm border border-black/5 text-gray-800 dark:text-gray-200">
+                  <span className="text-[10px] font-mono font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#528663] text-white shadow-sm border border-[#467655]">
                     {currentSlide.badge}
                   </span>
                 ) : (
-                  <span className="text-[10px] font-mono font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-black/5 text-gray-500">
+                  <span className="text-[10px] font-mono font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-[#528663]/10 text-[#528663] border border-[#528663]/20">
                     SLIDE {String(index + 1).padStart(2, "0")}
                   </span>
                 )}
@@ -233,11 +233,11 @@ export const CarouselSlider: React.FC<CarouselSliderProps> = ({
                   type="button"
                   title="Favourite"
                   onClick={(e) => toggleLike(currentSlide.id, e)}
-                  className="w-10 h-10 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-md rounded-full flex items-center justify-center shadow-md border border-white/40 active:scale-90 transition-transform"
+                  className="w-10 h-10 bg-white/95 backdrop-blur-md rounded-full flex items-center justify-center shadow-md border border-[#528663]/25 active:scale-90 transition-transform"
                 >
                   {favouriteIcon ? (
                     favouriteIcon({
-                      className: "text-[#2b2b2b] dark:text-white/90",
+                      className: "text-[#528663]",
                       isLiked: !!liked[currentSlide.id],
                     })
                   ) : (
@@ -245,7 +245,7 @@ export const CarouselSlider: React.FC<CarouselSliderProps> = ({
                       className={`w-5 h-5 transition-colors ${
                         liked[currentSlide.id]
                           ? "fill-red-500 text-red-500"
-                          : "text-[#2b2b2b] dark:text-white/90"
+                          : "text-[#528663]"
                       }`}
                     />
                   )}
@@ -264,30 +264,30 @@ export const CarouselSlider: React.FC<CarouselSliderProps> = ({
                   <img
                     src={currentSlide.img}
                     alt={currentSlide.title || ""}
-                    className="object-contain max-h-full max-w-full drop-shadow-[0_15px_25px_rgba(0,0,0,0.3)] filter brightness-105"
+                    className="object-contain max-h-full max-w-full drop-shadow-[0_20px_35px_rgba(82,134,99,0.25)] filter brightness-105"
                   />
                 </div>
               </div>
 
-              {/* Bottom Details Card (if enabled) */}
+              {/* Bottom Details Card */}
               {showCardDetails && currentSlide.title && (
-                <div className="z-10 rounded-[22px] bg-white/95 dark:bg-zinc-900/90 backdrop-blur-md p-3.5 border border-white/60 shadow-lg text-black dark:text-white">
-                  <div className="flex items-center justify-between text-[9px] font-mono uppercase tracking-wider text-gray-400 mb-0.5">
-                    <span>{currentSlide.tag || "ROASTED SUPERFOOD"}</span>
-                    <span className="font-bold text-korigo-darkGreen">
+                <div className="z-10 rounded-[22px] bg-white/95 backdrop-blur-md p-3.5 border border-[#528663]/20 shadow-lg text-black">
+                  <div className="flex items-center justify-between text-[9px] font-mono uppercase tracking-wider text-gray-500 mb-0.5">
+                    <span className="font-semibold">{currentSlide.tag || "ROASTED SUPERFOOD"}</span>
+                    <span className="font-bold text-[#528663]">
                       STARTING
                     </span>
                   </div>
                   <div className="flex items-baseline justify-between">
-                    <h3 className="font-serif text-lg font-black tracking-tight">
+                    <h3 className="font-serif text-lg font-black tracking-tight text-black">
                       {currentSlide.title}
                     </h3>
-                    <span className="font-serif text-base font-black text-black dark:text-white">
+                    <span className="font-serif text-base font-black text-black">
                       {currentSlide.price || "₹99"}
                     </span>
                   </div>
                   {currentSlide.subtitle && (
-                    <p className="text-[10px] text-gray-500 dark:text-gray-400 font-serif line-clamp-1 mt-0.5">
+                    <p className="text-[10px] text-gray-600 font-serif line-clamp-1 mt-0.5">
                       {currentSlide.subtitle}
                     </p>
                   )}
@@ -298,10 +298,10 @@ export const CarouselSlider: React.FC<CarouselSliderProps> = ({
         </AnimatePresence>
 
         {/* Background Stacked Card 1 (Behind) */}
-        <div className="absolute -z-10 w-[95%] h-[95%] bg-white dark:bg-zinc-800 rounded-[40px] border-[5px] border-white dark:border-zinc-700 shadow-md scale-95 opacity-60 -rotate-[2deg] translate-x-2 translate-y-2 pointer-events-none" />
+        <div className="absolute -z-10 w-[95%] h-[95%] bg-white rounded-[40px] border-[4px] border-[#528663]/20 shadow-md scale-95 opacity-80 -rotate-[2deg] translate-x-2 translate-y-2 pointer-events-none" />
 
         {/* Background Stacked Card 2 (Far Behind) */}
-        <div className="absolute -z-20 w-[90%] h-[90%] bg-zinc-100 dark:bg-zinc-900 rounded-[40px] border-[4px] border-white/80 dark:border-zinc-800 scale-90 opacity-40 rotate-[3deg] translate-x-4 translate-y-4 pointer-events-none" />
+        <div className="absolute -z-20 w-[90%] h-[90%] bg-[#eef5f0] rounded-[40px] border-[3px] border-[#528663]/15 scale-90 opacity-60 rotate-[3deg] translate-x-4 translate-y-4 pointer-events-none" />
       </div>
 
       {/* Pagination Dots at -rotate-[6deg] */}
@@ -320,7 +320,7 @@ export const CarouselSlider: React.FC<CarouselSliderProps> = ({
             }}
             className={`h-2.5 rounded-full cursor-pointer transition-all ${
               i === index
-                ? "w-7 bg-black dark:bg-white"
+                ? "w-7 bg-[#528663] shadow-sm shadow-[#528663]/40"
                 : "w-2.5 bg-[#CCC7B8] hover:bg-gray-400"
             }`}
             onClick={() => {

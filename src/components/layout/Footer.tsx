@@ -7,7 +7,7 @@ import { Mail, MapPin, ShieldCheck, Heart } from "lucide-react";
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="bg-gradient-to-b from-[#467655] to-[#3a794a] text-white pt-16 pb-8 border-t border-[#528663] shadow-inner">
+    <footer className="bg-gradient-to-b from-[#528663] via-[#467655] to-[#3b6649] text-white pt-16 pb-8 border-t border-[#68a07a]/40 shadow-inner">
       <div className="max-w-[1440px] mx-auto px-4 md:px-8">
         {/* Top Newsletter Row */}
         <div className="border-b border-white/15 pb-12 mb-12">
@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
               />
               <button
                 type="submit"
-                className="bg-white hover:bg-neutral-100 text-[#3a794a] px-6 py-3 text-sm font-bold uppercase tracking-wider transition font-serif rounded-lg shadow-md hover:scale-102 active:scale-98"
+                className="bg-white hover:bg-[#eef5f0] text-[#467655] px-6 py-3 text-sm font-bold uppercase tracking-wider transition font-serif rounded-lg shadow-md hover:scale-102 active:scale-98"
               >
                 Subscribe
               </button>

@@ -46,97 +46,143 @@ export const SuperfoodComparison: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 md:py-28 bg-gradient-to-b from-[#04260c] via-korigo-deepForest to-[#031c09] text-white relative overflow-hidden">
+    <section className="py-10 sm:py-16 md:py-20 bg-gradient-to-b from-[#1b3523] via-[#24462f] to-[#162c1d] text-white relative overflow-hidden border-b border-[#2d5539]">
       {/* 3D Atmospheric Glowing Orbs */}
-      <div className="absolute top-1/4 -left-20 w-96 h-96 rounded-full bg-korigo-green/20 blur-3xl pointer-events-none" />
-      <div className="absolute bottom-1/4 -right-20 w-96 h-96 rounded-full bg-emerald-400/15 blur-3xl pointer-events-none" />
+      <div className="absolute top-1/4 -left-20 w-80 h-80 rounded-full bg-amber-500/10 blur-3xl pointer-events-none" />
+      <div className="absolute bottom-1/4 -right-20 w-80 h-80 rounded-full bg-emerald-500/10 blur-3xl pointer-events-none" />
 
       <div className="max-w-[1440px] mx-auto px-4 md:px-8 relative z-10">
         {/* Editorial Heading */}
-        <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-korigo-green/20 border border-korigo-emerald/30 text-emerald-300 text-xs font-bold uppercase tracking-widest mb-4">
-            <Sparkles className="w-4 h-4 text-emerald-400" />
+        <div className="max-w-3xl mx-auto text-center mb-8 sm:mb-12">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-300 text-[11px] sm:text-xs font-bold uppercase tracking-widest mb-3">
+            <Sparkles className="w-3.5 h-3.5 text-amber-400" />
             <span>Why Smart Snackers Choose Korigo</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-white mb-6 leading-tight">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl font-serif font-bold text-white mb-3 sm:mb-4 leading-tight">
             Roasted Foxnut Superfood vs. <br className="hidden sm:inline" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-emerald-100 to-green-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-white to-amber-300">
               Traditional Fried Chips
             </span>
           </h2>
-          <p className="text-emerald-100/80 text-sm md:text-base font-serif leading-relaxed">
+          <p className="text-gray-300 text-xs sm:text-sm md:text-base font-serif leading-relaxed max-w-2xl mx-auto">
             See how Korigo's authentic slow-roasted makhana outperforms old-school fried snacks in every nutritional category — delivering maximum crunch with zero guilt.
           </p>
         </div>
 
         {/* 3D Elevated Comparison Matrix */}
         <div className="max-w-5xl mx-auto">
-          <TiltCard3D maxRotation={6} scale={1.01} className="w-full">
-            <div className="bg-white/5 backdrop-blur-xl rounded-3xl border border-korigo-green/30 shadow-2xl p-6 sm:p-10 relative overflow-hidden">
-              {/* Card Header Comparison Labels */}
-              <div className="grid grid-cols-12 gap-4 pb-6 mb-6 border-b border-white/10 items-center">
-                <div className="col-span-4 sm:col-span-4 text-xs sm:text-sm font-bold uppercase tracking-wider text-emerald-300 font-sans">
-                  Nutritional Metric
-                </div>
-                <div className="col-span-4 sm:col-span-4 text-center">
-                  <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-korigo-green text-white text-xs font-bold uppercase tracking-wider shadow-lg shadow-korigo-green/30">
-                    <Award className="w-3.5 h-3.5 text-amber-300" />
-                    <span>Korigo Makhana</span>
+          <TiltCard3D maxTilt={4} scale={1.01} className="w-full">
+            <div className="bg-white/5 backdrop-blur-xl rounded-3xl border border-white/10 shadow-2xl p-4 sm:p-8 md:p-10 relative overflow-hidden">
+              {/* DESKTOP TABLE VIEW */}
+              <div className="hidden md:block">
+                {/* Card Header Comparison Labels */}
+                <div className="grid grid-cols-12 gap-4 pb-4 mb-4 border-b border-white/10 items-center">
+                  <div className="col-span-4 text-xs font-bold uppercase tracking-wider text-amber-300 font-sans">
+                    Nutritional Metric
+                  </div>
+                  <div className="col-span-4 text-center">
+                    <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-to-r from-[#528663] to-[#416f4f] text-white text-xs font-bold uppercase tracking-wider shadow-lg">
+                      <Award className="w-3.5 h-3.5 text-amber-300" />
+                      <span>Korigo Makhana</span>
+                    </div>
+                  </div>
+                  <div className="col-span-4 text-center">
+                    <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-neutral-800 text-neutral-400 text-xs font-bold uppercase tracking-wider">
+                      <span>Fried Chips</span>
+                    </div>
                   </div>
                 </div>
-                <div className="col-span-4 sm:col-span-4 text-center">
-                  <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-neutral-800 text-neutral-400 text-xs font-bold uppercase tracking-wider">
+
+                {/* Desktop Rows */}
+                <div className="space-y-3">
+                  {comparisonData.map((row, idx) => (
+                    <div
+                      key={idx}
+                      className="grid grid-cols-12 gap-4 items-center p-3 rounded-xl hover:bg-white/5 transition-colors border border-transparent hover:border-white/5"
+                    >
+                      {/* Metric Name */}
+                      <div className="col-span-4 font-serif font-semibold text-white text-sm">
+                        {row.metric}
+                      </div>
+
+                      {/* Korigo Value (Winner in Logo Green) */}
+                      <div className="col-span-4 flex items-center justify-center gap-2 text-center bg-[#528663]/20 py-2 px-3 rounded-xl border border-[#528663]/40">
+                        <div className="w-5 h-5 rounded-full bg-[#528663] text-white flex items-center justify-center flex-shrink-0 shadow-sm">
+                          <Check className="w-3 h-3 stroke-[3]" />
+                        </div>
+                        <span className="font-serif text-xs font-bold text-white">
+                          {row.korigo}
+                        </span>
+                      </div>
+
+                      {/* Regular Chips Value (Deficit) */}
+                      <div className="col-span-4 flex items-center justify-center gap-2 text-center bg-red-950/20 py-2 px-3 rounded-xl border border-red-500/10">
+                        <div className="w-5 h-5 rounded-full bg-red-900/60 text-red-300 flex items-center justify-center flex-shrink-0">
+                          <X className="w-3 h-3 stroke-[2.5]" />
+                        </div>
+                        <span className="font-serif text-xs text-neutral-400">
+                          {row.chips}
+                        </span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* MOBILE OPTIMIZED COMPARISON MATRIX (Crisp, Soothing, Side-by-Side in Logo Green) */}
+              <div className="block md:hidden">
+                {/* Mobile Column Headers */}
+                <div className="grid grid-cols-2 gap-2 mb-3 text-center">
+                  <div className="py-2 px-2.5 rounded-xl bg-gradient-to-r from-[#528663] to-[#416f4f] text-white font-serif text-[11px] font-bold shadow-sm flex items-center justify-center gap-1">
+                    <Check className="w-3.5 h-3.5 stroke-[3] text-amber-300" />
+                    <span>Korigo Makhana</span>
+                  </div>
+                  <div className="py-2 px-2.5 rounded-xl bg-white/10 text-neutral-400 font-serif text-[11px] font-semibold flex items-center justify-center gap-1">
+                    <X className="w-3.5 h-3.5 text-red-400" />
                     <span>Fried Chips</span>
                   </div>
                 </div>
-              </div>
 
-              {/* Rows */}
-              <div className="space-y-4">
-                {comparisonData.map((row, idx) => (
-                  <div
-                    key={idx}
-                    className="grid grid-cols-12 gap-4 items-center p-3.5 sm:p-4 rounded-xl hover:bg-white/5 transition-colors border border-transparent hover:border-white/5"
-                  >
-                    {/* Metric Name */}
-                    <div className="col-span-4 sm:col-span-4 font-serif font-semibold text-white text-xs sm:text-sm">
-                      {row.metric}
-                    </div>
-
-                    {/* Korigo Value (Winner) */}
-                    <div className="col-span-4 sm:col-span-4 flex items-center justify-center gap-2 text-center bg-korigo-green/15 py-2.5 px-3 rounded-xl border border-korigo-green/30">
-                      <div className="w-5 h-5 rounded-full bg-korigo-green text-white flex items-center justify-center flex-shrink-0 shadow-sm">
-                        <Check className="w-3.5 h-3.5 stroke-[3]" />
+                {/* Mobile Comparative Rows */}
+                <div className="space-y-2">
+                  {comparisonData.map((row, idx) => (
+                    <div
+                      key={idx}
+                      className="p-2.5 rounded-xl bg-white/5 border border-white/10"
+                    >
+                      <div className="text-[10px] font-mono uppercase font-bold text-amber-300/90 text-center mb-1.5 tracking-wider">
+                        {row.metric}
                       </div>
-                      <span className="font-serif text-xs sm:text-sm font-bold text-emerald-200">
-                        {row.korigo}
-                      </span>
-                    </div>
-
-                    {/* Regular Chips Value (Deficit) */}
-                    <div className="col-span-4 sm:col-span-4 flex items-center justify-center gap-2 text-center bg-red-950/20 py-2.5 px-3 rounded-xl border border-red-500/10">
-                      <div className="w-5 h-5 rounded-full bg-red-900/60 text-red-300 flex items-center justify-center flex-shrink-0">
-                        <X className="w-3.5 h-3.5 stroke-[2.5]" />
+                      <div className="grid grid-cols-2 gap-2 items-stretch">
+                        <div className="p-2 rounded-lg bg-[#528663]/25 border border-[#528663]/40 flex items-center gap-1.5 text-left">
+                          <Check className="w-3 h-3 stroke-[3] text-[#68a07a] flex-shrink-0" />
+                          <span className="font-serif text-[11px] font-bold text-white leading-tight">
+                            {row.korigo}
+                          </span>
+                        </div>
+                        <div className="p-2 rounded-lg bg-neutral-900/50 border border-neutral-700/30 flex items-center gap-1.5 text-left">
+                          <X className="w-3 h-3 text-red-400 flex-shrink-0" />
+                          <span className="font-serif text-[11px] text-neutral-400 leading-tight">
+                            {row.chips}
+                          </span>
+                        </div>
                       </div>
-                      <span className="font-serif text-xs sm:text-sm text-neutral-400">
-                        {row.chips}
-                      </span>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
 
               {/* Bottom 3D CRO Guarantee Footer */}
-              <div className="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
-                <div className="flex items-center gap-3 text-center sm:text-left">
-                  <div className="w-10 h-10 rounded-full bg-emerald-500/20 flex items-center justify-center text-emerald-400">
-                    <Flame className="w-5 h-5" />
+              <div className="mt-6 pt-5 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3">
+                <div className="flex items-center gap-2.5 text-center sm:text-left">
+                  <div className="w-9 h-9 rounded-full bg-amber-500/20 flex items-center justify-center text-amber-400 flex-shrink-0">
+                    <Flame className="w-4 h-4" />
                   </div>
                   <div>
-                    <h4 className="font-serif font-bold text-sm text-white">
+                    <h4 className="font-serif font-bold text-xs sm:text-sm text-white">
                       100% Satisfaction Guarantee
                     </h4>
-                    <p className="text-xs text-emerald-200/70">
+                    <p className="text-[11px] text-gray-400">
                       Loved by 2,800+ health enthusiasts across India.
                     </p>
                   </div>
@@ -144,10 +190,10 @@ export const SuperfoodComparison: React.FC = () => {
 
                 <Link
                   href="/shop"
-                  className="px-8 py-3.5 rounded-full bg-gradient-to-r from-emerald-400 to-korigo-green text-black hover:text-white font-bold font-serif text-xs uppercase tracking-wider transition-all shadow-xl shadow-emerald-500/20 hover:shadow-emerald-500/40 hover:scale-105 active:scale-95 flex items-center gap-2"
+                  className="w-full sm:w-auto px-6 py-3 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 text-black hover:brightness-110 font-bold font-serif text-xs uppercase tracking-wider transition-all shadow-lg flex items-center justify-center gap-2"
                 >
                   <span>Experience The Crunch</span>
-                  <ArrowRight className="w-4 h-4" />
+                  <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
               </div>
             </div>

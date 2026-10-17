@@ -42,7 +42,7 @@ export const HeroBanner: React.FC = () => {
       price: "₹99",
       id: 133,
       slug: "sassy-sriracha",
-      packImg: "/assets/korigo/products/white_front_ssasy_siracha.png",
+      packImg: "/assets/korigo/products/transparent_sassy_sriracha.png",
       glowColor: "rgba(227, 49, 49, 0.55)",
       bgGradient: "from-[#2b0707] via-[#170505] to-[#0d0202]",
       colorHex: "#e33131",
@@ -57,7 +57,7 @@ export const HeroBanner: React.FC = () => {
       price: "₹99",
       id: 131,
       slug: "garlicked-cheese-makhana",
-      packImg: "/assets/korigo/products/white_front_garlicked_cheese.png",
+      packImg: "/assets/korigo/products/transparent_garlicked_cheese.png",
       glowColor: "rgba(245, 158, 11, 0.55)",
       bgGradient: "from-[#291703] via-[#170e02] to-[#0c0701]",
       colorHex: "#f59e0b",
@@ -72,7 +72,7 @@ export const HeroBanner: React.FC = () => {
       price: "₹99",
       id: 128,
       slug: "citrus-cartel-makhana",
-      packImg: "/assets/korigo/products/white_front_citrus_cirtel.png",
+      packImg: "/assets/korigo/products/transparent_citrus_cartel.png",
       glowColor: "rgba(20, 143, 44, 0.6)",
       bgGradient: "from-[#082910] via-[#041708] to-[#020d04]",
       colorHex: "#148f2c",
@@ -87,7 +87,7 @@ export const HeroBanner: React.FC = () => {
       price: "₹99",
       id: 130,
       slug: "creme-d-onion-makhana",
-      packImg: "/assets/korigo/products/white_front.png",
+      packImg: "/assets/korigo/products/transparent_creme_onion.png",
       glowColor: "rgba(16, 185, 129, 0.55)",
       bgGradient: "from-[#042416] via-[#02170e] to-[#010e08]",
       colorHex: "#10b981",
@@ -102,7 +102,7 @@ export const HeroBanner: React.FC = () => {
       price: "₹99",
       id: 129,
       slug: "cinnamon-drip",
-      packImg: "/assets/korigo/products/white_front_cinemon_drip.png",
+      packImg: "/assets/korigo/products/transparent_cinnamon_drip.png",
       glowColor: "rgba(217, 119, 6, 0.55)",
       bgGradient: "from-[#281504] via-[#170c02] to-[#0d0601]",
       colorHex: "#d97706",
@@ -117,7 +117,7 @@ export const HeroBanner: React.FC = () => {
       price: "₹99",
       id: 132,
       slug: "coco-world-makhana",
-      packImg: "/assets/korigo/products/white_front_coco_island.png",
+      packImg: "/assets/korigo/products/transparent_coco_island.png",
       glowColor: "rgba(56, 189, 248, 0.55)",
       bgGradient: "from-[#071f2c] via-[#031118] to-[#01090d]",
       colorHex: "#38bdf8",
@@ -177,23 +177,23 @@ export const HeroBanner: React.FC = () => {
   };
 
   return (
-    <div className="relative w-full overflow-hidden bg-gradient-to-b from-[#3a794a] via-[#467655] to-[#3a794a] text-white">
+    <div className="relative w-full overflow-hidden bg-gradient-to-b from-[#1b3523] via-[#24462f] to-[#162c1d] text-white">
       {/* Interactive 3D Floating Makhana Field (Click-to-Pop Physics) */}
       <FloatingMakhanaField />
 
       {/* Top Controller Bar: Slide Mode Switcher & Audio Toggle */}
-      <div className="max-w-[1260px] mx-auto px-4 pt-6 pb-2 relative z-30 flex items-center justify-between">
+      <div className="max-w-[1260px] mx-auto px-3 sm:px-6 pt-3 sm:pt-6 pb-2 relative z-30 flex items-center justify-between gap-2">
         {/* Mode Selector Tabs */}
-        <div className="flex items-center gap-1.5 p-1 bg-black/40 backdrop-blur-md rounded-full border border-white/10 text-xs font-serif">
+        <div className="flex items-center gap-1 p-1 bg-white/10 backdrop-blur-md rounded-full border border-white/15 text-[10px] sm:text-xs font-serif shadow-lg overflow-x-auto no-scrollbar">
           <button
             onClick={() => {
               setActiveSlide("punch");
               soundFx.playPop();
             }}
-            className={`px-3.5 py-1.5 rounded-full font-bold transition-all duration-200 ${
+            className={`px-2.5 sm:px-4 py-1 sm:py-1.5 rounded-full font-bold transition-all duration-200 whitespace-nowrap ${
               activeSlide === "punch"
-                ? "bg-korigo-green text-white shadow-glow-green"
-                : "text-gray-300 hover:text-white"
+                ? "bg-gradient-to-r from-amber-500 to-amber-600 text-black font-black shadow-[0_0_15px_rgba(245,158,11,0.5)]"
+                : "text-gray-200 hover:text-white"
             }`}
           >
             🔥 The Crunch
@@ -203,14 +203,14 @@ export const HeroBanner: React.FC = () => {
               setActiveSlide("space");
               soundFx.playPop();
             }}
-            className={`px-3.5 py-1.5 rounded-full font-bold transition-all duration-200 flex items-center gap-1.5 ${
+            className={`px-2.5 sm:px-4 py-1 sm:py-1.5 rounded-full font-bold transition-all duration-200 flex items-center gap-1 whitespace-nowrap ${
               activeSlide === "space"
                 ? "bg-purple-600 text-white shadow-[0_0_20px_rgba(168,85,247,0.5)]"
-                : "text-gray-300 hover:text-white"
+                : "text-gray-200 hover:text-white"
             }`}
           >
             <span>🪐 Flavour Space</span>
-            <span className="hidden sm:inline text-[10px] bg-white/20 px-1.5 py-0.2 rounded-full">
+            <span className="hidden md:inline text-[9px] bg-white/20 px-1.5 py-0.2 rounded-full">
               6 Planets
             </span>
           </button>
@@ -219,26 +219,26 @@ export const HeroBanner: React.FC = () => {
               setActiveSlide("combo");
               soundFx.playPop();
             }}
-            className={`px-3.5 py-1.5 rounded-full font-bold transition-all duration-200 ${
+            className={`px-2.5 sm:px-4 py-1 sm:py-1.5 rounded-full font-bold transition-all duration-200 whitespace-nowrap ${
               activeSlide === "combo"
                 ? "bg-amber-500 text-black font-extrabold shadow-[0_0_20px_rgba(245,158,11,0.5)]"
-                : "text-gray-300 hover:text-white"
+                : "text-gray-200 hover:text-white"
             }`}
           >
-            🎁 Dual Combos
+            🎁 Combos
           </button>
         </div>
 
         {/* Audio Crunch Sound Toggle */}
         <button
           onClick={toggleSound}
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-serif bg-white/10 hover:bg-white/20 border border-white/15 transition backdrop-blur-md text-emerald-200"
+          className="flex-shrink-0 flex items-center gap-1.5 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full text-[10px] sm:text-xs font-serif bg-white/10 hover:bg-white/20 border border-white/15 transition backdrop-blur-md text-amber-200"
           title={isMuted ? "Unmute Crunch Sound" : "Mute Sound"}
         >
           {isMuted ? (
             <VolumeX className="w-3.5 h-3.5 text-red-400" />
           ) : (
-            <Volume2 className="w-3.5 h-3.5 text-emerald-400 animate-pulse" />
+            <Volume2 className="w-3.5 h-3.5 text-amber-400 animate-pulse" />
           )}
           <span className="hidden sm:inline">{isMuted ? "Sound: Off" : "Crunch FX: On"}</span>
         </button>
@@ -248,9 +248,9 @@ export const HeroBanner: React.FC = () => {
           SLIDE 1: "THE CRUNCH THAT MAKES YOU POP!" (Interactive 6-Flavour Showcase)
           ========================================================================= */}
       {activeSlide === "punch" && (
-        <section className="relative pt-6 sm:pt-10 pb-16 sm:pb-24 overflow-hidden animate-in fade-in duration-300">
-          {/* Dynamic Background Lighting matching active flavour */}
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#528663]/40 via-[#467655]/80 to-[#3a794a] pointer-events-none" />
+        <section className="relative pt-4 sm:pt-8 pb-12 sm:pb-20 overflow-hidden animate-in fade-in duration-300">
+          {/* Dynamic Background Lighting matching active flavour + botanical logo green base */}
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#528663]/35 via-[#24462f]/90 to-[#162c1d] pointer-events-none" />
           <div
             className="absolute top-1/4 -left-20 w-96 h-96 rounded-full blur-[130px] opacity-35 transition-all duration-700 pointer-events-none"
             style={{ backgroundColor: activeHeroFlavour.colorHex }}
@@ -261,36 +261,170 @@ export const HeroBanner: React.FC = () => {
           />
 
           <div className="max-w-[1260px] mx-auto px-4 sm:px-6 relative z-10">
-            {/* Middle Slide Changer for Mobile (Centered directly above grid on small screens) */}
-            <div className="flex lg:hidden items-center justify-center mb-6">
-              <div className="inline-flex items-center gap-2 p-1.5 bg-black/50 backdrop-blur-md rounded-full border border-white/20 shadow-xl">
-                <button
-                  onClick={prevHeroFlavour}
-                  className="p-2 rounded-full bg-white/15 hover:bg-white/30 active:scale-95 transition text-white"
-                  aria-label="Previous Flavour"
-                >
-                  <ChevronLeft className="w-4 h-4" />
-                </button>
-                <div className="px-2 flex items-center gap-1.5 text-xs font-mono font-bold tracking-wide text-white">
-                  <span
-                    className="w-2.5 h-2.5 rounded-full animate-pulse"
+            {/* =========================================================
+                STREAMLINED MOBILE HERO (< 1024px)
+                ========================================================= */}
+            <div className="block lg:hidden text-center space-y-3 pt-1 pb-2">
+              {/* Rating pill */}
+              <div className="inline-flex items-center gap-1.5 bg-white/10 backdrop-blur-md border border-white/20 px-3 py-1 rounded-full text-[11px] font-serif font-semibold text-white shadow-sm">
+                <div className="flex gap-0.5 text-amber-300">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-3 h-3 fill-amber-300 stroke-amber-300" />
+                  ))}
+                </div>
+                <span>4.9 / 5.0 • 2,400+ Verified Buyers</span>
+              </div>
+
+              {/* Headline */}
+              <h1 className="text-2xl sm:text-3xl font-serif font-black tracking-tight leading-tight text-white">
+                THE CRUNCH THAT <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-white to-amber-300">
+                  MAKES YOU POP!
+                </span>
+              </h1>
+
+              {/* Interactive Packshot Stage on Mobile */}
+              <div
+                onTouchStart={handleTouchStart}
+                onTouchEnd={handleTouchEnd}
+                className="relative max-w-[260px] mx-auto my-1"
+              >
+                <div className="relative aspect-square w-full rounded-3xl bg-gradient-to-b from-white/15 via-[#528663]/25 to-black/30 backdrop-blur-lg border border-[#528663]/40 p-3 shadow-xl flex items-center justify-center overflow-hidden">
+                  {/* Flavour Tag Pill inside stage */}
+                  <div className="absolute top-2.5 left-2.5 z-20">
+                    <span
+                      className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border backdrop-blur-md"
+                      style={{
+                        backgroundColor: `${activeHeroFlavour.colorHex}33`,
+                        color: "#ffffff",
+                        borderColor: `${activeHeroFlavour.colorHex}66`,
+                      }}
+                    >
+                      {activeHeroFlavour.badge}
+                    </span>
+                  </div>
+                  <div className="absolute top-2.5 right-2.5 z-20 text-[10px] font-mono text-amber-200 font-bold">
+                    35g • ₹99
+                  </div>
+
+                  {/* Ambient Glow */}
+                  <div
+                    className="absolute inset-0 rounded-full blur-2xl opacity-60 pointer-events-none"
                     style={{ backgroundColor: activeHeroFlavour.colorHex }}
                   />
-                  <span>
-                    {String(heroFlavourIndex + 1).padStart(2, "0")}/06 • {activeHeroFlavour.name}
-                  </span>
+
+                  {/* Packshot Image */}
+                  <div className="relative w-44 h-44 flex items-center justify-center">
+                    <Image
+                      key={activeHeroFlavour.slug}
+                      src={activeHeroFlavour.packImg}
+                      alt={`Korigo ${activeHeroFlavour.name}`}
+                      fill
+                      priority
+                      className="object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.7)] filter brightness-105"
+                      sizes="220px"
+                    />
+                  </div>
+
+                  {/* Quick prev/next overlay tap buttons on pack */}
+                  <button
+                    onClick={prevHeroFlavour}
+                    className="absolute left-1.5 top-1/2 -translate-y-1/2 p-1.5 rounded-full bg-black/40 hover:bg-black/60 text-white backdrop-blur-sm z-20 active:scale-95"
+                    aria-label="Previous"
+                  >
+                    <ChevronLeft className="w-4 h-4" />
+                  </button>
+                  <button
+                    onClick={nextHeroFlavour}
+                    className="absolute right-1.5 top-1/2 -translate-y-1/2 p-1.5 rounded-full bg-black/40 hover:bg-black/60 text-white backdrop-blur-sm z-20 active:scale-95"
+                    aria-label="Next"
+                  >
+                    <ChevronRight className="w-4 h-4" />
+                  </button>
                 </div>
+
+                {/* Dots indicator directly under packshot */}
+                <div className="flex items-center justify-center gap-1.5 mt-2">
+                  {planets.map((f, i) => (
+                    <button
+                      key={i}
+                      onClick={() => setHeroFlavour(i)}
+                      className={`h-1.5 rounded-full transition-all duration-300 ${
+                        heroFlavourIndex === i ? "w-6" : "w-1.5 bg-white/30"
+                      }`}
+                      style={{
+                        backgroundColor: heroFlavourIndex === i ? f.colorHex : undefined,
+                      }}
+                      aria-label={f.name}
+                    />
+                  ))}
+                </div>
+              </div>
+
+              {/* Active Flavour Info */}
+              <div className="space-y-0.5">
+                <h2 className="text-lg font-serif font-black text-white">
+                  {activeHeroFlavour.name}
+                </h2>
+                <p className="text-[11px] text-amber-200/90 font-serif max-w-xs mx-auto leading-relaxed">
+                  {activeHeroFlavour.tagline}
+                </p>
+              </div>
+
+              {/* 3 Compact Value Badges */}
+              <div className="flex items-center justify-center gap-1.5 flex-wrap pt-0.5">
+                <span className="bg-white/10 border border-white/20 text-white text-[10px] px-2 py-0.5 rounded-full flex items-center gap-1 font-serif">
+                  <Flame className="w-3 h-3 text-amber-300" /> Slow-Roasted
+                </span>
+                <span className="bg-white/10 border border-white/20 text-white text-[10px] px-2 py-0.5 rounded-full flex items-center gap-1 font-serif">
+                  <Sparkles className="w-3 h-3 text-amber-300" /> 9.7g Protein
+                </span>
+                <span className="bg-white/10 border border-white/20 text-white text-[10px] px-2 py-0.5 rounded-full flex items-center gap-1 font-serif">
+                  <ShieldCheck className="w-3 h-3 text-amber-300" /> Zero Palm Oil
+                </span>
+              </div>
+
+              {/* Single High-Converting CTA Row */}
+              <div className="flex items-center justify-center gap-2 pt-1 max-w-xs mx-auto">
                 <button
-                  onClick={nextHeroFlavour}
-                  className="p-2 rounded-full bg-white/15 hover:bg-white/30 active:scale-95 transition text-white"
-                  aria-label="Next Flavour"
+                  onClick={() => handleQuickAdd(activeHeroFlavour.id)}
+                  disabled={isAdding || isLoading}
+                  className="btn-korigo-primary flex-1 py-3 text-xs uppercase tracking-wider font-serif shadow-glow-green flex items-center justify-center gap-1.5"
                 >
-                  <ChevronRight className="w-4 h-4" />
+                  <ShoppingBag className="w-3.5 h-3.5" />
+                  <span>{isAdding ? "Adding..." : `Add • ${activeHeroFlavour.price}`}</span>
                 </button>
+                <Link
+                  href={`/products/${activeHeroFlavour.slug}`}
+                  className="px-4 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white text-xs font-serif font-bold uppercase tracking-wider border border-white/20 transition whitespace-nowrap"
+                >
+                  Details →
+                </Link>
+              </div>
+
+              {/* Flavour Chips Scroll Strip */}
+              <div className="pt-1 flex items-center justify-center gap-1.5 overflow-x-auto no-scrollbar py-1">
+                {planets.map((f, i) => (
+                  <button
+                    key={f.id}
+                    onClick={() => setHeroFlavour(i)}
+                    className={`px-2.5 py-1 rounded-full text-[10px] font-serif transition-all duration-200 flex items-center gap-1 flex-shrink-0 ${
+                      heroFlavourIndex === i
+                        ? "bg-white text-black font-extrabold shadow-md scale-105"
+                        : "bg-white/10 text-white hover:bg-white/20 border border-white/15"
+                    }`}
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: f.colorHex }} />
+                    <span>{f.name.split(" ")[0]}</span>
+                  </button>
+                ))}
               </div>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            {/* =========================================================
+                DESKTOP VIEW (>= 1024px)
+                ========================================================= */}
+            <div className="hidden lg:grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
               {/* Left Column: Bold Catchy Punchline & Flavour Info */}
               <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
                 {/* Social Proof Pill */}
@@ -304,7 +438,7 @@ export const HeroBanner: React.FC = () => {
                 </div>
 
                 {/* Main Explosive Headline */}
-                <h1 className="text-4xl sm:text-6xl xl:text-7xl font-serif font-black tracking-tight leading-[1.08] text-white">
+                <h1 className="text-3xl sm:text-5xl xl:text-6xl font-serif font-black tracking-tight leading-[1.1] text-white">
                   THE CRUNCH <br className="hidden sm:inline" />
                   THAT MAKES <br className="hidden sm:inline" />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-white to-amber-300 drop-shadow-[0_4px_24px_rgba(255,255,255,0.3)]">
@@ -314,7 +448,7 @@ export const HeroBanner: React.FC = () => {
 
                 {/* Dynamic Flavour Story */}
                 <div className="transition-all duration-300">
-                  <p className="text-white/95 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed font-serif">
+                  <p className="text-white/90 text-sm sm:text-base md:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed font-serif">
                     100% slow-roasted over low flame for an airy, shatteringly crisp crunch.{" "}
                     <span className="text-amber-200 font-semibold">{activeHeroFlavour.name}:</span>{" "}
                     {activeHeroFlavour.tagline}. Crafted with 9.7g plant protein and zero palm oil.
@@ -322,21 +456,21 @@ export const HeroBanner: React.FC = () => {
                 </div>
 
                 {/* High-Impact Value Badges */}
-                <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 pt-1">
-                  <span className="bg-white/15 border border-white/25 text-white text-xs px-3.5 py-1.5 rounded-full flex items-center gap-1.5 font-serif font-semibold shadow-sm">
+                <div className="flex flex-wrap items-center justify-center lg:justify-start gap-1.5 sm:gap-2 pt-1">
+                  <span className="bg-white/10 border border-white/20 text-white text-[11px] sm:text-xs px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-full flex items-center gap-1.5 font-serif font-semibold shadow-sm">
                     <Flame className="w-3.5 h-3.5 text-amber-300" /> 100% Slow-Roasted
                   </span>
-                  <span className="bg-white/15 border border-white/25 text-white text-xs px-3.5 py-1.5 rounded-full flex items-center gap-1.5 font-serif font-semibold shadow-sm">
+                  <span className="bg-white/10 border border-white/20 text-white text-[11px] sm:text-xs px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-full flex items-center gap-1.5 font-serif font-semibold shadow-sm">
                     <Sparkles className="w-3.5 h-3.5 text-amber-300" /> 9.7g Protein / 100g
                   </span>
-                  <span className="bg-white/15 border border-white/25 text-white text-xs px-3.5 py-1.5 rounded-full flex items-center gap-1.5 font-serif font-semibold shadow-sm">
+                  <span className="bg-white/10 border border-white/20 text-white text-[11px] sm:text-xs px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-full flex items-center gap-1.5 font-serif font-semibold shadow-sm">
                     <ShieldCheck className="w-3.5 h-3.5 text-amber-300" /> Zero Palm Oil
                   </span>
                 </div>
 
                 {/* Slide Changer Option 2: Quick Flavour Chips / Pills */}
-                <div className="pt-2">
-                  <div className="text-[11px] font-mono uppercase tracking-wider text-emerald-200/90 mb-2 font-semibold">
+                <div className="pt-1 sm:pt-2">
+                  <div className="text-[11px] font-mono uppercase tracking-wider text-amber-300/80 mb-2 font-semibold">
                     Explore All 6 Flavours:
                   </div>
                   <div className="flex items-center justify-center lg:justify-start gap-1.5 sm:gap-2 flex-wrap">
@@ -344,7 +478,7 @@ export const HeroBanner: React.FC = () => {
                       <button
                         key={f.id}
                         onClick={() => setHeroFlavour(i)}
-                        className={`px-3 py-1.5 rounded-full text-xs font-serif transition-all duration-200 flex items-center gap-1.5 ${
+                        className={`px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full text-[11px] sm:text-xs font-serif transition-all duration-200 flex items-center gap-1.5 ${
                           heroFlavourIndex === i
                             ? "bg-white text-black font-extrabold shadow-lg scale-105 ring-2 ring-white/50"
                             : "bg-white/10 text-white hover:bg-white/20 border border-white/15"
@@ -361,11 +495,11 @@ export const HeroBanner: React.FC = () => {
                 </div>
 
                 {/* Primary CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-3.5 justify-center lg:justify-start pt-2">
+                <div className="flex flex-col sm:flex-row gap-2.5 sm:gap-3.5 justify-center lg:justify-start pt-1 sm:pt-2">
                   <button
                     onClick={() => handleQuickAdd(activeHeroFlavour.id)}
                     disabled={isAdding || isLoading}
-                    className="btn-korigo-primary text-sm uppercase tracking-wider py-4 px-8 flex items-center justify-center gap-2.5 group shadow-glow-green"
+                    className="btn-korigo-primary text-xs sm:text-sm uppercase tracking-wider py-3.5 sm:py-4 px-6 sm:px-8 flex items-center justify-center gap-2 group shadow-glow-green"
                   >
                     <ShoppingBag className="w-4 h-4 group-hover:rotate-12 transition-transform" />
                     <span>
@@ -375,7 +509,7 @@ export const HeroBanner: React.FC = () => {
 
                   <Link
                     href={`/products/${activeHeroFlavour.slug}`}
-                    className="bg-white/10 hover:bg-white/20 text-white backdrop-blur-md border border-white/25 rounded-full py-4 px-8 text-sm uppercase font-serif font-bold tracking-wider transition-all flex items-center justify-center gap-2 shadow-sm text-center"
+                    className="bg-white/10 hover:bg-white/20 text-white backdrop-blur-md border border-white/20 rounded-full py-3.5 sm:py-4 px-6 sm:px-8 text-xs sm:text-sm uppercase font-serif font-bold tracking-wider transition-all flex items-center justify-center gap-2 shadow-sm text-center"
                   >
                     <span>View Product Details</span>
                     <ArrowRight className="w-4 h-4" />
@@ -383,14 +517,14 @@ export const HeroBanner: React.FC = () => {
                 </div>
 
                 {/* Interactive Tip */}
-                <div className="pt-1 text-xs text-emerald-300/80 font-serif flex items-center justify-center lg:justify-start gap-2">
+                <div className="pt-1 text-[11px] sm:text-xs text-amber-200/80 font-serif flex items-center justify-center lg:justify-start gap-2">
                   <span className="w-2 h-2 rounded-full bg-amber-400 animate-ping" />
                   <span>💡 Tip: Swipe pack or click arrows to explore all flavours!</span>
                 </div>
               </div>
 
               {/* Right Column: 3D Stage with Middle Slide Changer & Bottom Pagination */}
-              <div className="lg:col-span-5 flex flex-col items-center justify-center relative">
+              <div className="lg:col-span-5 flex flex-col items-center justify-center relative mt-4 lg:mt-0">
                 {/* Slide Changer Option 1: Desktop Middle Slide Changer Header */}
                 <div className="hidden lg:flex items-center justify-between w-full max-w-[420px] mb-4 px-1 relative z-40">
                   <button
@@ -422,8 +556,8 @@ export const HeroBanner: React.FC = () => {
                   </button>
                 </div>
 
-                {/* 3D Rotating Starburst Badge */}
-                <div className="absolute top-10 -right-3 sm:top-12 sm:-right-6 z-20 pointer-events-none">
+                {/* 3D Rotating Starburst Badge (Desktop only to prevent mobile clutter) */}
+                <div className="hidden md:flex absolute top-10 -right-3 sm:top-12 sm:-right-6 z-20 pointer-events-none">
                   <div
                     className="relative w-28 h-28 sm:w-32 sm:h-32 flex items-center justify-center animate-spin"
                     style={{ animationDuration: "18s" }}
@@ -448,12 +582,12 @@ export const HeroBanner: React.FC = () => {
                 <div
                   onTouchStart={handleTouchStart}
                   onTouchEnd={handleTouchEnd}
-                  className="w-full max-w-[420px]"
+                  className="w-full max-w-[320px] sm:max-w-[420px]"
                 >
                   <TiltCard3D
-                    maxTilt={14}
-                    scale={1.04}
-                    className="w-full p-6 sm:p-8 rounded-3xl bg-gradient-to-b from-white/10 via-white/5 to-transparent backdrop-blur-xl border border-white/20 shadow-2xl relative overflow-hidden"
+                    maxTilt={12}
+                    scale={1.03}
+                    className="w-full p-4 sm:p-7 rounded-3xl bg-gradient-to-b from-white/15 via-[#528663]/25 to-black/30 backdrop-blur-xl border border-[#528663]/40 shadow-2xl relative overflow-hidden"
                   >
                     <div className="flex items-center justify-between mb-3">
                       <span
@@ -466,7 +600,7 @@ export const HeroBanner: React.FC = () => {
                       >
                         {activeHeroFlavour.badge}
                       </span>
-                      <span className="text-xs font-serif text-emerald-200/80 font-semibold">
+                      <span className="text-xs font-serif text-amber-200/80 font-semibold">
                         Slow-Roasted 35g
                       </span>
                     </div>
@@ -493,7 +627,7 @@ export const HeroBanner: React.FC = () => {
                       <h3 className="text-2xl font-serif font-extrabold text-white mb-1">
                         {activeHeroFlavour.name}
                       </h3>
-                      <p className="text-xs text-emerald-200/90 font-serif mb-4 line-clamp-2">
+                      <p className="text-xs text-amber-100/90 font-serif mb-4 line-clamp-2">
                         {activeHeroFlavour.tagline}
                       </p>
 
@@ -727,7 +861,7 @@ export const HeroBanner: React.FC = () => {
           SLIDE 3: "DUAL COMBOS — Double The Pop, Save ₹40"
           ========================================================================= */}
       {activeSlide === "combo" && (
-        <section className="relative pt-8 sm:pt-12 pb-20 sm:pb-28 overflow-hidden bg-gradient-to-b from-[#1c1202] via-[#0e0901] to-[#040300] animate-in fade-in">
+        <section className="relative pt-8 sm:pt-12 pb-20 sm:pb-28 overflow-hidden bg-gradient-to-b from-[#1b3523] via-[#24462f] to-[#162c1d] animate-in fade-in">
           <div className="max-w-[1260px] mx-auto px-4 sm:px-6 relative z-10">
             <div className="text-center max-w-2xl mx-auto mb-10">
               <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full text-xs font-mono font-bold uppercase tracking-widest bg-amber-500/20 text-amber-300 border border-amber-500/30 mb-3">
@@ -736,14 +870,14 @@ export const HeroBanner: React.FC = () => {
               <h2 className="text-3xl sm:text-5xl font-serif font-black tracking-tight text-white mb-2">
                 DOUBLE THE POP. SAVE ₹40.
               </h2>
-              <p className="text-sm sm:text-base font-serif text-gray-300">
+              <p className="text-sm sm:text-base font-serif text-gray-200">
                 Pair bold spices with creamy herbs. Two full-size 35g packs bundled together at exclusive savings.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {/* Combo 1: Sriracha + Garlicked Cheese */}
-              <div className="p-6 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/15 flex flex-col justify-between hover:border-amber-400/50 transition-all duration-300">
+              <div className="p-6 rounded-3xl bg-white/10 backdrop-blur-xl border border-[#528663]/30 flex flex-col justify-between hover:border-[#528663] transition-all duration-300">
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-xs font-bold uppercase tracking-wider text-amber-400 bg-amber-400/10 px-2.5 py-1 rounded-full">
                     Fire & Cheese Duo
@@ -755,7 +889,7 @@ export const HeroBanner: React.FC = () => {
 
                 <div className="relative aspect-video w-full flex items-center justify-center my-3">
                   <Image
-                    src="/assets/korigo/combos/garlic_sasy.png"
+                    src="/assets/korigo/combos/transparent_garlic_sasy.png"
                     alt="Sriracha and Cheese Combo"
                     fill
                     className="object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.8)]"
@@ -785,7 +919,7 @@ export const HeroBanner: React.FC = () => {
               </div>
 
               {/* Combo 2: Citrus + Sour Creme */}
-              <div className="p-6 rounded-3xl bg-white/5 backdrop-blur-xl border border-white/15 flex flex-col justify-between hover:border-emerald-400/50 transition-all duration-300">
+              <div className="p-6 rounded-3xl bg-white/10 backdrop-blur-xl border border-[#528663]/30 flex flex-col justify-between hover:border-[#528663] transition-all duration-300">
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-xs font-bold uppercase tracking-wider text-emerald-400 bg-emerald-400/10 px-2.5 py-1 rounded-full">
                     Zest & Herb Duo
@@ -797,7 +931,7 @@ export const HeroBanner: React.FC = () => {
 
                 <div className="relative aspect-video w-full flex items-center justify-center my-3">
                   <Image
-                    src="/assets/korigo/combos/creamonion_sassy.png"
+                    src="/assets/korigo/combos/transparent_creamonion_sassy.png"
                     alt="Citrus and Creme Combo"
                     fill
                     className="object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.8)]"
@@ -831,30 +965,30 @@ export const HeroBanner: React.FC = () => {
       )}
 
       {/* =========================================================================
-          CLEAN-LABEL USP ICON BAR (Inspired directly by Mr Makhana's icon ribbon)
+          CLEAN-LABEL USP ICON BAR (Luxury Roasted Gourmet Ribbon)
           ========================================================================= */}
-      <div className="relative z-20 border-t border-b border-white/20 bg-[#3a794a]/95 backdrop-blur-lg py-4 px-4 overflow-x-auto scrollbar-none">
+      <div className="relative z-20 border-t border-b border-[#3d694b]/60 bg-gradient-to-r from-[#467655] via-[#528663] to-[#467655] py-3.5 px-4 overflow-x-auto scrollbar-none shadow-md">
         <div className="max-w-[1260px] mx-auto flex items-center justify-between gap-6 min-w-[760px] text-xs font-serif text-white/95">
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-amber-300 animate-ping" />
             <span className="font-bold uppercase tracking-wider text-white">100% GLUTEN FREE</span>
           </div>
-          <span className="text-emerald-700">•</span>
+          <span className="text-white/40">•</span>
           <div className="flex items-center gap-2">
             <span className="text-base">🌱</span>
             <span className="font-bold uppercase tracking-wider text-white">NON-GMO & VEGAN</span>
           </div>
-          <span className="text-emerald-700">•</span>
+          <span className="text-amber-500/40">•</span>
           <div className="flex items-center gap-2">
             <span className="text-base">🔥</span>
             <span className="font-bold uppercase tracking-wider text-white">SLOW-ROASTED (0% PALM OIL)</span>
           </div>
-          <span className="text-emerald-700">•</span>
+          <span className="text-amber-500/40">•</span>
           <div className="flex items-center gap-2">
             <span className="text-base">💪</span>
             <span className="font-bold uppercase tracking-wider text-white">9.7G PROTEIN / 100G</span>
           </div>
-          <span className="text-emerald-700">•</span>
+          <span className="text-amber-500/40">•</span>
           <div className="flex items-center gap-2">
             <span className="text-base">❤️</span>
             <span className="font-bold uppercase tracking-wider text-white">ZERO CHOLESTEROL</span>

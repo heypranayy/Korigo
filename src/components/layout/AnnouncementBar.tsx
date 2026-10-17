@@ -38,7 +38,7 @@ export const AnnouncementBar: React.FC = () => {
   }, [announcements.length]);
 
   return (
-    <div className="relative bg-gradient-to-r from-[#3a794a] via-[#528663] to-[#3a794a] text-white text-xs font-medium py-2 px-4 overflow-hidden border-b border-[#3a794a]/30 shadow-sm z-50">
+    <div className="relative bg-gradient-to-r from-[#467655] via-[#528663] to-[#467655] text-white text-xs font-medium py-2 px-4 overflow-hidden border-b border-[#3d694b]/60 shadow-sm z-50">
       {/* Background glow effects */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-white/10 via-transparent to-transparent pointer-events-none" />
 

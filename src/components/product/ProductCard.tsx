@@ -23,8 +23,26 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
   const isSoldOut = !product.is_in_stock || product.slug === "coco-world-makhana";
   const isCombo = product.type === "combo" || product.slug.includes("combo");
-  const primaryImg = product.images?.[0]?.src || "/assets/korigo/products/citrus.png";
-  const hoverImg = product.images?.[1]?.src || primaryImg;
+
+  const LOCAL_TRANSPARENT_IMAGES: Record<string, string> = {
+    "sassy-sriracha": "/assets/korigo/products/transparent_sassy_sriracha.png",
+    "garlicked-cheese-makhana": "/assets/korigo/products/transparent_garlicked_cheese.png",
+    "citrus-cartel-makhana": "/assets/korigo/products/transparent_citrus_cartel.png",
+    "creme-d-onion-makhana": "/assets/korigo/products/transparent_creme_onion.png",
+    "cinnamon-drip": "/assets/korigo/products/transparent_cinnamon_drip.png",
+    "cinnamon-drip-makhana": "/assets/korigo/products/transparent_cinnamon_drip.png",
+    "coco-world-makhana": "/assets/korigo/products/transparent_coco_island.png",
+    "coco-island-makhana": "/assets/korigo/products/transparent_coco_island.png",
+    "garlic-cheese-sassy-sriracha-combo": "/assets/korigo/combos/transparent_garlic_sasy.png",
+    "citrus-cartel-sassy-sriracha-combo": "/assets/korigo/combos/transparent_citrus_sassy.png",
+    "citrus-cartel-garlicked-cheese-combo": "/assets/korigo/combos/transparent_garlc_citrus.png",
+    "garlicked-cheese-cinnamon-drip-combo": "/assets/korigo/combos/transparent_garlic_cinemon.png",
+    "cinnamon-drip-sour-cream-onion-combo": "/assets/korigo/combos/transparent_creme_cinemo.png",
+    "sassy-sriracha-sour-cream-onion-combo": "/assets/korigo/combos/transparent_creamonion_sassy.png",
+  };
+
+  const primaryImg = LOCAL_TRANSPARENT_IMAGES[product.slug] || product.images?.[0]?.src || "/assets/korigo/products/transparent_citrus_cartel.png";
+  const hoverImg = LOCAL_TRANSPARENT_IMAGES[product.slug] || product.images?.[1]?.src || primaryImg;
 
   // Variants for each card type
   const variants = isCombo
@@ -73,7 +91,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       {/* Product Image Stage */}
       <Link
         href={`/products/${product.slug}`}
-        className="relative aspect-square w-full bg-gradient-to-b from-[#f8fdf9] to-[#edf9f0] rounded-xl overflow-hidden flex items-center justify-center mb-3"
+        className="relative aspect-square w-full bg-gradient-to-b from-[#faf9f7] to-[#f2eee7] border border-gray-100/80 rounded-xl overflow-hidden flex items-center justify-center mb-3"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -100,7 +118,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             src={isHovered ? hoverImg : primaryImg}
             alt={product.name}
             fill
-            className="object-contain drop-shadow-[0_15px_20px_rgba(0,0,0,0.12)]"
+            className="object-contain drop-shadow-[0_16px_22px_rgba(0,0,0,0.18)]"
             sizes="(max-width: 768px) 150px, (max-width: 1200px) 200px, 240px"
           />
         </div>

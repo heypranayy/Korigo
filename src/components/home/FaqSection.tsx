@@ -50,16 +50,16 @@ export const FaqSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-white">
+    <section className="py-8 sm:py-12 md:py-16 bg-white">
       <div className="max-w-4xl mx-auto px-4 md:px-8">
-        <div className="text-center mb-12">
-          <span className="text-korigo-green font-bold text-xs uppercase tracking-widest block mb-2 font-serif">
+        <div className="text-center mb-6 sm:mb-8">
+          <span className="text-korigo-darkGreen font-bold text-[11px] sm:text-xs uppercase tracking-widest block mb-1.5 font-serif">
             Got Questions? We Have Answers
           </span>
-          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-black mb-3">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-black mb-2">
             FAQs (Frequently Asked Questions)
           </h2>
-          <p className="text-gray-500 text-sm">
+          <p className="text-gray-500 text-xs sm:text-sm max-w-md mx-auto">
             Everything you need to know about Korigo roasted makhana, ordering, and nutrition.
           </p>
         </div>

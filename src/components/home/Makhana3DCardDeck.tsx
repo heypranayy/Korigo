@@ -49,7 +49,7 @@ export const MAKHANA_DECK_ITEMS: MakhanaCardItem[] = [
     badge: "🔥 Best Seller",
     price: "₹99",
     slug: "sassy-sriracha",
-    packImg: "/assets/korigo/products/white_front_ssasy_siracha.png",
+    packImg: "/assets/korigo/products/transparent_sassy_sriracha.png",
     makhanaImg: "/assets/korigo/makhana/makhana_sriracha.png",
     bgGradient: "from-[#2f0808] via-[#1a0505] to-[#0c0202]",
     glowColor: "rgba(227, 49, 49, 0.55)",
@@ -71,7 +71,7 @@ export const MAKHANA_DECK_ITEMS: MakhanaCardItem[] = [
     badge: "🧀 Fan Favorite",
     price: "₹99",
     slug: "garlicked-cheese-makhana",
-    packImg: "/assets/korigo/products/white_front_garlicked_cheese.png",
+    packImg: "/assets/korigo/products/transparent_garlicked_cheese.png",
     makhanaImg: "/assets/korigo/makhana/makhana_cheese.png",
     bgGradient: "from-[#2d1802] via-[#1a0e02] to-[#0d0701]",
     glowColor: "rgba(245, 158, 11, 0.55)",
@@ -93,7 +93,7 @@ export const MAKHANA_DECK_ITEMS: MakhanaCardItem[] = [
     badge: "🍋 Chef's Pick",
     price: "₹99",
     slug: "citrus-cartel-makhana",
-    packImg: "/assets/korigo/products/white_front_citrus_cirtel.png",
+    packImg: "/assets/korigo/products/transparent_citrus_cartel.png",
     makhanaImg: "/assets/korigo/makhana/makhana_roasted.png",
     bgGradient: "from-[#082b11] via-[#041708] to-[#020d04]",
     glowColor: "rgba(20, 143, 44, 0.55)",
@@ -115,7 +115,7 @@ export const MAKHANA_DECK_ITEMS: MakhanaCardItem[] = [
     badge: "🧅 Velvety Smooth",
     price: "₹99",
     slug: "creme-d-onion-makhana",
-    packImg: "/assets/korigo/products/white_front.png",
+    packImg: "/assets/korigo/products/transparent_creme_onion.png",
     makhanaImg: "/assets/korigo/makhana/makhana_roasted.png",
     bgGradient: "from-[#052919] via-[#02180e] to-[#010e08]",
     glowColor: "rgba(16, 185, 129, 0.55)",
@@ -137,7 +137,7 @@ export const MAKHANA_DECK_ITEMS: MakhanaCardItem[] = [
     badge: "🍯 Dessert Drop",
     price: "₹99",
     slug: "cinnamon-drip-makhana",
-    packImg: "/assets/korigo/products/white_front_cinemon_drip.png",
+    packImg: "/assets/korigo/products/transparent_cinnamon_drip.png",
     makhanaImg: "/assets/korigo/makhana/makhana_roasted.png",
     bgGradient: "from-[#2b1704] via-[#170c02] to-[#0c0601]",
     glowColor: "rgba(217, 119, 6, 0.55)",
@@ -159,7 +159,7 @@ export const MAKHANA_DECK_ITEMS: MakhanaCardItem[] = [
     badge: "🥥 Island Breeze",
     price: "₹99",
     slug: "coco-island-makhana",
-    packImg: "/assets/korigo/products/white_front_coco_island.png",
+    packImg: "/assets/korigo/products/transparent_coco_island.png",
     makhanaImg: "/assets/korigo/makhana/makhana_roasted.png",
     bgGradient: "from-[#072433] via-[#03131c] to-[#010a0e]",
     glowColor: "rgba(56, 189, 248, 0.55)",
@@ -211,15 +211,15 @@ export const Makhana3DCardDeck: React.FC = () => {
   };
 
   return (
-    <div className="w-full relative py-6">
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-14 items-center">
+    <div className="w-full relative py-2 sm:py-6">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-14 items-center">
         {/* =========================================================
             LEFT COLUMN: WATERMELON CAROUSEL SLIDER WITH SPRING PHYSICS
             ========================================================= */}
         <div className="lg:col-span-6 flex flex-col items-center justify-center relative select-none">
           {/* Ambient Glow Aura */}
           <div
-            className="absolute w-[440px] h-[440px] rounded-full blur-[130px] pointer-events-none transition-colors duration-700 opacity-60"
+            className="absolute w-[300px] sm:w-[440px] h-[300px] sm:h-[440px] rounded-full blur-[100px] sm:blur-[130px] pointer-events-none transition-colors duration-700 opacity-60"
             style={{ backgroundColor: activeItem.glowColor }}
           />
 
@@ -228,49 +228,126 @@ export const Makhana3DCardDeck: React.FC = () => {
             slides={slides}
             controlledIndex={activeIdx}
             onSlideChange={(_, idx) => setActiveIdx(idx)}
-            className="my-3"
+            className="my-2 sm:my-3"
           />
 
           {/* Swipe Hint */}
-          <div className="mt-4 inline-flex items-center gap-2 text-xs font-serif text-gray-500 bg-gray-50 px-4 py-1.5 rounded-full border border-gray-200 shadow-sm">
+          <div className="mt-2 inline-flex items-center gap-1.5 text-[11px] sm:text-xs font-serif text-gray-500 bg-gray-50 px-3.5 py-1 rounded-full border border-gray-200 shadow-sm">
             <span className="animate-bounce">👉</span>
-            <span>Drag / swipe the card left or right, or click the dots below</span>
+            <span>Swipe card left/right or tap dots below</span>
+          </div>
+
+          {/* =========================================================
+              COMPACT MOBILE CONTROLS (< 1024px)
+              ========================================================= */}
+          <div className="w-full max-w-sm mx-auto block lg:hidden space-y-3 pt-3">
+            {/* Quick Flavour Selector Chips */}
+            <div className="flex items-center justify-center gap-1.5 overflow-x-auto no-scrollbar py-1">
+              {items.map((item, idx) => (
+                <button
+                  type="button"
+                  key={item.id}
+                  onClick={() => {
+                    soundFx.playPop();
+                    setActiveIdx(idx);
+                  }}
+                  className={`px-3 py-1 rounded-full text-xs font-serif transition-all duration-200 flex items-center gap-1.5 flex-shrink-0 ${
+                    activeIdx === idx
+                      ? "bg-[#528663] text-white font-bold shadow-md shadow-[#528663]/30 scale-102"
+                      : "bg-gray-100 hover:bg-gray-200 text-gray-700 border border-gray-200"
+                  }`}
+                >
+                  <span
+                    className="w-2 h-2 rounded-full"
+                    style={{ backgroundColor: item.glowColor.replace("0.55", "1") }}
+                  />
+                  <span>{item.name.split(" ")[0]}</span>
+                </button>
+              ))}
+            </div>
+
+            {/* Soothing Mini Stats Strip */}
+            <div className="flex items-center justify-around py-2 px-3 rounded-2xl bg-gray-50 border border-gray-200/80 shadow-sm text-xs font-serif">
+              <div className="text-center">
+                <span className="text-[9px] text-gray-400 block font-mono uppercase tracking-wider">PROTEIN</span>
+                <span className="font-bold text-korigo-darkGreen">{activeItem.protein.split(" ")[0]}</span>
+              </div>
+              <div className="h-5 w-[1px] bg-gray-200" />
+              <div className="text-center">
+                <span className="text-[9px] text-gray-400 block font-mono uppercase tracking-wider">ENERGY</span>
+                <span className="font-bold text-gray-800">{activeItem.calories.split(" ")[0]} kcal</span>
+              </div>
+              <div className="h-5 w-[1px] bg-gray-200" />
+              <div className="text-center">
+                <span className="text-[9px] text-gray-400 block font-mono uppercase tracking-wider">SPICE</span>
+                <span className="font-bold text-red-600">{activeItem.spiceLabel}</span>
+              </div>
+            </div>
+
+            {/* Direct Mobile Action Button */}
+            <div className="flex items-center gap-2 pt-0.5">
+              <button
+                type="button"
+                onClick={handleAddToCart}
+                disabled={isAdding}
+                className="btn-korigo-primary flex-1 py-3 text-xs uppercase tracking-wider font-serif shadow-glow-green flex items-center justify-center gap-2"
+              >
+                {added ? (
+                  <>
+                    <Check className="w-4 h-4 text-emerald-300" />
+                    <span>Added {activeItem.name}!</span>
+                  </>
+                ) : (
+                  <>
+                    <ShoppingBag className="w-4 h-4" />
+                    <span>Add {activeItem.name} • {activeItem.price}</span>
+                  </>
+                )}
+              </button>
+
+              <Link
+                href={`/products/${activeItem.slug}`}
+                className="px-4 py-3 rounded-full border border-gray-300 hover:border-black font-serif text-xs font-bold uppercase tracking-wider text-black text-center transition whitespace-nowrap bg-white hover:bg-gray-50"
+              >
+                Specs →
+              </Link>
+            </div>
           </div>
         </div>
 
         {/* =========================================================
-            RIGHT COLUMN: DYNAMIC NUTRITIONAL HUD & FLAVOUR METRICS
+            RIGHT COLUMN: DESKTOP DYNAMIC NUTRITIONAL HUD (>= 1024px)
             ========================================================= */}
-        <div className="lg:col-span-6 space-y-6">
+        <div className="hidden lg:block lg:col-span-6 space-y-4 sm:space-y-6">
           {/* Active Card Specs Header */}
-          <div className="space-y-2">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-mono font-bold uppercase tracking-wider bg-korigo-lightGreen text-korigo-darkGreen border border-korigo-green/20">
-              <Zap className="w-3.5 h-3.5 text-korigo-green" />
+          <div className="space-y-1.5 sm:space-y-2 text-center lg:text-left">
+            <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-[10px] sm:text-xs font-mono font-bold uppercase tracking-wider bg-korigo-lightGreen text-korigo-darkGreen border border-korigo-green/20">
+              <Zap className="w-3 h-3 text-korigo-green" />
               <span>SUPERFOOD POP DECK • LEVEL 1</span>
             </div>
 
-            <h3 className="text-3xl sm:text-4xl font-serif font-black text-black">
+            <h3 className="text-2xl sm:text-4xl font-serif font-black text-black">
               {activeItem.name}
             </h3>
 
-            <p className="text-gray-600 font-serif text-sm sm:text-base leading-relaxed">
+            <p className="text-gray-600 font-serif text-xs sm:text-base leading-relaxed max-w-lg mx-auto lg:mx-0">
               {activeItem.tagline}
             </p>
           </div>
 
           {/* Interactive Flavour Stats Grid (Game HUD style) */}
-          <div className="grid grid-cols-2 gap-3.5 p-4 rounded-2xl bg-gray-50 border border-gray-200">
+          <div className="grid grid-cols-2 gap-2.5 sm:gap-3.5 p-3 sm:p-4 rounded-2xl bg-gray-50 border border-gray-200">
             {/* Heat Meter */}
-            <div className="bg-white p-3 rounded-xl border border-gray-100 shadow-sm">
-              <span className="text-[10px] font-mono uppercase text-gray-400 tracking-wider block mb-1">
+            <div className="bg-white p-2.5 sm:p-3 rounded-xl border border-gray-100 shadow-sm">
+              <span className="text-[9px] sm:text-[10px] font-mono uppercase text-gray-400 tracking-wider block mb-0.5">
                 SPICE INTENSITY
               </span>
-              <div className="flex items-center gap-1.5">
+              <div className="flex items-center gap-1">
                 <div className="flex text-amber-500">
                   {[...Array(5)].map((_, i) => (
                     <Flame
                       key={i}
-                      className={`w-4 h-4 ${
+                      className={`w-3.5 h-3.5 ${
                         i < activeItem.spiceHeat
                           ? "fill-red-500 text-red-500"
                           : "fill-gray-200 text-gray-200"
@@ -278,52 +355,52 @@ export const Makhana3DCardDeck: React.FC = () => {
                     />
                   ))}
                 </div>
-                <span className="text-xs font-bold text-gray-700 ml-1">
+                <span className="text-[11px] sm:text-xs font-bold text-gray-700 ml-1">
                   {activeItem.spiceLabel}
                 </span>
               </div>
             </div>
 
             {/* Protein Metric */}
-            <div className="bg-white p-3 rounded-xl border border-gray-100 shadow-sm">
-              <span className="text-[10px] font-mono uppercase text-gray-400 tracking-wider block mb-1">
+            <div className="bg-white p-2.5 sm:p-3 rounded-xl border border-gray-100 shadow-sm">
+              <span className="text-[9px] sm:text-[10px] font-mono uppercase text-gray-400 tracking-wider block mb-0.5">
                 PLANT PROTEIN
               </span>
               <div className="flex items-baseline gap-1">
-                <span className="text-lg font-black text-korigo-darkGreen font-serif">
+                <span className="text-base sm:text-lg font-black text-korigo-darkGreen font-serif">
                   {activeItem.protein.split(" ")[0]}
                 </span>
-                <span className="text-xs text-gray-500">
+                <span className="text-[10px] sm:text-xs text-gray-500">
                   / 100g pure fuel
                 </span>
               </div>
             </div>
 
             {/* Fibre Metric */}
-            <div className="bg-white p-3 rounded-xl border border-gray-100 shadow-sm">
-              <span className="text-[10px] font-mono uppercase text-gray-400 tracking-wider block mb-1">
+            <div className="bg-white p-2.5 sm:p-3 rounded-xl border border-gray-100 shadow-sm">
+              <span className="text-[9px] sm:text-[10px] font-mono uppercase text-gray-400 tracking-wider block mb-0.5">
                 DIETARY FIBRE
               </span>
               <div className="flex items-baseline gap-1">
-                <span className="text-lg font-black text-korigo-darkGreen font-serif">
+                <span className="text-base sm:text-lg font-black text-korigo-darkGreen font-serif">
                   {activeItem.fibre}
                 </span>
-                <span className="text-xs text-gray-500">
+                <span className="text-[10px] sm:text-xs text-gray-500">
                   per 35g pack
                 </span>
               </div>
             </div>
 
             {/* Calorie Balance */}
-            <div className="bg-white p-3 rounded-xl border border-gray-100 shadow-sm">
-              <span className="text-[10px] font-mono uppercase text-gray-400 tracking-wider block mb-1">
+            <div className="bg-white p-2.5 sm:p-3 rounded-xl border border-gray-100 shadow-sm">
+              <span className="text-[9px] sm:text-[10px] font-mono uppercase text-gray-400 tracking-wider block mb-0.5">
                 SLOW-ROASTED ENERGY
               </span>
               <div className="flex items-baseline gap-1">
-                <span className="text-lg font-black text-black font-serif">
+                <span className="text-base sm:text-lg font-black text-black font-serif">
                   {activeItem.calories.split(" ")[0]}
                 </span>
-                <span className="text-xs text-gray-500">
+                <span className="text-[10px] sm:text-xs text-gray-500">
                   kcal (0% palm oil)
                 </span>
               </div>
@@ -331,26 +408,26 @@ export const Makhana3DCardDeck: React.FC = () => {
           </div>
 
           {/* Tasting Notes & Pairing Advice */}
-          <div className="p-4 rounded-2xl bg-korigo-lightGreen/40 border border-korigo-green/20 space-y-2">
-            <div className="flex items-center gap-2 text-xs font-bold text-korigo-darkGreen font-serif uppercase tracking-wider">
-              <Sparkles className="w-4 h-4 text-korigo-green" />
+          <div className="p-3 sm:p-4 rounded-2xl bg-korigo-lightGreen/40 border border-korigo-green/20 space-y-1.5 sm:space-y-2">
+            <div className="flex items-center gap-1.5 text-[11px] sm:text-xs font-bold text-korigo-darkGreen font-serif uppercase tracking-wider">
+              <Sparkles className="w-3.5 h-3.5 text-korigo-green" />
               <span>Authentic Spice Blend</span>
             </div>
-            <p className="text-xs font-serif text-gray-700 leading-relaxed">
+            <p className="text-[11px] sm:text-xs font-serif text-gray-700 leading-relaxed">
               <strong>Tasting Notes:</strong> {activeItem.tastingNotes}
             </p>
-            <p className="text-xs font-serif text-gray-600 leading-relaxed">
+            <p className="text-[11px] sm:text-xs font-serif text-gray-600 leading-relaxed">
               <strong>Best Paired With:</strong> {activeItem.bestPairedWith}
             </p>
           </div>
 
           {/* Direct CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center gap-3 pt-2">
+          <div className="flex flex-col sm:flex-row items-center gap-2.5 sm:gap-3 pt-1">
             <button
               type="button"
               onClick={handleAddToCart}
               disabled={isAdding}
-              className="btn-korigo-primary w-full py-4 text-xs uppercase tracking-wider shadow-glow-green flex items-center justify-center gap-2"
+              className="btn-korigo-primary w-full py-3 sm:py-3.5 text-xs uppercase tracking-wider shadow-glow-green flex items-center justify-center gap-2"
             >
               {added ? (
                 <>
@@ -367,7 +444,7 @@ export const Makhana3DCardDeck: React.FC = () => {
 
             <Link
               href={`/products/${activeItem.slug}`}
-              className="w-full sm:w-auto px-6 py-4 rounded-full border border-gray-300 hover:border-black font-serif text-xs font-bold uppercase tracking-wider text-black text-center transition whitespace-nowrap bg-white hover:bg-gray-50"
+              className="w-full sm:w-auto px-5 py-3 sm:py-3.5 rounded-full border border-gray-300 hover:border-black font-serif text-xs font-bold uppercase tracking-wider text-black text-center transition whitespace-nowrap bg-white hover:bg-gray-50"
             >
               Full Specs →
             </Link>
@@ -389,7 +466,7 @@ export const Makhana3DCardDeck: React.FC = () => {
                   }}
                   className={`px-3 py-1.5 rounded-full text-xs font-serif transition-all duration-200 flex items-center gap-1.5 ${
                     activeIdx === idx
-                      ? "bg-black text-white font-bold shadow-md scale-105"
+                      ? "bg-[#528663] text-white font-bold shadow-md shadow-[#528663]/30 scale-105"
                       : "bg-gray-100 hover:bg-gray-200 text-gray-700 border border-gray-200"
                   }`}
                 >

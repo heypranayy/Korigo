@@ -51,7 +51,7 @@ export const ShopCatalog: React.FC<ShopCatalogProps> = ({ products, initialCateg
             onClick={() => setActiveCategory("all")}
             className={`px-5 py-2 text-xs font-serif uppercase tracking-wider font-semibold rounded-full transition ${
               activeCategory === "all"
-                ? "bg-black text-white"
+                ? "bg-[#528663] text-white shadow-md shadow-[#528663]/30"
                 : "bg-gray-100 text-gray-700 hover:bg-gray-200"
             }`}
           >
@@ -61,7 +61,7 @@ export const ShopCatalog: React.FC<ShopCatalogProps> = ({ products, initialCateg
             onClick={() => setActiveCategory("flavours")}
             className={`px-5 py-2 text-xs font-serif uppercase tracking-wider font-semibold rounded-full transition ${
               activeCategory === "flavours"
-                ? "bg-black text-white"
+                ? "bg-[#528663] text-white shadow-md shadow-[#528663]/30"
                 : "bg-gray-100 text-gray-700 hover:bg-gray-200"
             }`}
           >
@@ -71,7 +71,7 @@ export const ShopCatalog: React.FC<ShopCatalogProps> = ({ products, initialCateg
             onClick={() => setActiveCategory("combos")}
             className={`px-5 py-2 text-xs font-serif uppercase tracking-wider font-semibold rounded-full transition ${
               activeCategory === "combos"
-                ? "bg-black text-white"
+                ? "bg-[#528663] text-white shadow-md shadow-[#528663]/30"
                 : "bg-gray-100 text-gray-700 hover:bg-gray-200"
             }`}
           >

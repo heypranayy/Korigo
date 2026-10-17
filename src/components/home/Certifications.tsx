@@ -34,42 +34,42 @@ export const Certifications: React.FC = () => {
   ];
 
   return (
-    <section className="py-16 md:py-20 bg-white border-b border-gray-100 relative overflow-hidden">
+    <section className="py-8 sm:py-12 md:py-16 bg-white border-b border-gray-100 relative overflow-hidden">
       <div className="max-w-[1440px] mx-auto px-4 md:px-8">
-        <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-korigo-lightGreen text-korigo-darkGreen text-xs font-bold uppercase tracking-widest mb-2 font-serif border border-korigo-green/20">
-            <ShieldCheck className="w-4 h-4 text-korigo-green" />
+        <div className="text-center mb-6 sm:mb-8">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-korigo-lightGreen text-korigo-darkGreen text-[11px] sm:text-xs font-bold uppercase tracking-widest mb-2 font-serif border border-korigo-green/20">
+            <ShieldCheck className="w-3.5 h-3.5 text-korigo-green" />
             <span>Uncompromising Food Standards</span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-black">
             Our Quality Certifications & Assurances
           </h2>
-          <p className="text-gray-500 text-xs sm:text-sm font-serif max-w-lg mx-auto mt-2">
+          <p className="text-gray-500 text-xs sm:text-sm font-serif max-w-lg mx-auto mt-1">
             Every batch of Korigo Snacks is manufactured in sterile, certified facilities complying with the highest domestic and international standards.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 max-w-5xl mx-auto">
           {certs.map((c, i) => (
-            <TiltCard3D key={i} maxRotation={6} scale={1.02}>
-              <div className="flex flex-col items-center justify-between p-6 rounded-2xl bg-gradient-to-b from-gray-50/80 to-white border border-gray-200/80 hover:border-korigo-green shadow-sm hover:shadow-lg hover:shadow-korigo-green/10 transition-all text-center h-full group">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-korigo-green bg-korigo-lightGreen px-2.5 py-0.5 rounded-full mb-3">
+            <TiltCard3D key={i} maxTilt={4} scale={1.02}>
+              <div className="flex flex-col items-center justify-between p-3.5 sm:p-6 rounded-2xl bg-gradient-to-b from-gray-50/80 to-white border border-gray-200/80 hover:border-korigo-green shadow-sm hover:shadow-lg transition-all text-center h-full group">
+                <span className="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-korigo-green bg-korigo-lightGreen px-2 py-0.5 rounded-full mb-2">
                   {c.badge}
                 </span>
-                <div className="relative w-28 h-28 mb-4 group-hover:scale-105 transition-transform duration-300">
+                <div className="relative w-16 h-16 sm:w-24 sm:h-24 mb-2 sm:mb-3 group-hover:scale-105 transition-transform duration-300">
                   <Image
                     src={c.src}
                     alt={c.title}
                     fill
                     className="object-contain"
-                    sizes="140px"
+                    sizes="(max-width: 640px) 70px, 120px"
                   />
                 </div>
                 <div>
-                  <h3 className="text-sm font-serif font-bold text-black mb-1 group-hover:text-korigo-green transition-colors">
+                  <h3 className="text-xs sm:text-sm font-serif font-bold text-black mb-0.5 group-hover:text-korigo-green transition-colors">
                     {c.title}
                   </h3>
-                  <p className="text-[11px] text-gray-500 font-serif leading-tight">
+                  <p className="text-[10px] sm:text-[11px] text-gray-500 font-serif leading-tight hidden xs:block">
                     {c.desc}
                   </p>
                 </div>
