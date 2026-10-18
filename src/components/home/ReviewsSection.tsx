@@ -42,7 +42,7 @@ export const ReviewsSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-10 sm:py-16 md:py-20 bg-[#faf8f5] relative overflow-hidden border-b border-gray-100">
+    <section className="content-auto py-10 sm:py-16 md:py-20 bg-[#faf8f5] relative overflow-hidden border-b border-gray-100">
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[500px] bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
 

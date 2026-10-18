@@ -42,7 +42,7 @@ export const HeroBanner: React.FC = () => {
       price: "₹99",
       id: 133,
       slug: "sassy-sriracha",
-      packImg: "/assets/korigo/products/transparent_sassy_sriracha.png",
+      packImg: "/assets/korigo/products/transparent_sassy_sriracha.webp",
       glowColor: "rgba(227, 49, 49, 0.55)",
       bgGradient: "from-[#2b0707] via-[#170505] to-[#0d0202]",
       colorHex: "#e33131",
@@ -57,7 +57,7 @@ export const HeroBanner: React.FC = () => {
       price: "₹99",
       id: 131,
       slug: "garlicked-cheese-makhana",
-      packImg: "/assets/korigo/products/transparent_garlicked_cheese.png",
+      packImg: "/assets/korigo/products/transparent_garlicked_cheese.webp",
       glowColor: "rgba(245, 158, 11, 0.55)",
       bgGradient: "from-[#291703] via-[#170e02] to-[#0c0701]",
       colorHex: "#f59e0b",
@@ -72,7 +72,7 @@ export const HeroBanner: React.FC = () => {
       price: "₹99",
       id: 128,
       slug: "citrus-cartel-makhana",
-      packImg: "/assets/korigo/products/transparent_citrus_cartel.png",
+      packImg: "/assets/korigo/products/transparent_citrus_cartel.webp",
       glowColor: "rgba(20, 143, 44, 0.6)",
       bgGradient: "from-[#082910] via-[#041708] to-[#020d04]",
       colorHex: "#148f2c",
@@ -87,7 +87,7 @@ export const HeroBanner: React.FC = () => {
       price: "₹99",
       id: 130,
       slug: "creme-d-onion-makhana",
-      packImg: "/assets/korigo/products/transparent_creme_onion.png",
+      packImg: "/assets/korigo/products/transparent_creme_onion.webp",
       glowColor: "rgba(16, 185, 129, 0.55)",
       bgGradient: "from-[#042416] via-[#02170e] to-[#010e08]",
       colorHex: "#10b981",
@@ -102,7 +102,7 @@ export const HeroBanner: React.FC = () => {
       price: "₹99",
       id: 129,
       slug: "cinnamon-drip",
-      packImg: "/assets/korigo/products/transparent_cinnamon_drip.png",
+      packImg: "/assets/korigo/products/transparent_cinnamon_drip.webp",
       glowColor: "rgba(217, 119, 6, 0.55)",
       bgGradient: "from-[#281504] via-[#170c02] to-[#0d0601]",
       colorHex: "#d97706",
@@ -117,7 +117,7 @@ export const HeroBanner: React.FC = () => {
       price: "₹99",
       id: 132,
       slug: "coco-world-makhana",
-      packImg: "/assets/korigo/products/transparent_coco_island.png",
+      packImg: "/assets/korigo/products/transparent_coco_island.webp",
       glowColor: "rgba(56, 189, 248, 0.55)",
       bgGradient: "from-[#071f2c] via-[#031118] to-[#01090d]",
       colorHex: "#38bdf8",
@@ -178,8 +178,10 @@ export const HeroBanner: React.FC = () => {
 
   return (
     <div className="relative w-full overflow-hidden bg-gradient-to-b from-[#1b3523] via-[#24462f] to-[#162c1d] text-white">
-      {/* Interactive 3D Floating Makhana Field (Click-to-Pop Physics) */}
-      <FloatingMakhanaField />
+      {/* Interactive 3D Floating Makhana Field (Click-to-Pop Physics - Desktop Only) */}
+      <div className="hidden xl:block pointer-events-none">
+        <FloatingMakhanaField />
+      </div>
 
       {/* Top Controller Bar: Slide Mode Switcher & Audio Toggle */}
       <div className="max-w-[1260px] mx-auto px-3 sm:px-6 pt-3 sm:pt-6 pb-2 relative z-30 flex items-center justify-between gap-2">
@@ -892,7 +894,7 @@ export const HeroBanner: React.FC = () => {
 
                 <div className="relative aspect-video w-full flex items-center justify-center my-3">
                   <Image
-                    src="/assets/korigo/combos/transparent_garlic_sasy.png"
+                    src="/assets/korigo/combos/transparent_garlic_sasy.webp"
                     alt="Sriracha and Cheese Combo"
                     fill
                     className="object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.8)]"
@@ -934,7 +936,7 @@ export const HeroBanner: React.FC = () => {
 
                 <div className="relative aspect-video w-full flex items-center justify-center my-3">
                   <Image
-                    src="/assets/korigo/combos/transparent_creamonion_sassy.png"
+                    src="/assets/korigo/combos/transparent_creamonion_sassy.webp"
                     alt="Citrus and Creme Combo"
                     fill
                     className="object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.8)]"

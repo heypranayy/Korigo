@@ -13,7 +13,7 @@ export const FaqSection: React.FC = () => {
   }));
 
   return (
-    <section id="faq" className="py-8 sm:py-12 md:py-16 bg-white">
+    <section id="faq" className="content-auto py-8 sm:py-12 md:py-16 bg-white">
       <div className="max-w-4xl mx-auto px-4 md:px-8">
         <div className="text-center mb-6 sm:mb-8">
           <span className="text-korigo-darkGreen font-bold text-[11px] sm:text-xs uppercase tracking-widest block mb-1.5 font-serif">

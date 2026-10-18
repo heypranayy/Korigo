@@ -43,7 +43,7 @@ interface CarouselSliderProps {
 export const DEFAULT_SLIDES: Slide[] = [
   {
     id: 1,
-    img: "/assets/korigo/products/transparent_sassy_sriracha.png",
+    img: "/assets/korigo/products/transparent_sassy_sriracha.webp",
     title: "Sassy Sriracha",
     subtitle: "Fiery Chilli • Smoky Garlic",
     price: "₹99",
@@ -54,7 +54,7 @@ export const DEFAULT_SLIDES: Slide[] = [
   },
   {
     id: 2,
-    img: "/assets/korigo/products/transparent_garlicked_cheese.png",
+    img: "/assets/korigo/products/transparent_garlicked_cheese.webp",
     title: "Garlicked Cheese",
     subtitle: "Aged Cheddar • Golden Garlic",
     price: "₹99",
@@ -65,7 +65,7 @@ export const DEFAULT_SLIDES: Slide[] = [
   },
   {
     id: 3,
-    img: "/assets/korigo/products/transparent_citrus_cartel.png",
+    img: "/assets/korigo/products/transparent_citrus_cartel.webp",
     title: "Citrus Cartel",
     subtitle: "Zesty Lime • Crushed Mint",
     price: "₹99",
@@ -76,7 +76,7 @@ export const DEFAULT_SLIDES: Slide[] = [
   },
   {
     id: 4,
-    img: "/assets/korigo/products/transparent_creme_onion.png",
+    img: "/assets/korigo/products/transparent_creme_onion.webp",
     title: "Sour Crème d' Onion",
     subtitle: "French Herbs • Velvet Cream",
     price: "₹99",
@@ -87,7 +87,7 @@ export const DEFAULT_SLIDES: Slide[] = [
   },
   {
     id: 5,
-    img: "/assets/korigo/products/transparent_cinnamon_drip.png",
+    img: "/assets/korigo/products/transparent_cinnamon_drip.webp",
     title: "Cinnamon Drip",
     subtitle: "Ceylon Cinnamon • Caramel Glaze",
     price: "₹99",
@@ -98,7 +98,7 @@ export const DEFAULT_SLIDES: Slide[] = [
   },
   {
     id: 6,
-    img: "/assets/korigo/products/transparent_coco_island.png",
+    img: "/assets/korigo/products/transparent_coco_island.webp",
     title: "Coco Island",
     subtitle: "Toasted Coconut • Vanilla Drift",
     price: "₹99",

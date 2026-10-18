@@ -104,7 +104,6 @@ export async function getStoreProducts(categorySlug?: string): Promise<StoreApiP
   try {
     const url = new URL(`${WP_URL}/wp-json/wc/store/v1/products`);
     url.searchParams.set("per_page", "50");
-    url.searchParams.set("_nocache", Date.now().toString());
 
     const res = await fetch(url.toString(), {
       next: { revalidate: 60 },
@@ -146,7 +145,6 @@ export async function getStoreProductBySlug(slug: string): Promise<StoreApiProdu
   try {
     const url = new URL(`${WP_URL}/wp-json/wc/store/v1/products`);
     url.searchParams.set("slug", canonicalSlug);
-    url.searchParams.set("_nocache", Date.now().toString());
 
     const res = await fetch(url.toString(), {
       next: { revalidate: 60 },

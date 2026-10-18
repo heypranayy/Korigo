@@ -35,7 +35,7 @@ export const CartDrawer: React.FC = () => {
     id: 128,
     name: "Citrus Cartel Makhana (35g)",
     price: 99,
-    image: "/assets/korigo/products/citrus.png",
+    image: "/assets/korigo/products/citrus.webp",
   };
 
   const handleQuickAddUpsell = async () => {

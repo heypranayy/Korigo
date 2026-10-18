@@ -26,7 +26,7 @@ export const FloatingMakhanaField: React.FC = () => {
   const [pieces, setPieces] = useState<FloatingPiece[]>([
     {
       id: 1,
-      src: "/assets/korigo/makhana/makhana_roasted.png",
+      src: "/assets/korigo/makhana/makhana_roasted.webp",
       x: 12,
       y: 18,
       size: 78,
@@ -39,7 +39,7 @@ export const FloatingMakhanaField: React.FC = () => {
     },
     {
       id: 2,
-      src: "/assets/korigo/makhana/makhana_sriracha.png",
+      src: "/assets/korigo/makhana/makhana_sriracha.webp",
       x: 84,
       y: 14,
       size: 92,
@@ -52,7 +52,7 @@ export const FloatingMakhanaField: React.FC = () => {
     },
     {
       id: 3,
-      src: "/assets/korigo/makhana/makhana_cheese.png",
+      src: "/assets/korigo/makhana/makhana_cheese.webp",
       x: 88,
       y: 68,
       size: 84,
@@ -65,7 +65,7 @@ export const FloatingMakhanaField: React.FC = () => {
     },
     {
       id: 4,
-      src: "/assets/korigo/makhana/makhana_roasted.png",
+      src: "/assets/korigo/makhana/makhana_roasted.webp",
       x: 6,
       y: 72,
       size: 68,
@@ -78,7 +78,7 @@ export const FloatingMakhanaField: React.FC = () => {
     },
     {
       id: 5,
-      src: "/assets/korigo/makhana/makhana_sriracha.png",
+      src: "/assets/korigo/makhana/makhana_sriracha.webp",
       x: 48,
       y: 8,
       size: 52,
@@ -91,7 +91,7 @@ export const FloatingMakhanaField: React.FC = () => {
     },
     {
       id: 6,
-      src: "/assets/korigo/makhana/makhana_cheese.png",
+      src: "/assets/korigo/makhana/makhana_cheese.webp",
       x: 52,
       y: 86,
       size: 58,

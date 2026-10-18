@@ -24,6 +24,9 @@ export const TiltCard3D: React.FC<TiltCard3DProps> = ({
   const effectiveTilt = maxRotation !== undefined ? maxRotation : maxTilt;
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (typeof window !== "undefined" && window.matchMedia("(pointer: coarse)").matches) {
+      return;
+    }
     if (!cardRef.current) return;
     const rect = cardRef.current.getBoundingClientRect();
     const x = e.clientX - rect.left;

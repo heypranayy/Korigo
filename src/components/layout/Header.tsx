@@ -48,7 +48,7 @@ export const Header: React.FC = () => {
                 className="relative inline-block h-8 sm:h-10 w-28 sm:w-36 transition-transform duration-200 hover:scale-105 active:scale-95"
               >
                 <Image
-                  src="/assets/korigo/logo/Untitled_design_8_9a03f168-3203-4942-b0b0-e445ec329911.png"
+                  src="/assets/korigo/logo/Untitled_design_8_9a03f168-3203-4942-b0b0-e445ec329911.webp"
                   alt="Korigo Snacks - Bite Healthy"
                   fill
                   priority
@@ -210,7 +210,7 @@ export const Header: React.FC = () => {
                   className="relative h-9 w-32 inline-block"
                 >
                   <Image
-                    src="/assets/korigo/logo/Untitled_design_8_9a03f168-3203-4942-b0b0-e445ec329911.png"
+                    src="/assets/korigo/logo/Untitled_design_8_9a03f168-3203-4942-b0b0-e445ec329911.webp"
                     alt="Korigo Snacks"
                     fill
                     className="object-contain"

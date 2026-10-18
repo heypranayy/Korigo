@@ -45,7 +45,7 @@ export const Footer: React.FC = () => {
           <div className="space-y-4">
             <Link href="/" className="inline-block relative h-10 w-36 bg-white/95 px-3 py-1.5 rounded-xl shadow-sm">
               <Image
-                src="/assets/korigo/logo/Untitled_design_8_9a03f168-3203-4942-b0b0-e445ec329911.png"
+                src="/assets/korigo/logo/Untitled_design_8_9a03f168-3203-4942-b0b0-e445ec329911.webp"
                 alt="Korigo Snacks Logo"
                 fill
                 className="object-contain p-1"

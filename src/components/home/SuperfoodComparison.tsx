@@ -46,7 +46,7 @@ export const SuperfoodComparison: React.FC = () => {
   ];
 
   return (
-    <section className="py-10 sm:py-16 md:py-20 bg-gradient-to-b from-[#1b3523] via-[#24462f] to-[#162c1d] text-white relative overflow-hidden border-b border-[#2d5539]">
+    <section className="content-auto py-10 sm:py-16 md:py-20 bg-gradient-to-b from-[#1b3523] via-[#24462f] to-[#162c1d] text-white relative overflow-hidden border-b border-[#2d5539]">
       {/* 3D Atmospheric Glowing Orbs */}
       <div className="absolute top-1/4 -left-20 w-80 h-80 rounded-full bg-amber-500/10 blur-3xl pointer-events-none" />
       <div className="absolute bottom-1/4 -right-20 w-80 h-80 rounded-full bg-emerald-500/10 blur-3xl pointer-events-none" />

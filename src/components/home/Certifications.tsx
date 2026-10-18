@@ -8,25 +8,25 @@ import { TiltCard3D } from "../ui/TiltCard3D";
 export const Certifications: React.FC = () => {
   const certs = [
     {
-      src: "/assets/korigo/certifications/Gemini_Generated_Image_mb7co0mb7co0mb7c_adc6621f-f87f-4148-ac65-8bae4b70b01a.png",
+      src: "/assets/korigo/certifications/Gemini_Generated_Image_mb7co0mb7co0mb7c_adc6621f-f87f-4148-ac65-8bae4b70b01a.webp",
       title: "FSSAI Food Safety Assured",
       desc: "Govt. of India Licensed Food Authority Standard",
       badge: "Govt. Certified",
     },
     {
-      src: "/assets/korigo/certifications/WhatsApp_Image_2026-02-15_at_2.03.50_PM.jpg",
+      src: "/assets/korigo/certifications/WhatsApp_Image_2026-02-15_at_2.03.50_PM.webp",
       title: "ISO 22000 Facility",
       desc: "World-Class Food Safety Management System",
       badge: "ISO Standard",
     },
     {
-      src: "/assets/korigo/certifications/Untitled_design_10_a79ccb9b-cfe1-4c3b-a4be-6b614b6fa975.png",
+      src: "/assets/korigo/certifications/Untitled_design_10_a79ccb9b-cfe1-4c3b-a4be-6b614b6fa975.webp",
       title: "100% Pure Vegetarian",
       desc: "Guaranteed Green Dot vegetarian facility",
       badge: "100% Veg",
     },
     {
-      src: "/assets/korigo/certifications/WhatsApp_Image_2026-02-15_at_2.03.49_PM.jpg",
+      src: "/assets/korigo/certifications/WhatsApp_Image_2026-02-15_at_2.03.49_PM.webp",
       title: "Non-GMO & Zero Chemical Additives",
       desc: "Clean-label naturally harvested Bihar makhana",
       badge: "Non-GMO",
@@ -34,7 +34,7 @@ export const Certifications: React.FC = () => {
   ];
 
   return (
-    <section className="py-8 sm:py-12 md:py-16 bg-white border-b border-gray-100 relative overflow-hidden">
+    <section className="content-auto py-8 sm:py-12 md:py-16 bg-white border-b border-gray-100 relative overflow-hidden">
       <div className="max-w-[1440px] mx-auto px-4 md:px-8">
         <div className="text-center mb-6 sm:mb-8">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-korigo-lightGreen text-korigo-darkGreen text-[11px] sm:text-xs font-bold uppercase tracking-widest mb-2 font-serif border border-korigo-green/20">

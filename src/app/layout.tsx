@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Andada_Pro, Inter } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "../lib/context/CartContext";
-import { PageLoader } from "../components/ui/PageLoader";
 import { AnnouncementBar } from "../components/layout/AnnouncementBar";
 import { Header } from "../components/layout/Header";
 import { Footer } from "../components/layout/Footer";
@@ -95,7 +94,6 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen flex flex-col font-serif bg-white text-gray-900 selection:bg-korigo-lightGreen selection:text-korigo-darkGreen">
         <CartProvider>
-          <PageLoader />
           <AnnouncementBar />
           <Header />
           <main className="flex-1">{children}</main>

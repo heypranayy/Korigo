@@ -21,7 +21,7 @@ export const ProductGallery: React.FC<ProductGalleryProps> = ({
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const displayImages = images.length > 0 ? images : [
-    { id: 1, src: "/assets/korigo/products/citrus.png", alt: productName },
+    { id: 1, src: "/assets/korigo/products/citrus.webp", alt: productName },
   ];
 
   const activeImage = displayImages[selectedIndex] || displayImages[0];

@@ -16,7 +16,7 @@ export const CombosSection: React.FC<CombosSectionProps> = ({ products }) => {
   );
 
   return (
-    <section className="py-8 sm:py-12 md:py-16 bg-gradient-to-b from-white via-amber-50/20 to-white relative overflow-hidden border-b border-gray-100">
+    <section className="content-auto py-8 sm:py-12 md:py-16 bg-gradient-to-b from-white via-amber-50/20 to-white relative overflow-hidden border-b border-gray-100">
       {/* 3D Background Decorative Floating Accents */}
       <div className="absolute top-10 left-10 w-72 h-72 rounded-full bg-amber-500/5 blur-3xl pointer-events-none" />
       <div className="absolute bottom-10 right-10 w-96 h-96 rounded-full bg-emerald-400/5 blur-3xl pointer-events-none" />

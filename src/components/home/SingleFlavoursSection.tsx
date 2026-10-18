@@ -3,10 +3,22 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { Sparkles, Flame, Heart, ShieldCheck, ArrowRight, LayoutGrid, Layers } from "lucide-react";
+import dynamic from "next/dynamic";
 import { StoreApiProduct } from "../../lib/woocommerce/types";
 import { ProductCard } from "../product/ProductCard";
-import { Makhana3DCardDeck } from "./Makhana3DCardDeck";
 import { soundFx } from "../../lib/audio/soundEffects";
+
+const Makhana3DCardDeck = dynamic(
+  () => import("./Makhana3DCardDeck").then((mod) => mod.Makhana3DCardDeck),
+  {
+    loading: () => (
+      <div className="h-96 flex items-center justify-center font-serif text-sm text-gray-400">
+        Loading 3D Deck...
+      </div>
+    ),
+    ssr: false,
+  }
+);
 
 interface SingleFlavoursSectionProps {
   products: StoreApiProduct[];
@@ -20,7 +32,7 @@ export const SingleFlavoursSection: React.FC<SingleFlavoursSectionProps> = ({ pr
   );
 
   return (
-    <section className="py-8 sm:py-12 md:py-16 bg-white relative overflow-hidden border-b border-gray-100">
+    <section className="content-auto py-8 sm:py-12 md:py-16 bg-white relative overflow-hidden border-b border-gray-100">
       {/* Background radial accent */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-korigo-lightGreen/20 rounded-full blur-3xl pointer-events-none" />
 

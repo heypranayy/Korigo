@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   }
 
   const price = formatStorePrice(product.prices.price);
-  const imgUrl = product.images?.[0]?.src || "/assets/korigo/products/citrus.png";
+  const imgUrl = product.images?.[0]?.src || "/assets/korigo/products/citrus.webp";
   const desc =
     cleanProductDescription(product.short_description || product.description) ||
     `Buy authentic ${product.name}. 100% slow-roasted makhana pops with bold seasoning, high protein, and zero guilt.`;
@@ -104,7 +104,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
   const isOnSale = product.on_sale || parseFloat(regularPrice) > parseFloat(currentPrice);
   const categoryName = product.categories?.[0]?.name || "Flavoured Makhana";
   const categorySlug = product.categories?.[0]?.slug || "flavours";
-  const primaryImgUrl = product.images?.[0]?.src || "/assets/korigo/products/citrus.png";
+  const primaryImgUrl = product.images?.[0]?.src || "/assets/korigo/products/citrus.webp";
   const cleanedDesc = cleanProductDescription(product.description);
   const recipes = product.customMeta?.recipes || [];
 

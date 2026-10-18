@@ -25,23 +25,23 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const isCombo = product.type === "combo" || product.slug.includes("combo");
 
   const LOCAL_TRANSPARENT_IMAGES: Record<string, string> = {
-    "sassy-sriracha": "/assets/korigo/products/transparent_sassy_sriracha.png",
-    "garlicked-cheese-makhana": "/assets/korigo/products/transparent_garlicked_cheese.png",
-    "citrus-cartel-makhana": "/assets/korigo/products/transparent_citrus_cartel.png",
-    "creme-d-onion-makhana": "/assets/korigo/products/transparent_creme_onion.png",
-    "cinnamon-drip": "/assets/korigo/products/transparent_cinnamon_drip.png",
-    "cinnamon-drip-makhana": "/assets/korigo/products/transparent_cinnamon_drip.png",
-    "coco-world-makhana": "/assets/korigo/products/transparent_coco_island.png",
-    "coco-island-makhana": "/assets/korigo/products/transparent_coco_island.png",
-    "garlic-cheese-sassy-sriracha-combo": "/assets/korigo/combos/transparent_garlic_sasy.png",
-    "citrus-cartel-sassy-sriracha-combo": "/assets/korigo/combos/transparent_citrus_sassy.png",
-    "citrus-cartel-garlicked-cheese-combo": "/assets/korigo/combos/transparent_garlc_citrus.png",
-    "garlicked-cheese-cinnamon-drip-combo": "/assets/korigo/combos/transparent_garlic_cinemon.png",
-    "cinnamon-drip-sour-cream-onion-combo": "/assets/korigo/combos/transparent_creme_cinemo.png",
-    "sassy-sriracha-sour-cream-onion-combo": "/assets/korigo/combos/transparent_creamonion_sassy.png",
+    "sassy-sriracha": "/assets/korigo/products/transparent_sassy_sriracha.webp",
+    "garlicked-cheese-makhana": "/assets/korigo/products/transparent_garlicked_cheese.webp",
+    "citrus-cartel-makhana": "/assets/korigo/products/transparent_citrus_cartel.webp",
+    "creme-d-onion-makhana": "/assets/korigo/products/transparent_creme_onion.webp",
+    "cinnamon-drip": "/assets/korigo/products/transparent_cinnamon_drip.webp",
+    "cinnamon-drip-makhana": "/assets/korigo/products/transparent_cinnamon_drip.webp",
+    "coco-world-makhana": "/assets/korigo/products/transparent_coco_island.webp",
+    "coco-island-makhana": "/assets/korigo/products/transparent_coco_island.webp",
+    "garlic-cheese-sassy-sriracha-combo": "/assets/korigo/combos/transparent_garlic_sasy.webp",
+    "citrus-cartel-sassy-sriracha-combo": "/assets/korigo/combos/transparent_citrus_sassy.webp",
+    "citrus-cartel-garlicked-cheese-combo": "/assets/korigo/combos/transparent_garlc_citrus.webp",
+    "garlicked-cheese-cinnamon-drip-combo": "/assets/korigo/combos/transparent_garlic_cinemon.webp",
+    "cinnamon-drip-sour-cream-onion-combo": "/assets/korigo/combos/transparent_creme_cinemo.webp",
+    "sassy-sriracha-sour-cream-onion-combo": "/assets/korigo/combos/transparent_creamonion_sassy.webp",
   };
 
-  const primaryImg = LOCAL_TRANSPARENT_IMAGES[product.slug] || product.images?.[0]?.src || "/assets/korigo/products/transparent_citrus_cartel.png";
+  const primaryImg = LOCAL_TRANSPARENT_IMAGES[product.slug] || product.images?.[0]?.src || "/assets/korigo/products/transparent_citrus_cartel.webp";
   const hoverImg = LOCAL_TRANSPARENT_IMAGES[product.slug] || product.images?.[1]?.src || primaryImg;
 
   // Variants for each card type
