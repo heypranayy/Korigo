@@ -276,12 +276,14 @@ export const HeroBanner: React.FC = () => {
               </div>
 
               {/* Headline */}
-              <h1 className="text-2xl sm:text-3xl font-serif font-black tracking-tight leading-tight text-white">
-                THE CRUNCH THAT <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-white to-amber-300">
-                  MAKES YOU POP!
-                </span>
-              </h1>
+              <div className="space-y-1">
+                <h1 className="text-2xl sm:text-3xl font-serif font-black tracking-tight leading-tight text-white">
+                  Flavoured Makhana
+                </h1>
+                <p className="text-base sm:text-lg font-serif font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-white to-amber-300">
+                  THE CRUNCH THAT MAKES YOU POP!
+                </p>
+              </div>
 
               {/* Interactive Packshot Stage on Mobile */}
               <div
@@ -437,14 +439,15 @@ export const HeroBanner: React.FC = () => {
                   <span>4.9 / 5.0 (2,400+ Verified Makhana Munchers)</span>
                 </div>
 
-                {/* Main Explosive Headline */}
-                <h1 className="text-3xl sm:text-5xl xl:text-6xl font-serif font-black tracking-tight leading-[1.1] text-white">
-                  THE CRUNCH <br className="hidden sm:inline" />
-                  THAT MAKES <br className="hidden sm:inline" />
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-white to-amber-300 drop-shadow-[0_4px_24px_rgba(255,255,255,0.3)]">
-                    YOU POP!
-                  </span>
-                </h1>
+                {/* Main Headline */}
+                <div className="space-y-2">
+                  <h1 className="text-3xl sm:text-5xl xl:text-6xl font-serif font-black tracking-tight leading-[1.1] text-white">
+                    Flavoured Makhana
+                  </h1>
+                  <p className="text-2xl sm:text-4xl xl:text-5xl font-serif font-black tracking-tight leading-tight text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-white to-amber-300 drop-shadow-[0_4px_24px_rgba(255,255,255,0.3)]">
+                    THE CRUNCH THAT MAKES YOU POP!
+                  </p>
+                </div>
 
                 {/* Dynamic Flavour Story */}
                 <div className="transition-all duration-300">

@@ -8,6 +8,7 @@ import { SuperfoodComparison } from "../components/home/SuperfoodComparison";
 import { Certifications } from "../components/home/Certifications";
 import { ReviewsSection } from "../components/home/ReviewsSection";
 import { FaqSection } from "../components/home/FaqSection";
+import { faqSchema } from "../lib/schema";
 
 export const revalidate = 60;
 
@@ -16,6 +17,10 @@ export default async function HomePage() {
 
   return (
     <div className="flex flex-col min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <HeroBanner />
       <FlavoursMarquee />
       <SingleFlavoursSection products={products} />

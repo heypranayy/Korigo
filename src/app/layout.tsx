@@ -7,6 +7,7 @@ import { AnnouncementBar } from "../components/layout/AnnouncementBar";
 import { Header } from "../components/layout/Header";
 import { Footer } from "../components/layout/Footer";
 import { CartDrawer } from "../components/cart/CartDrawer";
+import { websiteSchema, organizationSchema } from "../lib/schema";
 
 const andada = Andada_Pro({
   subsets: ["latin"],
@@ -71,6 +72,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${andada.variable} ${inter.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+      </head>
       <body className="min-h-screen flex flex-col font-serif bg-white text-gray-900 selection:bg-korigo-lightGreen selection:text-korigo-darkGreen">
         <CartProvider>
           <PageLoader />
