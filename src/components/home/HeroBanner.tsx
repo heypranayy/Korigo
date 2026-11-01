@@ -30,9 +30,9 @@ export const HeroBanner: React.FC = () => {
         </Link>
       </div>
 
-      {/* MOBILE HERO BANNER (< 768px): Portrait banner with clean SHOP NOW CTA */}
+      {/* MOBILE HERO BANNER (< 768px): Portrait banner with enlarged Makhana packets */}
       <div className="block md:hidden w-full bg-[#d0e45f]">
-        <div className="relative w-full max-w-[440px] mx-auto aspect-[828/744]">
+        <div className="relative w-full max-w-[460px] mx-auto aspect-[828/620]">
           <Image
             src="/assets/korigo/hero/hero_banner_mobile.webp"
             alt="Korigo Makhana Redefined — All Flavours"
@@ -47,10 +47,10 @@ export const HeroBanner: React.FC = () => {
             href="/shop"
             className="absolute z-20 rounded-full cursor-pointer focus:outline-none"
             style={{
-              top: "79.0%",
-              left: "29.8%",
-              width: "40.4%",
-              height: "11.0%",
+              top: "75.8%",
+              left: "27.2%",
+              width: "45.6%",
+              height: "14.4%",
             }}
             aria-label="Shop All Flavours of Korigo Makhana"
           >
