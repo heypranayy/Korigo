@@ -30,11 +30,11 @@ export const HeroBanner: React.FC = () => {
         </Link>
       </div>
 
-      {/* MOBILE HERO BANNER (< 768px): Full-coverage banner where MAKHANA REDEFINED and packets cover almost the entire banner */}
-      <div className="block md:hidden w-full bg-[#d0e45f]">
-        <div className="relative w-full aspect-[828/520]">
+      {/* MOBILE HERO BANNER (< 768px): 20px padding on all 4 sides of packets and text from border */}
+      <div className="block md:hidden w-full bg-[#d0e45f] p-[20px]">
+        <div className="relative w-full aspect-[808/469]">
           <Image
-            src="/assets/korigo/hero/makhana_redefined_mobile_v2.webp"
+            src="/assets/korigo/hero/hero_banner_mobile.webp"
             alt="Korigo Makhana Redefined — All Flavours"
             fill
             priority
@@ -47,10 +47,10 @@ export const HeroBanner: React.FC = () => {
             href="/shop"
             className="absolute z-20 rounded-full cursor-pointer focus:outline-none"
             style={{
-              top: "80.8%",
-              left: "27.6%",
-              width: "44.7%",
-              height: "16.5%",
+              top: "82.0%",
+              left: "29.5%",
+              width: "42.0%",
+              height: "18.0%",
             }}
             aria-label="Shop All Flavours of Korigo Makhana"
           >
