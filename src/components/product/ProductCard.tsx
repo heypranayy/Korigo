@@ -83,10 +83,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   };
 
   return (
-    <TiltCard3D
-      maxTilt={6}
-      scale={1.02}
-      className="group relative flex flex-col bg-white border border-gray-100 hover:border-korigo-green/40 hover:shadow-3d transition-all duration-300 rounded-2xl p-3 md:p-4 overflow-hidden"
+    <div
+      className="group relative flex flex-col bg-white border border-stone-200 hover:border-korigo-green hover:shadow-md transition-all duration-200 rounded-2xl p-3 md:p-4 overflow-hidden"
     >
       {/* Product Image Stage */}
       <Link
@@ -214,6 +212,6 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           </button>
         </div>
       </div>
-    </TiltCard3D>
+    </div>
   );
 };
