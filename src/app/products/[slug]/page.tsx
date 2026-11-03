@@ -7,6 +7,7 @@ import { getStoreProductBySlug, getStoreProducts, formatStorePrice } from "../..
 import { ProductGallery } from "../../../components/product/ProductGallery";
 import { ProductActions } from "../../../components/product/ProductActions";
 import { ProductDetailsAccordion } from "../../../components/product/ProductDetailsAccordion";
+import { ProductDescriptionExpandable } from "../../../components/product/ProductDescriptionExpandable";
 import { DeliveryEstimator } from "../../../components/product/DeliveryEstimator";
 import { RecipeGuideSection } from "../../../components/product/RecipeGuideSection";
 import { ProductCard } from "../../../components/product/ProductCard";
@@ -313,11 +314,9 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
               </span>
             </div>
 
-            {/* Clean Editorial Description */}
+            {/* Clean Editorial Description (1-line with '... more' expander) */}
             {cleanedDesc && (
-              <div className="text-sm text-gray-600 font-serif leading-relaxed pt-1">
-                <p>{cleanedDesc}</p>
-              </div>
+              <ProductDescriptionExpandable description={cleanedDesc} />
             )}
 
             {/* Estimated Delivery Date Pincode Checker (Exact from korigosnacks.com) */}

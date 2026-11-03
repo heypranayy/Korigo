@@ -30,7 +30,7 @@ export const ProductDetailsAccordion: React.FC<ProductDetailsAccordionProps> = (
 }) => {
   const [openSections, setOpenSections] = useState<Record<string, boolean>>({
     nutrition: true,
-    ingredients: true,
+    ingredients: false,
     allergens: false,
     about: false,
   });
