@@ -2,6 +2,7 @@ import React from "react";
 import { getStoreProducts } from "../lib/woocommerce/storeApi";
 import { HeroBanner } from "../components/home/HeroBanner";
 import { FlavoursMarquee } from "../components/home/FlavoursMarquee";
+import { NoKernelPopcornSection } from "../components/home/NoKernelPopcornSection";
 import { CombosSection } from "../components/home/CombosSection";
 import { SingleFlavoursSection } from "../components/home/SingleFlavoursSection";
 import { SuperfoodComparison } from "../components/home/SuperfoodComparison";
@@ -23,6 +24,7 @@ export default async function HomePage() {
       />
       <HeroBanner />
       <FlavoursMarquee />
+      <NoKernelPopcornSection />
       <SingleFlavoursSection products={products} />
       <CombosSection products={products} />
       <SuperfoodComparison />

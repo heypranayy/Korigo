@@ -149,6 +149,17 @@ export const Header: React.FC = () => {
               </Link>
 
               <Link
+                href="/blogs"
+                className={`transition-colors duration-200 ${
+                  pathname?.startsWith("/blogs")
+                    ? "text-korigo-green font-bold"
+                    : "text-gray-800 hover:text-korigo-green font-medium"
+                }`}
+              >
+                Blogs
+              </Link>
+
+              <Link
                 href="/contact"
                 className={`transition-colors duration-200 ${
                   pathname === "/contact"
@@ -277,7 +288,7 @@ export const Header: React.FC = () => {
                   onClick={() => setMobileMenuOpen(false)}
                   className="block py-2 px-3 rounded-lg text-gray-900 hover:bg-[#f2faee] hover:text-korigo-green font-medium"
                 >
-                  Recipes & Blog
+                  Blogs
                 </Link>
                 <Link
                   href="/contact"

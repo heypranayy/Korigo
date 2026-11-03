@@ -28,7 +28,7 @@ export const SingleFlavoursSection: React.FC<SingleFlavoursSectionProps> = ({ pr
             Crunch Into Korigo <span className="text-korigo-green">Signature Flavours</span>
           </h2>
           <p className="text-gray-600 text-xs sm:text-sm md:text-base leading-relaxed font-serif">
-            Makhana is the no-kernel superfood pop you will fall in love with. Slow-roasted to crunchy perfection and coated in authentic spices, every bite provides dietary fibre, plant protein, and antioxidants with zero cholesterol.
+            Explore our 6 signature flavours of 100% slow-roasted makhana pops tossed in authentic spices for daily healthy crunch.
           </p>
         </div>
 

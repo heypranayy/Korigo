@@ -6,12 +6,12 @@ import { getPosts } from "../../lib/wordpress/client";
 import { Calendar, User, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Health & Snacking Blog | Makhana Insights & Recipes",
+  title: "Blogs | Korigo Snacks",
   description:
-    "Explore nutritional insights, makhana health benefits, recipes, and snacking guides from Korigo Snacks. Written by health enthusiasts for everyday wellness.",
+    "Explore nutritional insights, makhana health benefits, and healthy snacking guides from Korigo Snacks. Written by health enthusiasts for everyday wellness.",
   openGraph: {
-    title: "Korigo Snacks Blog — Makhana Superfood Insights",
-    description: "Read all 7 expert articles on roasted makhana, desk job snacks, and weight management.",
+    title: "Korigo Snacks Blogs — Makhana Superfood Insights",
+    description: "Read expert articles on roasted makhana, desk job snacks, and clean nutrition.",
   },
 };
 
@@ -28,10 +28,10 @@ export default async function BlogArchivePage() {
             The Korigo Journal
           </span>
           <h1 className="text-3xl md:text-5xl font-serif font-bold text-black mb-4">
-            Blog & Healthy Snacking Guides
+            Blogs
           </h1>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed">
-            Everything you need to know about the nutritional science of fox nuts, recipes you can make in 10 minutes, and smart guilt-free munching.
+            Everything you need to know about the nutritional science of fox nuts and smart guilt-free munching.
           </p>
         </div>
 

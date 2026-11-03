@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --font-heading-family: "Andada Pro", Georgia, serif;
-  --font-body-family: "Andada Pro", Georgia, serif;
+  --font-heading-family: var(--font-andada), "Andada Pro", Georgia, serif;
+  --font-body-family: var(--font-andada), "Andada Pro", Georgia, serif;
   
   --accent-color: #528663;
   --accent-color-darken: #467655;

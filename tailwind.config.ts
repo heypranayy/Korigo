@@ -40,8 +40,8 @@ const config: Config = {
         },
       },
       fontFamily: {
-        serif: ["var(--font-andada)", "Georgia", "serif"],
-        sans: ["var(--font-inter)", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
+        serif: ["var(--font-andada)", "Andada Pro", "Georgia", "serif"],
+        sans: ["var(--font-andada)", "Andada Pro", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
       },
       maxWidth: {
         container: "1200px",

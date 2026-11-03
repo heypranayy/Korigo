@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Andada_Pro, Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { CartProvider } from "../lib/context/CartContext";
 import { AnnouncementBar } from "../components/layout/AnnouncementBar";
@@ -8,17 +8,35 @@ import { Footer } from "../components/layout/Footer";
 import { CartDrawer } from "../components/cart/CartDrawer";
 import { websiteSchema, organizationSchema } from "../lib/schema";
 
-const andada = Andada_Pro({
-  subsets: ["latin"],
+const andada = localFont({
+  src: [
+    {
+      path: "../../public/fonts/andada-pro/AndadaPro-400.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/andada-pro/AndadaPro-500.ttf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/andada-pro/AndadaPro-600.ttf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/andada-pro/AndadaPro-700.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/andada-pro/AndadaPro-800.ttf",
+      weight: "800",
+      style: "normal",
+    },
+  ],
   variable: "--font-andada",
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-});
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  weight: ["400", "500", "600"],
   display: "swap",
 });
 
@@ -81,7 +99,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${andada.variable} ${inter.variable}`}>
+    <html lang="en" className={andada.variable}>
       <head>
         <script
           type="application/ld+json"

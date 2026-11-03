@@ -119,7 +119,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <Link href="/blogs" className="hover:text-white transition">
-                  Blog & Health Articles
+                  Blogs
                 </Link>
               </li>
               <li>
