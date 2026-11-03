@@ -37,3 +37,4 @@ export const ProductDescriptionExpandable: React.FC<ProductDescriptionExpandable
     </div>
   );
 };
+

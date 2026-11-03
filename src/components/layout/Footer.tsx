@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Mail, MapPin, ShieldCheck } from "lucide-react";
+import { Mail, MapPin, Phone, ShieldCheck } from "lucide-react";
 
 export const Footer: React.FC = () => {
   return (
@@ -43,6 +43,15 @@ export const Footer: React.FC = () => {
                   className="hover:text-white transition underline underline-offset-2"
                 >
                   contact@korigosnacks.com
+                </a>
+              </div>
+              <div className="flex items-center gap-1.5 md:gap-2">
+                <Phone className="w-3.5 h-3.5 md:w-4 md:h-4 text-amber-300 flex-shrink-0" />
+                <a
+                  href="tel:+918981842929"
+                  className="hover:text-white transition underline underline-offset-2"
+                >
+                  +91 8981842929
                 </a>
               </div>
             </div>
