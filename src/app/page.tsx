@@ -1,7 +1,6 @@
 import React from "react";
 import { getStoreProducts } from "../lib/woocommerce/storeApi";
 import { HeroBanner } from "../components/home/HeroBanner";
-import { FlavoursMarquee } from "../components/home/FlavoursMarquee";
 import { NoKernelPopcornSection } from "../components/home/NoKernelPopcornSection";
 import { CombosSection } from "../components/home/CombosSection";
 import { SingleFlavoursSection } from "../components/home/SingleFlavoursSection";
@@ -11,7 +10,7 @@ import { ReviewsSection } from "../components/home/ReviewsSection";
 import { FaqSection } from "../components/home/FaqSection";
 import { faqSchema } from "../lib/schema";
 
-export const revalidate = 60;
+export const revalidate = 300;
 
 export default async function HomePage() {
   const products = await getStoreProducts();
@@ -23,7 +22,6 @@ export default async function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <HeroBanner />
-      <FlavoursMarquee />
       <NoKernelPopcornSection />
       <SingleFlavoursSection products={products} />
       <CombosSection products={products} />

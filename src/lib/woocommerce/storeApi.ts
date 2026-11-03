@@ -100,26 +100,52 @@ export function enrichProduct(product: StoreApiProduct): StoreApiProduct {
   };
 }
 
+let cachedProducts: StoreApiProduct[] | null = null;
+let lastProductsFetchTime = 0;
+const PRODUCTS_CACHE_TTL = 1000 * 60 * 10; // 10 minutes cache
+
 export async function getStoreProducts(categorySlug?: string): Promise<StoreApiProduct[]> {
+  const now = Date.now();
+  if (cachedProducts && now - lastProductsFetchTime < PRODUCTS_CACHE_TTL) {
+    if (categorySlug) {
+      return cachedProducts.filter((p) =>
+        p.categories.some((c) => c.slug.toLowerCase() === categorySlug.toLowerCase())
+      );
+    }
+    return cachedProducts;
+  }
+
   try {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 2000);
+
     const url = new URL(`${WP_URL}/wp-json/wc/store/v1/products`);
     url.searchParams.set("per_page", "50");
 
     const res = await fetch(url.toString(), {
-      next: { revalidate: 60 },
+      next: { revalidate: 300 },
+      signal: controller.signal,
       headers: {
         Accept: "application/json",
         "User-Agent": "Korigo-Next-Client",
       },
     });
+    clearTimeout(timeoutId);
 
     if (!res.ok) {
       console.warn(`Store API returned status ${res.status}, using enriched catalog`);
-      return enrichFallbackProducts();
+      const fallback = enrichFallbackProducts();
+      cachedProducts = fallback;
+      lastProductsFetchTime = now;
+      return categorySlug
+        ? fallback.filter((p) => p.categories.some((c) => c.slug.toLowerCase() === categorySlug.toLowerCase()))
+        : fallback;
     }
 
     const data: StoreApiProduct[] = await res.json();
     let enriched = data.map(enrichProduct);
+    cachedProducts = enriched;
+    lastProductsFetchTime = now;
 
     if (categorySlug) {
       enriched = enriched.filter((p) =>
@@ -129,8 +155,12 @@ export async function getStoreProducts(categorySlug?: string): Promise<StoreApiP
 
     return enriched;
   } catch (err) {
-    console.error("Error fetching Store API products:", err);
-    return enrichFallbackProducts();
+    const fallback = enrichFallbackProducts();
+    cachedProducts = fallback;
+    lastProductsFetchTime = now;
+    return categorySlug
+      ? fallback.filter((p) => p.categories.some((c) => c.slug.toLowerCase() === categorySlug.toLowerCase()))
+      : fallback;
   }
 }
 
@@ -142,17 +172,29 @@ export async function getStoreProductBySlug(slug: string): Promise<StoreApiProdu
       ? "coco-world-makhana"
       : slug;
 
+  if (cachedProducts) {
+    const found = cachedProducts.find(
+      (p) => p.slug === canonicalSlug || p.slug === slug
+    );
+    if (found) return found;
+  }
+
   try {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 2000);
+
     const url = new URL(`${WP_URL}/wp-json/wc/store/v1/products`);
     url.searchParams.set("slug", canonicalSlug);
 
     const res = await fetch(url.toString(), {
-      next: { revalidate: 60 },
+      next: { revalidate: 300 },
+      signal: controller.signal,
       headers: {
         Accept: "application/json",
         "User-Agent": "Korigo-Next-Client",
       },
     });
+    clearTimeout(timeoutId);
 
     if (!res.ok) {
       return getFallbackProductBySlug(canonicalSlug);
@@ -165,7 +207,6 @@ export async function getStoreProductBySlug(slug: string): Promise<StoreApiProdu
 
     return getFallbackProductBySlug(canonicalSlug);
   } catch (err) {
-    console.error(`Error fetching product ${slug}:`, err);
     return getFallbackProductBySlug(canonicalSlug);
   }
 }

@@ -30,8 +30,8 @@ export const HeroBanner: React.FC = () => {
         </Link>
       </div>
 
-      {/* MOBILE HERO BANNER (< 768px): 20px padding on all 4 sides of packets and text from border */}
-      <div className="block md:hidden w-full bg-[#d0e45f] p-[20px]">
+      {/* MOBILE HERO BANNER (< 768px): Longer vertical framing with balanced padding */}
+      <div className="block md:hidden w-full bg-[#d0e45f] px-[20px] pt-[36px] pb-[44px]">
         <div className="relative w-full aspect-[808/469]">
           <Image
             src="/assets/korigo/hero/hero_banner_mobile.webp"

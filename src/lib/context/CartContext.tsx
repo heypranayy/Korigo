@@ -52,11 +52,14 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
       if (savedNonce) setNonce(savedNonce);
       if (savedLocalCart) {
         try {
-          setCart(JSON.parse(savedLocalCart));
+          const parsed = JSON.parse(savedLocalCart);
+          setCart(parsed);
+          // Only refresh with backend if there are actually items in the cart
+          if (parsed && parsed.items && parsed.items.length > 0 && savedToken) {
+            refreshCart(savedToken);
+          }
         } catch (_) {}
       }
-
-      refreshCart(savedToken);
     }
   }, []);
 

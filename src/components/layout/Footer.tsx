@@ -3,42 +3,12 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Mail, MapPin, ShieldCheck, Heart } from "lucide-react";
+import { Mail, MapPin, ShieldCheck } from "lucide-react";
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="bg-gradient-to-b from-[#528663] via-[#467655] to-[#3b6649] text-white pt-16 pb-8 border-t border-[#68a07a]/40 shadow-inner">
+    <footer className="bg-gradient-to-b from-[#528663] via-[#467655] to-[#3b6649] text-white pt-12 pb-8 border-t border-[#68a07a]/40 shadow-inner">
       <div className="max-w-[1440px] mx-auto px-4 md:px-8">
-        {/* Top Newsletter Row */}
-        <div className="border-b border-white/15 pb-12 mb-12">
-          <div className="max-w-xl">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 text-white text-xs font-mono font-bold uppercase tracking-wider mb-3 border border-white/20">
-              <Heart className="w-3.5 h-3.5 text-amber-300 fill-amber-300" />
-              <span>KORIGO VIP SNACK CLUB</span>
-            </div>
-            <h3 className="text-2xl md:text-3xl font-serif font-bold text-white mb-2">
-              Don’t miss out on a sale again.
-            </h3>
-            <p className="text-white/85 text-sm mb-6 font-serif">
-              Sign up now for seasonal sale alerts, secret drops & healthy snacking tips.
-            </p>
-            <form onSubmit={(e) => e.preventDefault()} className="flex flex-col sm:flex-row gap-3">
-              <input
-                type="email"
-                placeholder="Enter your email address"
-                required
-                className="bg-white/10 border border-white/25 text-white placeholder:text-white/60 px-4 py-3 text-sm rounded-lg focus:outline-none focus:border-white flex-1"
-              />
-              <button
-                type="submit"
-                className="bg-white hover:bg-[#eef5f0] text-[#467655] px-6 py-3 text-sm font-bold uppercase tracking-wider transition font-serif rounded-lg shadow-md hover:scale-102 active:scale-98"
-              >
-                Subscribe
-              </button>
-            </form>
-          </div>
-        </div>
-
         {/* Links Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-white/15 text-sm">
           {/* Brand Info */}
