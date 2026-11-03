@@ -31,13 +31,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const blogRoutes = [
-    "top-health-benefits-of-makhana-fox-nuts-lotus-seeds",
-    "makhana-for-weight-loss-how-to-eat",
-    "makhana-vs-other-snacks-why-its-the-healthiest",
-    "why-cheese-makhana-is-becoming-india-s-favorite-healthy-snack",
-    "healthy-makhana-recipes-you-can-make-at-home",
-    "top-5-healthy-snacks-for-desk-jobs",
+    "healthy-travel-snacks-flights-train-journeys",
+    "healthy-corporate-gifts-india-makhana-combo-packs",
+    "is-makhana-safe-during-pregnancy-benefits-side-effects",
+    "makhana-calories-protein-value-nutrition-benefits",
     "late-night-healthy-snacks-that-won-t-make-you-feel-guilty",
+    "top-5-healthy-snacks-for-desk-jobs",
+    "healthy-makhana-recipes-you-can-make-at-home",
+    "why-cheese-makhana-is-becoming-india-s-favorite-healthy-snack",
+    "makhana-vs-other-snacks-why-its-the-healthiest",
+    "makhana-for-weight-loss-how-to-eat",
+    "top-health-benefits-of-makhana-fox-nuts-lotus-seeds",
   ].map((slug) => ({
     url: `${baseUrl}/blogs/${slug}`,
     lastModified: new Date(),
