@@ -317,3 +317,4 @@ if __name__ == "__main__":
         print(f"Rendered: {res['title']}")
         print(f"  Slug: {res['slug']}, Date: {res['date']}")
         print(f"  HTML len: {len(res['content'])} chars")
+
