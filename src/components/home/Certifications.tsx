@@ -2,79 +2,50 @@
 
 import React from "react";
 import Image from "next/image";
-import { ShieldCheck, Award } from "lucide-react";
-import { TiltCard3D } from "../ui/TiltCard3D";
 
 export const Certifications: React.FC = () => {
   const certs = [
     {
       src: "/assets/korigo/certifications/Gemini_Generated_Image_mb7co0mb7co0mb7c_adc6621f-f87f-4148-ac65-8bae4b70b01a.webp",
-      title: "FSSAI Food Safety Assured",
-      desc: "Govt. of India Licensed Food Authority Standard",
-      badge: "Govt. Certified",
+      alt: "Made in India Lion Logo",
     },
     {
       src: "/assets/korigo/certifications/WhatsApp_Image_2026-02-15_at_2.03.50_PM.webp",
-      title: "ISO 22000 Facility",
-      desc: "World-Class Food Safety Management System",
-      badge: "ISO Standard",
+      alt: "MSME Ministry of Micro Small & Medium Enterprises",
     },
     {
       src: "/assets/korigo/certifications/Untitled_design_10_a79ccb9b-cfe1-4c3b-a4be-6b614b6fa975.webp",
-      title: "100% Pure Vegetarian",
-      desc: "Guaranteed Green Dot vegetarian facility",
-      badge: "100% Veg",
+      alt: "FSSAI Food Safety and Standards Authority of India",
     },
     {
       src: "/assets/korigo/certifications/WhatsApp_Image_2026-02-15_at_2.03.49_PM.webp",
-      title: "Non-GMO & Zero Chemical Additives",
-      desc: "Clean-label naturally harvested Bihar makhana",
-      badge: "Non-GMO",
+      alt: "DPIIT Department for Promotion of Industry and Internal Trade",
     },
   ];
 
   return (
-    <section className="content-auto py-8 sm:py-12 md:py-16 bg-white border-b border-gray-100 relative overflow-hidden">
-      <div className="max-w-[1440px] mx-auto px-4 md:px-8">
-        <div className="text-center mb-6 sm:mb-8">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-korigo-lightGreen text-korigo-darkGreen text-[11px] sm:text-xs font-bold uppercase tracking-widest mb-2 font-serif border border-korigo-green/20">
-            <ShieldCheck className="w-3.5 h-3.5 text-korigo-green" />
-            <span>Uncompromising Food Standards</span>
-          </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-black">
-            Our Quality Certifications & Assurances
-          </h2>
-          <p className="text-gray-500 text-xs sm:text-sm font-serif max-w-lg mx-auto mt-1">
-            Every batch of Korigo Snacks is manufactured in sterile, certified facilities complying with the highest domestic and international standards.
-          </p>
-        </div>
+    <section className="content-auto py-10 sm:py-14 md:py-16 bg-white border-b border-gray-100">
+      <div className="max-w-[1240px] mx-auto px-4 md:px-8">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-center text-black mb-8 sm:mb-12">
+          Our Certifications &amp; Recognitions
+        </h2>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 max-w-5xl mx-auto">
           {certs.map((c, i) => (
-            <TiltCard3D key={i} maxTilt={4} scale={1.02}>
-              <div className="flex flex-col items-center justify-between p-3.5 sm:p-6 rounded-2xl bg-gradient-to-b from-gray-50/80 to-white border border-gray-200/80 hover:border-korigo-green shadow-sm hover:shadow-lg transition-all text-center h-full group">
-                <span className="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-korigo-green bg-korigo-lightGreen px-2 py-0.5 rounded-full mb-2">
-                  {c.badge}
-                </span>
-                <div className="relative w-16 h-16 sm:w-24 sm:h-24 mb-2 sm:mb-3 group-hover:scale-105 transition-transform duration-300">
-                  <Image
-                    src={c.src}
-                    alt={c.title}
-                    fill
-                    className="object-contain"
-                    sizes="(max-width: 640px) 70px, 120px"
-                  />
-                </div>
-                <div>
-                  <h3 className="text-xs sm:text-sm font-serif font-bold text-black mb-0.5 group-hover:text-korigo-green transition-colors">
-                    {c.title}
-                  </h3>
-                  <p className="text-[10px] sm:text-[11px] text-gray-500 font-serif leading-tight hidden xs:block">
-                    {c.desc}
-                  </p>
-                </div>
+            <div
+              key={i}
+              className="bg-white rounded-2xl sm:rounded-3xl border border-gray-100 shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-md transition-shadow duration-200 p-6 sm:p-8 flex items-center justify-center aspect-[4/3] sm:aspect-square"
+            >
+              <div className="relative w-full h-full max-w-[160px] max-h-[100px] flex items-center justify-center">
+                <Image
+                  src={c.src}
+                  alt={c.alt}
+                  fill
+                  className="object-contain"
+                  sizes="(max-width: 640px) 140px, (max-width: 1024px) 180px, 200px"
+                />
               </div>
-            </TiltCard3D>
+            </div>
           ))}
         </div>
       </div>

@@ -4,6 +4,7 @@ import { HeroBanner } from "../components/home/HeroBanner";
 import { NoKernelPopcornSection } from "../components/home/NoKernelPopcornSection";
 import { CombosSection } from "../components/home/CombosSection";
 import { SingleFlavoursSection } from "../components/home/SingleFlavoursSection";
+import { HealthBadgesSection } from "../components/home/HealthBadgesSection";
 import { SuperfoodComparison } from "../components/home/SuperfoodComparison";
 import { Certifications } from "../components/home/Certifications";
 import { ReviewsSection } from "../components/home/ReviewsSection";
@@ -25,6 +26,7 @@ export default async function HomePage() {
       <NoKernelPopcornSection />
       <SingleFlavoursSection products={products} />
       <CombosSection products={products} />
+      <HealthBadgesSection />
       <SuperfoodComparison />
       <Certifications />
       <ReviewsSection />
