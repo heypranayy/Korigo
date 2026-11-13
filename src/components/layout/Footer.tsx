@@ -1,207 +1,127 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Mail, MapPin, Phone, ShieldCheck } from "lucide-react";
+import { Instagram, Facebook, Linkedin } from "lucide-react";
 
 export const Footer: React.FC = () => {
+  const [email, setEmail] = useState("");
+  const [subscribed, setSubscribed] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (email.trim()) {
+      setSubscribed(true);
+      setEmail("");
+    }
+  };
+
   return (
-    <footer className="bg-gradient-to-b from-[#528663] via-[#467655] to-[#3b6649] text-white pt-7 pb-6 md:pt-12 md:pb-8 border-t border-[#68a07a]/40 shadow-inner">
-      <div className="max-w-[1440px] mx-auto px-4 md:px-8">
-        {/* Links Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-4 sm:gap-x-6 gap-y-6 md:gap-10 pb-6 md:pb-12 border-b border-white/15 text-xs md:text-sm">
-          {/* Brand Info */}
-          <div className="col-span-2 lg:col-span-1 space-y-2.5 md:space-y-4">
-            <Link
-              href="/"
-              className="inline-block relative h-8 w-28 md:h-10 md:w-36 bg-white/95 px-2.5 py-1 md:px-3 md:py-1.5 rounded-lg md:rounded-xl shadow-sm"
-            >
-              <Image
-                src="/assets/korigo/logo/Untitled_design_8_9a03f168-3203-4942-b0b0-e445ec329911.webp"
-                alt="Korigo Snacks Logo"
-                fill
-                className="object-contain p-0.5 md:p-1"
-                sizes="150px"
-              />
-            </Link>
-            <p className="text-white/85 text-xs md:text-sm leading-relaxed font-serif max-w-sm">
-              100% slow-roasted, non-fried flavoured makhana pops. Handcrafted with authentic spices for clean, guilt-free crunch.
-            </p>
-            <div className="inline-block text-[10px] md:text-[11px] font-mono uppercase tracking-wider text-amber-200/90 font-semibold bg-white/10 px-2 py-0.5 md:px-2.5 md:py-1 rounded border border-white/15">
-              A UNIT OF KLOVE PRIVATE LIMITED
-            </div>
-            <div className="space-y-1.5 md:space-y-2 text-white/80 text-[11px] md:text-xs pt-1 font-serif">
-              <div className="flex items-start gap-1.5 md:gap-2">
-                <MapPin className="w-3.5 h-3.5 md:w-4 md:h-4 text-amber-300 flex-shrink-0 mt-0.5" />
-                <span>783 Anandapur, Kolkata - 700107, West Bengal, India</span>
-              </div>
-              <div className="flex items-center gap-1.5 md:gap-2">
-                <Mail className="w-3.5 h-3.5 md:w-4 md:h-4 text-amber-300 flex-shrink-0" />
-                <a
-                  href="mailto:contact@korigosnacks.com"
-                  className="hover:text-white transition underline underline-offset-2"
-                >
-                  contact@korigosnacks.com
-                </a>
-              </div>
-              <div className="flex items-center gap-1.5 md:gap-2">
-                <Phone className="w-3.5 h-3.5 md:w-4 md:h-4 text-amber-300 flex-shrink-0" />
-                <a
-                  href="tel:+918981842929"
-                  className="hover:text-white transition underline underline-offset-2"
-                >
-                  +91 8981842929
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Quick Links */}
-          <div className="col-span-1">
-            <h4 className="font-serif font-bold text-xs md:text-base text-white mb-2.5 md:mb-4 uppercase tracking-wider border-b border-white/20 pb-1 inline-block">
-              Shop Snacks
-            </h4>
-            <ul className="space-y-1.5 md:space-y-2.5 text-white/85 font-serif text-[12px] md:text-sm">
-              <li>
-                <Link href="/shop" className="hover:text-white transition">
-                  All Snacks (12)
-                </Link>
-              </li>
-              <li>
-                <Link href="/shop?category=flavours" className="hover:text-white transition">
-                  Individual (35g)
-                </Link>
-              </li>
-              <li>
-                <Link href="/shop?category=combos" className="hover:text-white transition">
-                  Value Combos (70g)
-                </Link>
-              </li>
-              <li>
-                <Link href="/products/coco-world-makhana" className="hover:text-white transition">
-                  Coco Island Chocolate
-                </Link>
-              </li>
-              <li>
-                <Link href="/products/sassy-sriracha" className="hover:text-white transition">
-                  Sassy Sriracha Spicy
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Learn & Explore */}
-          <div className="col-span-1">
-            <h4 className="font-serif font-bold text-xs md:text-base text-white mb-2.5 md:mb-4 uppercase tracking-wider border-b border-white/20 pb-1 inline-block">
-              Explore Korigo
-            </h4>
-            <ul className="space-y-1.5 md:space-y-2.5 text-white/85 font-serif text-[12px] md:text-sm">
-              <li>
-                <Link href="/about-us" className="hover:text-white transition">
-                  Our Story &amp; Founders
-                </Link>
-              </li>
-              <li>
-                <Link href="/blogs" className="hover:text-white transition">
-                  Blogs
-                </Link>
-              </li>
-              <li>
-                <Link href="/reviews-form" className="hover:text-white transition">
-                  Customer Reviews
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="hover:text-white transition">
-                  Contact &amp; Bulk Orders
-                </Link>
-              </li>
-              <li>
-                <Link href="/my-account" className="hover:text-white transition">
-                  Customer Account
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Policies & Assurances */}
-          <div className="col-span-2 sm:col-span-1 lg:col-span-1">
-            <h4 className="font-serif font-bold text-xs md:text-base text-white mb-2.5 md:mb-4 uppercase tracking-wider border-b border-white/20 pb-1 inline-block">
-              Policies
-            </h4>
-            <ul className="space-y-1.5 md:space-y-2.5 text-white/85 font-serif text-[12px] md:text-sm">
-              <li>
-                <Link href="/refund-policy" className="hover:text-white transition">
-                  Refund Policy
-                </Link>
-              </li>
-              <li>
-                <Link href="/privacy-policy" className="hover:text-white transition">
-                  Privacy Policy
-                </Link>
-              </li>
-              <li>
-                <Link href="/shipping-policy" className="hover:text-white transition">
-                  Shipping Policy
-                </Link>
-              </li>
-              <li>
-                <Link href="/terms-of-service" className="hover:text-white transition">
-                  Terms of Service
-                </Link>
-              </li>
-            </ul>
-            <div className="mt-3 md:mt-5 p-2 md:p-3 rounded-lg md:rounded-xl bg-white/10 border border-white/15 text-[11px] md:text-xs text-white/90 flex items-center gap-2">
-              <ShieldCheck className="w-4 h-4 md:w-5 md:h-5 text-amber-300 flex-shrink-0" />
-              <span>Certified Non-GMO, 100% Vegetarian &amp; FSSAI Approved</span>
-            </div>
-          </div>
+    <footer className="bg-[#3e8a5b] text-white py-10 sm:py-12 px-4 font-serif">
+      <div className="max-w-[800px] mx-auto flex flex-col items-center text-center space-y-4 sm:space-y-4.5">
+        {/* Logo */}
+        <div className="relative w-28 sm:w-32 h-10 flex items-center justify-center mb-1">
+          <Link href="/" aria-label="Korigo Snacks Home">
+            <Image
+              src="/assets/korigo/logo/logo_white.png"
+              alt="Korigo - Better Crunch"
+              width={130}
+              height={50}
+              className="h-8 sm:h-9 w-auto object-contain"
+              priority
+            />
+          </Link>
         </div>
 
-        {/* Bottom Copyright & Credit Row */}
-        <div className="pt-5 md:pt-8 flex flex-col md:flex-row items-center justify-between text-[11px] md:text-xs text-white/75 gap-3 md:gap-4 font-serif">
-          <div className="flex flex-col sm:flex-row items-center gap-1.5 sm:gap-2 text-center sm:text-left">
-            <p>© 2026 Korigo Snacks. All Rights Reserved.</p>
-            <span className="hidden sm:inline text-white/40">•</span>
-            <p className="font-semibold text-white tracking-wide">
-              A UNIT OF KLOVE PRIVATE LIMITED
-            </p>
-          </div>
+        {/* Subscribe form */}
+        <form
+          onSubmit={handleSubmit}
+          className="flex flex-row items-center justify-center gap-2 w-full max-w-[420px]"
+        >
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="Enter your email"
+            required
+            aria-label="Email Address"
+            className="w-48 sm:w-60 px-4 py-2 rounded-full bg-white text-gray-800 placeholder:text-gray-400 font-serif text-[13px] sm:text-[14px] outline-none shadow-sm focus:ring-2 focus:ring-white/40"
+          />
+          <button
+            type="submit"
+            className="px-5 sm:px-6 py-2 rounded-full bg-white text-[#3e8a5b] font-serif font-medium text-[13px] sm:text-[14px] shadow-sm hover:bg-white/95 active:scale-95 transition-all duration-150 shrink-0"
+          >
+            {subscribed ? "Subscribed!" : "Subscribe"}
+          </button>
+        </form>
 
-          <div className="flex items-center gap-2">
-            <div className="inline-flex items-center gap-1 px-2.5 py-1 md:px-3.5 md:py-1.5 rounded-full bg-white/10 border border-white/20 text-white text-[10px] md:text-[11px] font-mono tracking-wider shadow-sm">
-              <span className="text-white/90">BUILT BY</span>
-              <a
-                href="https://gexart.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-amber-300 font-black underline underline-offset-2 hover:text-white transition cursor-pointer"
-                title="GEXART"
-              >
-                GEXART
-              </a>
-            </div>
-          </div>
+        {/* Address */}
+        <p className="text-white text-[13px] sm:text-[14px] font-serif tracking-wide pt-1">
+          Address: 783 Anandapur, Kolkata -700107
+        </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-3 md:gap-4 text-[11px] md:text-xs">
-            <Link href="/privacy-policy" className="hover:text-white transition">
-              Privacy
-            </Link>
-            <span>•</span>
-            <Link href="/terms-of-service" className="hover:text-white transition">
-              Terms
-            </Link>
-            <span>•</span>
-            <Link href="/shipping-policy" className="hover:text-white transition">
-              Shipping
-            </Link>
-            <span>•</span>
-            <Link href="/refund-policy" className="hover:text-white transition">
-              Refunds
-            </Link>
-          </div>
+        {/* Email */}
+        <div>
+          <a
+            href="mailto:contact@korigosnacks.com"
+            className="text-white text-[13px] sm:text-[14px] font-serif underline underline-offset-4 hover:opacity-85 transition tracking-wide"
+          >
+            contact@korigosnacks.com
+          </a>
         </div>
+
+        {/* Policy Links */}
+        <div className="flex flex-wrap items-center justify-center gap-x-5 sm:gap-x-7 gap-y-2 text-white text-[12.5px] sm:text-[13.5px] font-serif tracking-wide pt-1">
+          <Link href="/refund-policy" className="hover:underline hover:opacity-90 transition">
+            Refund Policy
+          </Link>
+          <Link href="/privacy-policy" className="hover:underline hover:opacity-90 transition">
+            Privacy Policy
+          </Link>
+          <Link href="/shipping-policy" className="hover:underline hover:opacity-90 transition">
+            Shipping Policy
+          </Link>
+          <Link href="/terms-of-service" className="hover:underline hover:opacity-90 transition">
+            Terms of Service
+          </Link>
+        </div>
+
+        {/* Social Icons */}
+        <div className="flex items-center justify-center gap-3 pt-1">
+          <a
+            href="https://www.instagram.com/korigosnacks"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center text-white transition-all duration-150"
+          >
+            <Instagram className="w-3.5 h-3.5 sm:w-4 sm:h-4 stroke-[2]" />
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61560945924729"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+            className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center text-white transition-all duration-150"
+          >
+            <Facebook className="w-3.5 h-3.5 sm:w-4 sm:h-4 stroke-[2]" />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/korigo-snacks"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center text-white transition-all duration-150"
+          >
+            <Linkedin className="w-3.5 h-3.5 sm:w-4 sm:h-4 stroke-[2]" />
+          </a>
+        </div>
+
+        {/* Copyright */}
+        <p className="text-white text-[11px] sm:text-[12px] font-serif tracking-wide pt-1 opacity-90">
+          © 2024 Korigo Snacks. All Rights Reserved.
+        </p>
       </div>
     </footer>
   );

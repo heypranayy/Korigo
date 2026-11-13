@@ -16,9 +16,19 @@ const andada = localFont({
       style: "normal",
     },
     {
+      path: "../../public/fonts/andada-pro/AndadaPro-Italic-400.ttf",
+      weight: "400",
+      style: "italic",
+    },
+    {
       path: "../../public/fonts/andada-pro/AndadaPro-500.ttf",
       weight: "500",
       style: "normal",
+    },
+    {
+      path: "../../public/fonts/andada-pro/AndadaPro-Italic-500.ttf",
+      weight: "500",
+      style: "italic",
     },
     {
       path: "../../public/fonts/andada-pro/AndadaPro-600.ttf",
@@ -26,9 +36,19 @@ const andada = localFont({
       style: "normal",
     },
     {
+      path: "../../public/fonts/andada-pro/AndadaPro-Italic-600.ttf",
+      weight: "600",
+      style: "italic",
+    },
+    {
       path: "../../public/fonts/andada-pro/AndadaPro-700.ttf",
       weight: "700",
       style: "normal",
+    },
+    {
+      path: "../../public/fonts/andada-pro/AndadaPro-Italic-700.ttf",
+      weight: "700",
+      style: "italic",
     },
     {
       path: "../../public/fonts/andada-pro/AndadaPro-800.ttf",
