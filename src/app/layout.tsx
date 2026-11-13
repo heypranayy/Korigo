@@ -119,7 +119,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={andada.variable}>
+    <html lang="en" className={`${andada.variable} font-serif`}>
       <head>
         <script
           type="application/ld+json"

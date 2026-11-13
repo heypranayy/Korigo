@@ -269,17 +269,17 @@ export const Makhana3DCardDeck: React.FC = () => {
             {/* Soothing Mini Stats Strip */}
             <div className="flex items-center justify-around py-2 px-3 rounded-2xl bg-gray-50 border border-gray-200/80 shadow-sm text-xs font-serif">
               <div className="text-center">
-                <span className="text-[9px] text-gray-400 block font-mono uppercase tracking-wider">PROTEIN</span>
+                <span className="text-[9px] text-gray-400 block font-serif uppercase tracking-wider">PROTEIN</span>
                 <span className="font-bold text-korigo-darkGreen">{activeItem.protein.split(" ")[0]}</span>
               </div>
               <div className="h-5 w-[1px] bg-gray-200" />
               <div className="text-center">
-                <span className="text-[9px] text-gray-400 block font-mono uppercase tracking-wider">ENERGY</span>
+                <span className="text-[9px] text-gray-400 block font-serif uppercase tracking-wider">ENERGY</span>
                 <span className="font-bold text-gray-800">{activeItem.calories.split(" ")[0]} kcal</span>
               </div>
               <div className="h-5 w-[1px] bg-gray-200" />
               <div className="text-center">
-                <span className="text-[9px] text-gray-400 block font-mono uppercase tracking-wider">SPICE</span>
+                <span className="text-[9px] text-gray-400 block font-serif uppercase tracking-wider">SPICE</span>
                 <span className="font-bold text-red-600">{activeItem.spiceLabel}</span>
               </div>
             </div>
@@ -321,7 +321,7 @@ export const Makhana3DCardDeck: React.FC = () => {
         <div className="hidden lg:block lg:col-span-6 space-y-4 sm:space-y-6">
           {/* Active Card Specs Header */}
           <div className="space-y-1.5 sm:space-y-2 text-center lg:text-left">
-            <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-[10px] sm:text-xs font-mono font-bold uppercase tracking-wider bg-korigo-lightGreen text-korigo-darkGreen border border-korigo-green/20">
+            <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-[10px] sm:text-xs font-serif font-bold uppercase tracking-wider bg-korigo-lightGreen text-korigo-darkGreen border border-korigo-green/20">
               <Zap className="w-3 h-3 text-korigo-green" />
               <span>SUPERFOOD POP DECK • LEVEL 1</span>
             </div>
@@ -339,7 +339,7 @@ export const Makhana3DCardDeck: React.FC = () => {
           <div className="grid grid-cols-2 gap-2.5 sm:gap-3.5 p-3 sm:p-4 rounded-2xl bg-gray-50 border border-gray-200">
             {/* Heat Meter */}
             <div className="bg-white p-2.5 sm:p-3 rounded-xl border border-gray-100 shadow-sm">
-              <span className="text-[9px] sm:text-[10px] font-mono uppercase text-gray-400 tracking-wider block mb-0.5">
+              <span className="text-[9px] sm:text-[10px] font-serif uppercase text-gray-400 tracking-wider block mb-0.5">
                 SPICE INTENSITY
               </span>
               <div className="flex items-center gap-1">
@@ -363,7 +363,7 @@ export const Makhana3DCardDeck: React.FC = () => {
 
             {/* Protein Metric */}
             <div className="bg-white p-2.5 sm:p-3 rounded-xl border border-gray-100 shadow-sm">
-              <span className="text-[9px] sm:text-[10px] font-mono uppercase text-gray-400 tracking-wider block mb-0.5">
+              <span className="text-[9px] sm:text-[10px] font-serif uppercase text-gray-400 tracking-wider block mb-0.5">
                 PLANT PROTEIN
               </span>
               <div className="flex items-baseline gap-1">
@@ -378,7 +378,7 @@ export const Makhana3DCardDeck: React.FC = () => {
 
             {/* Fibre Metric */}
             <div className="bg-white p-2.5 sm:p-3 rounded-xl border border-gray-100 shadow-sm">
-              <span className="text-[9px] sm:text-[10px] font-mono uppercase text-gray-400 tracking-wider block mb-0.5">
+              <span className="text-[9px] sm:text-[10px] font-serif uppercase text-gray-400 tracking-wider block mb-0.5">
                 DIETARY FIBRE
               </span>
               <div className="flex items-baseline gap-1">
@@ -393,7 +393,7 @@ export const Makhana3DCardDeck: React.FC = () => {
 
             {/* Calorie Balance */}
             <div className="bg-white p-2.5 sm:p-3 rounded-xl border border-gray-100 shadow-sm">
-              <span className="text-[9px] sm:text-[10px] font-mono uppercase text-gray-400 tracking-wider block mb-0.5">
+              <span className="text-[9px] sm:text-[10px] font-serif uppercase text-gray-400 tracking-wider block mb-0.5">
                 SLOW-ROASTED ENERGY
               </span>
               <div className="flex items-baseline gap-1">
@@ -452,7 +452,7 @@ export const Makhana3DCardDeck: React.FC = () => {
 
           {/* Deck Thumbnail Selector Bar */}
           <div className="pt-2">
-            <span className="text-[11px] font-mono uppercase tracking-wider text-gray-400 block mb-2">
+            <span className="text-[11px] font-serif uppercase tracking-wider text-gray-400 block mb-2">
               QUICK SELECT FLAVOUR:
             </span>
             <div className="flex flex-wrap gap-2">

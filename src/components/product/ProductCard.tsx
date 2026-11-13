@@ -132,7 +132,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                 <Star key={i} className="w-3 h-3 fill-amber-400 stroke-amber-400" />
               ))}
             </div>
-            <span className="text-[11px] font-semibold text-gray-500 font-sans">
+            <span className="text-[11px] font-semibold text-gray-500 font-serif">
               4.9 (180+)
             </span>
           </div>

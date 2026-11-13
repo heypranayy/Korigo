@@ -121,7 +121,7 @@ export const PageLoader: React.FC = () => {
           />
         </div>
 
-        <div className="flex items-center justify-between w-64 text-[11px] font-sans font-bold text-emerald-300/70">
+        <div className="flex items-center justify-between w-64 text-[11px] font-serif font-bold text-emerald-300/70">
           <span>100% NON-FRIED</span>
           <span>{progress}%</span>
           <span>9.7G PROTEIN</span>
@@ -136,7 +136,7 @@ export const PageLoader: React.FC = () => {
               sessionStorage.setItem("korigo_loader_seen", "true");
             }, 300);
           }}
-          className="mt-8 text-[11px] uppercase font-sans tracking-wider text-emerald-400/60 hover:text-white underline underline-offset-4 transition"
+          className="mt-8 text-[11px] uppercase font-serif tracking-wider text-emerald-400/60 hover:text-white underline underline-offset-4 transition"
         >
           Skip Intro →
         </button>

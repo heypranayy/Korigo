@@ -81,7 +81,7 @@ export const DeliveryEstimator: React.FC = () => {
             placeholder="Enter 6-digit Pincode"
             value={pincode}
             onChange={(e) => setPincode(e.target.value.replace(/\D/g, ""))}
-            className="w-full pl-8 pr-3 py-2 text-xs bg-white rounded-xl border border-gray-200 focus:border-korigo-green focus:outline-none transition font-sans"
+            className="w-full pl-8 pr-3 py-2 text-xs bg-white rounded-xl border border-gray-200 focus:border-korigo-green focus:outline-none transition font-serif"
           />
         </div>
         <button

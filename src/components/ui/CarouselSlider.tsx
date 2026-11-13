@@ -219,11 +219,11 @@ export const CarouselSlider: React.FC<CarouselSliderProps> = ({
               {/* Top Tag & Like Button */}
               <div className="flex items-center justify-between z-10">
                 {currentSlide.badge ? (
-                  <span className="text-[10px] font-mono font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#528663] text-white shadow-sm border border-[#467655]">
+                  <span className="text-[10px] font-serif font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#528663] text-white shadow-sm border border-[#467655]">
                     {currentSlide.badge}
                   </span>
                 ) : (
-                  <span className="text-[10px] font-mono font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-[#528663]/10 text-[#528663] border border-[#528663]/20">
+                  <span className="text-[10px] font-serif font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-[#528663]/10 text-[#528663] border border-[#528663]/20">
                     SLIDE {String(index + 1).padStart(2, "0")}
                   </span>
                 )}
@@ -272,7 +272,7 @@ export const CarouselSlider: React.FC<CarouselSliderProps> = ({
               {/* Bottom Details Card */}
               {showCardDetails && currentSlide.title && (
                 <div className="z-10 rounded-[22px] bg-white/95 backdrop-blur-md p-3.5 border border-[#528663]/20 shadow-lg text-black">
-                  <div className="flex items-center justify-between text-[9px] font-mono uppercase tracking-wider text-gray-500 mb-0.5">
+                  <div className="flex items-center justify-between text-[9px] font-serif uppercase tracking-wider text-gray-500 mb-0.5">
                     <span className="font-semibold">{currentSlide.tag || "ROASTED SUPERFOOD"}</span>
                     <span className="font-bold text-[#528663]">
                       STARTING

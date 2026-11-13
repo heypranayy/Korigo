@@ -89,7 +89,7 @@ export const CartDrawer: React.FC = () => {
                   )}
                 </span>
               </div>
-              <span className="text-[11px] font-bold text-emerald-800 font-sans">
+              <span className="text-[11px] font-bold text-emerald-800 font-serif">
                 {progressPercent}%
               </span>
             </div>

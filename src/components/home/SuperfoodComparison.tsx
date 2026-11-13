@@ -70,7 +70,7 @@ export const SuperfoodComparison: React.FC = () => {
               {/* Card Header Comparison Labels with Authentic Packshots */}
               <div className="grid grid-cols-12 gap-4 pb-6 mb-4 border-b border-white/10 items-end">
                 <div className="col-span-4 pb-2">
-                  <span className="text-xs font-bold uppercase tracking-wider text-amber-300 font-sans">
+                  <span className="text-xs font-bold uppercase tracking-wider text-amber-300 font-serif">
                     Nutritional Metric
                   </span>
                 </div>
@@ -190,7 +190,7 @@ export const SuperfoodComparison: React.FC = () => {
                     key={idx}
                     className="p-2.5 rounded-xl bg-white/5 border border-white/10"
                   >
-                    <div className="text-[10px] font-mono uppercase font-bold text-amber-300/90 text-center mb-1.5 tracking-wider">
+                    <div className="text-[10px] font-serif uppercase font-bold text-amber-300/90 text-center mb-1.5 tracking-wider">
                       {row.metric}
                     </div>
                     <div className="grid grid-cols-2 gap-2 items-stretch">

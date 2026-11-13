@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..800;1,400..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,18 +22,23 @@
   --width-nt-stretch: 1200px;
 }
 
+html,
 body {
   color: #222222;
   background-color: #ffffff;
-  font-family: var(--font-andada), Georgia, serif;
+  font-family: var(--font-andada), "Andada Pro", Georgia, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #000000;
-  font-family: var(--font-andada), Georgia, serif;
+  font-family: var(--font-andada), "Andada Pro", Georgia, serif;
   letter-spacing: -0.01em;
+}
+
+input, button, select, textarea, optgroup {
+  font-family: var(--font-andada), "Andada Pro", Georgia, serif;
 }
 
 /* 3D Transform Utilities */

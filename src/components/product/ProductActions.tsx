@@ -105,7 +105,7 @@ export const ProductActions: React.FC<ProductActionsProps> = ({
       {/* Pack Size / Variant Selector Buttons */}
       {!isSoldOut && (
         <div className="space-y-2">
-          <label className="text-xs font-mono font-bold uppercase tracking-wider text-gray-700 block">
+          <label className="text-xs font-serif font-bold uppercase tracking-wider text-gray-700 block">
             SELECT PACK QUANTITY & SAVINGS:
           </label>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
@@ -126,7 +126,7 @@ export const ProductActions: React.FC<ProductActionsProps> = ({
                 {/* Savings Pill */}
                 {v.badge && (
                   <span
-                    className={`text-[9px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded-full inline-block mb-1.5 ${
+                    className={`text-[9px] font-serif font-bold uppercase tracking-wider px-2 py-0.5 rounded-full inline-block mb-1.5 ${
                       selectedVariant === i
                         ? "bg-korigo-darkGreen text-white"
                         : "bg-emerald-100 text-korigo-darkGreen"

@@ -25,7 +25,7 @@ export const FlavoursMarquee: React.FC = () => {
             <span className="font-bold text-white group-hover:text-amber-300 transition-colors">
               {flavour.name}
             </span>
-            <span className="text-amber-300/70 text-[11px] font-sans">
+            <span className="text-amber-300/70 text-[11px] font-serif">
               [{flavour.tag}]
             </span>
           </Link>

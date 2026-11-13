@@ -97,10 +97,10 @@ export const Header: React.FC = () => {
                   <div className="absolute top-full left-1/2 -translate-x-1/2 pt-3 z-50 animate-in fade-in-50 zoom-in-95 duration-150">
                     <div className="w-72 bg-white shadow-2xl rounded-2xl border border-gray-100 p-2 text-left">
                       <div className="px-3 py-2 border-b border-gray-100 flex items-center justify-between">
-                        <span className="text-[10px] font-bold uppercase tracking-wider text-korigo-green font-sans">
+                        <span className="text-[10px] font-bold uppercase tracking-wider text-korigo-green font-serif">
                           Slow-Roasted Superfoods
                         </span>
-                        <span className="text-[10px] bg-korigo-green/10 text-korigo-green px-1.5 py-0.5 rounded font-sans font-bold">
+                        <span className="text-[10px] bg-korigo-green/10 text-korigo-green px-1.5 py-0.5 rounded font-serif font-bold">
                           12 Packs
                         </span>
                       </div>
@@ -109,14 +109,14 @@ export const Header: React.FC = () => {
                         className="flex items-center justify-between px-3 py-2 text-sm text-gray-800 hover:bg-[#f2faee] hover:text-korigo-green rounded-xl transition font-medium"
                       >
                         <span>All Flavours & Packs</span>
-                        <span className="text-xs text-gray-400 font-sans">View All</span>
+                        <span className="text-xs text-gray-400 font-serif">View All</span>
                       </Link>
                       <Link
                         href="/shop?category=flavours"
                         className="flex items-center justify-between px-3 py-2 text-sm text-gray-800 hover:bg-[#f2faee] hover:text-korigo-green rounded-xl transition font-medium"
                       >
                         <span>Individual Flavours (35g)</span>
-                        <span className="text-[11px] bg-amber-50 text-amber-700 px-2 py-0.5 rounded-full font-sans font-bold">
+                        <span className="text-[11px] bg-amber-50 text-amber-700 px-2 py-0.5 rounded-full font-serif font-bold">
                           6 Flavours
                         </span>
                       </Link>
@@ -128,7 +128,7 @@ export const Header: React.FC = () => {
                           <Sparkles className="w-3.5 h-3.5 text-amber-500" />
                           <span>Duo Combos (70g)</span>
                         </div>
-                        <span className="text-[11px] bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-full font-sans font-bold">
+                        <span className="text-[11px] bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-full font-serif font-bold">
                           Save ₹40
                         </span>
                       </Link>

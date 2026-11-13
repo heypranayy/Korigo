@@ -97,7 +97,7 @@ export const ReviewsSection: React.FC = () => {
                     <CheckCircle className="w-3.5 h-3.5 text-emerald-600" />
                     <span>{r.date}</span>
                   </div>
-                  <p className="text-[10px] sm:text-[11px] text-gray-500 truncate font-mono pt-0.5">
+                  <p className="text-[10px] sm:text-[11px] text-gray-500 truncate font-serif pt-0.5">
                     Purchased: {r.flavour}
                   </p>
                 </div>
