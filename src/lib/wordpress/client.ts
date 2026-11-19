@@ -21,6 +21,7 @@ export const LOCAL_BLOG_IMAGES: Record<string, string> = {
 function cleanText(str: string): string {
   if (!str) return "";
   return str
+    .replace(/https:\/\/backend-korigo\.sampledomain\.online/g, WP_URL)
     .replace(/\ufffd/g, "'")
     .replace(/&#8217;/g, "'")
     .replace(/&#8216;/g, "'")

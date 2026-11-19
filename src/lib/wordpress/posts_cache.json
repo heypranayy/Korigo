@@ -2,8 +2,16 @@
   {
     "id": 171,
     "date": "2026-11-03T10:00:00",
+    "date_gmt": "2026-11-03T10:00:00",
+    "guid": {
+      "rendered": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/healthy-travel-snacks-flights-train-journeys/"
+    },
+    "modified": "2026-11-03T18:25:55",
+    "modified_gmt": "2026-11-03T18:25:55",
     "slug": "healthy-travel-snacks-flights-train-journeys",
     "status": "publish",
+    "type": "post",
+    "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/healthy-travel-snacks-flights-train-journeys/",
     "title": {
       "rendered": "Healthy Travel Snacks for Flights and Train Journeys: What to Pack and What to Skip."
     },
@@ -15,15 +23,342 @@
       "rendered": "<p>Healthy travel snacks for flights and train journeys: what travels well, what makes a mess, and why light roasted makhana is the best low-calorie, guilt-free journey snack.</p>\n",
       "protected": false
     },
+    "author": 2,
     "featured_media": 178,
-    "featured_media_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-travel-snacks-bowl.jpg",
-    "author_name": "Sohini Kar"
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-171",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/171",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=171"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/171/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 181,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/171/revisions/181"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/178"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media?parent=171"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories?post=171"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/tags?post=171"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 2,
+          "name": "bot.admin",
+          "url": "",
+          "description": "",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/author/bot-admin/",
+          "slug": "bot-admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "id": 178,
+          "date": "2026-11-03T18:14:56",
+          "slug": "healthy-travel-snacks-bowl",
+          "type": "attachment",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/healthy-travel-snacks-bowl/",
+          "title": {
+            "rendered": "healthy-travel-snacks-bowl"
+          },
+          "author": 2,
+          "featured_media": 0,
+          "caption": {
+            "rendered": ""
+          },
+          "alt_text": "",
+          "media_type": "image",
+          "mime_type": "image/jpeg",
+          "media_details": {
+            "width": 1376,
+            "height": 768,
+            "file": "2026/11/healthy-travel-snacks-bowl.jpg",
+            "filesize": 674329,
+            "sizes": {
+              "medium": {
+                "file": "healthy-travel-snacks-bowl-300x167.jpg",
+                "width": 300,
+                "height": 167,
+                "filesize": 10492,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-travel-snacks-bowl-300x167.jpg"
+              },
+              "large": {
+                "file": "healthy-travel-snacks-bowl-1024x572.jpg",
+                "width": 1024,
+                "height": 572,
+                "filesize": 69052,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-travel-snacks-bowl-1024x572.jpg"
+              },
+              "thumbnail": {
+                "file": "healthy-travel-snacks-bowl-150x150.jpg",
+                "width": 150,
+                "height": 150,
+                "filesize": 5749,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-travel-snacks-bowl-150x150.jpg"
+              },
+              "medium_large": {
+                "file": "healthy-travel-snacks-bowl-768x429.jpg",
+                "width": 768,
+                "height": 429,
+                "filesize": 43713,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-travel-snacks-bowl-768x429.jpg"
+              },
+              "woocommerce_thumbnail": {
+                "file": "healthy-travel-snacks-bowl-300x300.jpg",
+                "width": 300,
+                "height": 300,
+                "filesize": 15961,
+                "uncropped": false,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-travel-snacks-bowl-300x300.jpg"
+              },
+              "woocommerce_single": {
+                "file": "healthy-travel-snacks-bowl-600x335.jpg",
+                "width": 600,
+                "height": 335,
+                "filesize": 30030,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-travel-snacks-bowl-600x335.jpg"
+              },
+              "woocommerce_gallery_thumbnail": {
+                "file": "healthy-travel-snacks-bowl-100x100.jpg",
+                "width": 100,
+                "height": 100,
+                "filesize": 3229,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-travel-snacks-bowl-100x100.jpg"
+              },
+              "full": {
+                "file": "healthy-travel-snacks-bowl.jpg",
+                "width": 1376,
+                "height": 768,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-travel-snacks-bowl.jpg"
+              }
+            },
+            "image_meta": {
+              "aperture": "0",
+              "credit": "",
+              "camera": "",
+              "caption": "",
+              "created_timestamp": "0",
+              "copyright": "",
+              "focal_length": "0",
+              "iso": "0",
+              "shutter_speed": "0",
+              "title": "",
+              "orientation": "0",
+              "keywords": [],
+              "alt": ""
+            }
+          },
+          "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-travel-snacks-bowl.jpg",
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/178",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/attachment"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+              }
+            ],
+            "replies": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=178"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:term": [
+        [
+          {
+            "id": 1,
+            "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/category/uncategorized/",
+            "name": "Uncategorized",
+            "slug": "uncategorized",
+            "taxonomy": "category",
+            "_links": {
+              "self": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories/1",
+                  "targetHints": {
+                    "allow": [
+                      "GET"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories"
+                }
+              ],
+              "about": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/taxonomies/category"
+                }
+              ],
+              "wp:post_type": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts?categories=1"
+                }
+              ],
+              "curies": [
+                {
+                  "name": "wp",
+                  "href": "https://api.w.org/{rel}",
+                  "templated": true
+                }
+              ]
+            }
+          }
+        ],
+        []
+      ]
+    }
   },
   {
     "id": 170,
     "date": "2026-10-20T10:00:00",
+    "date_gmt": "2026-10-20T10:00:00",
+    "guid": {
+      "rendered": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/healthy-corporate-gifts-india-makhana-combo-packs/"
+    },
+    "modified": "2026-11-03T18:26:13",
+    "modified_gmt": "2026-11-03T18:26:13",
     "slug": "healthy-corporate-gifts-india-makhana-combo-packs",
     "status": "publish",
+    "type": "post",
+    "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/healthy-corporate-gifts-india-makhana-combo-packs/",
     "title": {
       "rendered": "Healthy Corporate Gifts India: Why Makhana Combo Packs Are Worth Sending."
     },
@@ -35,15 +370,342 @@
       "rendered": "<p>Looking for healthy corporate gifts India teams will actually eat? Discover why roasted makhana combo packs make practical, nutritious, and impressive gift hampers without wasting budget.</p>\n",
       "protected": false
     },
+    "author": 2,
     "featured_media": 179,
-    "featured_media_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-corporate-gifts-hamper.jpg",
-    "author_name": "Sohini Kar"
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-170",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/170",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=170"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/170/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 182,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/170/revisions/182"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/179"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media?parent=170"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories?post=170"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/tags?post=170"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 2,
+          "name": "bot.admin",
+          "url": "",
+          "description": "",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/author/bot-admin/",
+          "slug": "bot-admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "id": 179,
+          "date": "2026-11-03T18:15:00",
+          "slug": "healthy-corporate-gifts-hamper",
+          "type": "attachment",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/healthy-corporate-gifts-hamper/",
+          "title": {
+            "rendered": "healthy-corporate-gifts-hamper"
+          },
+          "author": 2,
+          "featured_media": 0,
+          "caption": {
+            "rendered": ""
+          },
+          "alt_text": "",
+          "media_type": "image",
+          "mime_type": "image/jpeg",
+          "media_details": {
+            "width": 1376,
+            "height": 768,
+            "file": "2026/11/healthy-corporate-gifts-hamper.jpg",
+            "filesize": 703858,
+            "sizes": {
+              "medium": {
+                "file": "healthy-corporate-gifts-hamper-300x167.jpg",
+                "width": 300,
+                "height": 167,
+                "filesize": 11942,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-corporate-gifts-hamper-300x167.jpg"
+              },
+              "large": {
+                "file": "healthy-corporate-gifts-hamper-1024x572.jpg",
+                "width": 1024,
+                "height": 572,
+                "filesize": 82521,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-corporate-gifts-hamper-1024x572.jpg"
+              },
+              "thumbnail": {
+                "file": "healthy-corporate-gifts-hamper-150x150.jpg",
+                "width": 150,
+                "height": 150,
+                "filesize": 6647,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-corporate-gifts-hamper-150x150.jpg"
+              },
+              "medium_large": {
+                "file": "healthy-corporate-gifts-hamper-768x429.jpg",
+                "width": 768,
+                "height": 429,
+                "filesize": 52531,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-corporate-gifts-hamper-768x429.jpg"
+              },
+              "woocommerce_thumbnail": {
+                "file": "healthy-corporate-gifts-hamper-300x300.jpg",
+                "width": 300,
+                "height": 300,
+                "filesize": 19610,
+                "uncropped": false,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-corporate-gifts-hamper-300x300.jpg"
+              },
+              "woocommerce_single": {
+                "file": "healthy-corporate-gifts-hamper-600x335.jpg",
+                "width": 600,
+                "height": 335,
+                "filesize": 35413,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-corporate-gifts-hamper-600x335.jpg"
+              },
+              "woocommerce_gallery_thumbnail": {
+                "file": "healthy-corporate-gifts-hamper-100x100.jpg",
+                "width": 100,
+                "height": 100,
+                "filesize": 3591,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-corporate-gifts-hamper-100x100.jpg"
+              },
+              "full": {
+                "file": "healthy-corporate-gifts-hamper.jpg",
+                "width": 1376,
+                "height": 768,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-corporate-gifts-hamper.jpg"
+              }
+            },
+            "image_meta": {
+              "aperture": "0",
+              "credit": "",
+              "camera": "",
+              "caption": "",
+              "created_timestamp": "0",
+              "copyright": "",
+              "focal_length": "0",
+              "iso": "0",
+              "shutter_speed": "0",
+              "title": "",
+              "orientation": "0",
+              "keywords": [],
+              "alt": ""
+            }
+          },
+          "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-corporate-gifts-hamper.jpg",
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/179",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/attachment"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+              }
+            ],
+            "replies": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=179"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:term": [
+        [
+          {
+            "id": 1,
+            "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/category/uncategorized/",
+            "name": "Uncategorized",
+            "slug": "uncategorized",
+            "taxonomy": "category",
+            "_links": {
+              "self": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories/1",
+                  "targetHints": {
+                    "allow": [
+                      "GET"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories"
+                }
+              ],
+              "about": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/taxonomies/category"
+                }
+              ],
+              "wp:post_type": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts?categories=1"
+                }
+              ],
+              "curies": [
+                {
+                  "name": "wp",
+                  "href": "https://api.w.org/{rel}",
+                  "templated": true
+                }
+              ]
+            }
+          }
+        ],
+        []
+      ]
+    }
   },
   {
     "id": 169,
     "date": "2026-10-10T10:00:00",
+    "date_gmt": "2026-10-10T10:00:00",
+    "guid": {
+      "rendered": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/is-makhana-safe-during-pregnancy-benefits-side-effects/"
+    },
+    "modified": "2026-10-10T10:00:00",
+    "modified_gmt": "2026-10-10T10:00:00",
     "slug": "is-makhana-safe-during-pregnancy-benefits-side-effects",
     "status": "publish",
+    "type": "post",
+    "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/is-makhana-safe-during-pregnancy-benefits-side-effects/",
     "title": {
       "rendered": "Is Makhana Safe During Pregnancy? Benefits &#038; Side Effects"
     },
@@ -55,15 +717,336 @@
       "rendered": "<p>Is makhana safe during pregnancy? Learn about the benefits, nutritional value, daily recommended portions, trimester guidelines, and precautions for expectant mothers.</p>\n",
       "protected": false
     },
+    "author": 2,
     "featured_media": 155,
-    "featured_media_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-pregnancy-safe.jpg",
-    "author_name": "Sohini Kar"
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-169",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/169",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=169"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/169/revisions"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/155"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media?parent=169"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories?post=169"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/tags?post=169"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 2,
+          "name": "bot.admin",
+          "url": "",
+          "description": "",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/author/bot-admin/",
+          "slug": "bot-admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "id": 155,
+          "date": "2026-11-03T16:11:13",
+          "slug": "makhana-pregnancy-safe",
+          "type": "attachment",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/makhana-pregnancy-safe/",
+          "title": {
+            "rendered": "makhana-pregnancy-safe"
+          },
+          "author": 2,
+          "featured_media": 0,
+          "caption": {
+            "rendered": ""
+          },
+          "alt_text": "",
+          "media_type": "image",
+          "mime_type": "image/jpeg",
+          "media_details": {
+            "width": 1376,
+            "height": 768,
+            "file": "2026/11/makhana-pregnancy-safe.jpg",
+            "filesize": 826841,
+            "sizes": {
+              "medium": {
+                "file": "makhana-pregnancy-safe-300x167.jpg",
+                "width": 300,
+                "height": 167,
+                "filesize": 12243,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-pregnancy-safe-300x167.jpg"
+              },
+              "large": {
+                "file": "makhana-pregnancy-safe-1024x572.jpg",
+                "width": 1024,
+                "height": 572,
+                "filesize": 98070,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-pregnancy-safe-1024x572.jpg"
+              },
+              "thumbnail": {
+                "file": "makhana-pregnancy-safe-150x150.jpg",
+                "width": 150,
+                "height": 150,
+                "filesize": 6633,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-pregnancy-safe-150x150.jpg"
+              },
+              "medium_large": {
+                "file": "makhana-pregnancy-safe-768x429.jpg",
+                "width": 768,
+                "height": 429,
+                "filesize": 59602,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-pregnancy-safe-768x429.jpg"
+              },
+              "woocommerce_thumbnail": {
+                "file": "makhana-pregnancy-safe-300x300.jpg",
+                "width": 300,
+                "height": 300,
+                "filesize": 20628,
+                "uncropped": false,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-pregnancy-safe-300x300.jpg"
+              },
+              "woocommerce_single": {
+                "file": "makhana-pregnancy-safe-600x335.jpg",
+                "width": 600,
+                "height": 335,
+                "filesize": 39061,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-pregnancy-safe-600x335.jpg"
+              },
+              "woocommerce_gallery_thumbnail": {
+                "file": "makhana-pregnancy-safe-100x100.jpg",
+                "width": 100,
+                "height": 100,
+                "filesize": 3550,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-pregnancy-safe-100x100.jpg"
+              },
+              "full": {
+                "file": "makhana-pregnancy-safe.jpg",
+                "width": 1376,
+                "height": 768,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-pregnancy-safe.jpg"
+              }
+            },
+            "image_meta": {
+              "aperture": "0",
+              "credit": "",
+              "camera": "",
+              "caption": "",
+              "created_timestamp": "0",
+              "copyright": "",
+              "focal_length": "0",
+              "iso": "0",
+              "shutter_speed": "0",
+              "title": "",
+              "orientation": "0",
+              "keywords": [],
+              "alt": ""
+            }
+          },
+          "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-pregnancy-safe.jpg",
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/155",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/attachment"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+              }
+            ],
+            "replies": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=155"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:term": [
+        [
+          {
+            "id": 1,
+            "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/category/uncategorized/",
+            "name": "Uncategorized",
+            "slug": "uncategorized",
+            "taxonomy": "category",
+            "_links": {
+              "self": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories/1",
+                  "targetHints": {
+                    "allow": [
+                      "GET"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories"
+                }
+              ],
+              "about": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/taxonomies/category"
+                }
+              ],
+              "wp:post_type": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts?categories=1"
+                }
+              ],
+              "curies": [
+                {
+                  "name": "wp",
+                  "href": "https://api.w.org/{rel}",
+                  "templated": true
+                }
+              ]
+            }
+          }
+        ],
+        []
+      ]
+    }
   },
   {
     "id": 168,
     "date": "2026-09-20T10:00:00",
+    "date_gmt": "2026-09-20T10:00:00",
+    "guid": {
+      "rendered": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/makhana-calories-protein-value-nutrition-benefits/"
+    },
+    "modified": "2026-09-20T10:00:00",
+    "modified_gmt": "2026-09-20T10:00:00",
     "slug": "makhana-calories-protein-value-nutrition-benefits",
     "status": "publish",
+    "type": "post",
+    "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/makhana-calories-protein-value-nutrition-benefits/",
     "title": {
       "rendered": "Makhana: Calories, Protein Value, Nutrition &#038; Benefits"
     },
@@ -75,15 +1058,328 @@
       "rendered": "<p>Discover the true nutritional value of makhana per 100g, its protein content, calories, glycaemic index, and scientifically backed health benefits for weight management and everyday snacking.</p>\n",
       "protected": false
     },
+    "author": 2,
     "featured_media": 150,
-    "featured_media_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-nutrition-shoot1.jpg",
-    "author_name": "Sohini Kar"
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-168",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/168",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=168"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/168/revisions"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/150"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media?parent=168"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories?post=168"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/tags?post=168"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 2,
+          "name": "bot.admin",
+          "url": "",
+          "description": "",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/author/bot-admin/",
+          "slug": "bot-admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "id": 150,
+          "date": "2026-11-03T16:10:59",
+          "slug": "makhana-nutrition-shoot1",
+          "type": "attachment",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/makhana-nutrition-shoot1/",
+          "title": {
+            "rendered": "makhana-nutrition-shoot1"
+          },
+          "author": 2,
+          "featured_media": 0,
+          "caption": {
+            "rendered": ""
+          },
+          "alt_text": "",
+          "media_type": "image",
+          "mime_type": "image/jpeg",
+          "media_details": {
+            "width": 1024,
+            "height": 1024,
+            "file": "2026/11/makhana-nutrition-shoot1.jpg",
+            "filesize": 130290,
+            "sizes": {
+              "medium": {
+                "file": "makhana-nutrition-shoot1-300x300.jpg",
+                "width": 300,
+                "height": 300,
+                "filesize": 21409,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-nutrition-shoot1-300x300.jpg"
+              },
+              "thumbnail": {
+                "file": "makhana-nutrition-shoot1-150x150.jpg",
+                "width": 150,
+                "height": 150,
+                "filesize": 8069,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-nutrition-shoot1-150x150.jpg"
+              },
+              "medium_large": {
+                "file": "makhana-nutrition-shoot1-768x768.jpg",
+                "width": 768,
+                "height": 768,
+                "filesize": 81559,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-nutrition-shoot1-768x768.jpg"
+              },
+              "woocommerce_thumbnail": {
+                "file": "makhana-nutrition-shoot1-300x300.jpg",
+                "width": 300,
+                "height": 300,
+                "filesize": 21409,
+                "uncropped": false,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-nutrition-shoot1-300x300.jpg"
+              },
+              "woocommerce_single": {
+                "file": "makhana-nutrition-shoot1-600x600.jpg",
+                "width": 600,
+                "height": 600,
+                "filesize": 56964,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-nutrition-shoot1-600x600.jpg"
+              },
+              "woocommerce_gallery_thumbnail": {
+                "file": "makhana-nutrition-shoot1-100x100.jpg",
+                "width": 100,
+                "height": 100,
+                "filesize": 4913,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-nutrition-shoot1-100x100.jpg"
+              },
+              "full": {
+                "file": "makhana-nutrition-shoot1.jpg",
+                "width": 1024,
+                "height": 1024,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-nutrition-shoot1.jpg"
+              }
+            },
+            "image_meta": {
+              "aperture": "0",
+              "credit": "",
+              "camera": "",
+              "caption": "",
+              "created_timestamp": "0",
+              "copyright": "",
+              "focal_length": "0",
+              "iso": "0",
+              "shutter_speed": "0",
+              "title": "",
+              "orientation": "1",
+              "keywords": [],
+              "alt": ""
+            }
+          },
+          "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-nutrition-shoot1.jpg",
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/150",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/attachment"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+              }
+            ],
+            "replies": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=150"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:term": [
+        [
+          {
+            "id": 1,
+            "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/category/uncategorized/",
+            "name": "Uncategorized",
+            "slug": "uncategorized",
+            "taxonomy": "category",
+            "_links": {
+              "self": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories/1",
+                  "targetHints": {
+                    "allow": [
+                      "GET"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories"
+                }
+              ],
+              "about": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/taxonomies/category"
+                }
+              ],
+              "wp:post_type": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts?categories=1"
+                }
+              ],
+              "curies": [
+                {
+                  "name": "wp",
+                  "href": "https://api.w.org/{rel}",
+                  "templated": true
+                }
+              ]
+            }
+          }
+        ],
+        []
+      ]
+    }
   },
   {
     "id": 134,
     "date": "2026-09-10T06:42:00",
+    "date_gmt": "2026-09-10T06:42:00",
+    "guid": {
+      "rendered": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/late-night-healthy-snacks-that-won-t-make-you-feel-guilty/"
+    },
+    "modified": "2026-11-03T16:11:27",
+    "modified_gmt": "2026-11-03T16:11:27",
     "slug": "late-night-healthy-snacks-that-won-t-make-you-feel-guilty",
     "status": "publish",
+    "type": "post",
+    "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/late-night-healthy-snacks-that-won-t-make-you-feel-guilty/",
     "title": {
       "rendered": "Late Night Healthy Snacks That Won’t Make You Feel Guilty"
     },
@@ -95,15 +1391,342 @@
       "rendered": "<p>Late-night hunger does not necessarily mean that you are messing up with your diet plan. It can be due to the fact that you ate earlier or you had a tiring day, or simply have the urge to eat something before sleeping. The idea of late-night cravings needs to be kept in mind without regarding [&hellip;]</p>\n",
       "protected": false
     },
+    "author": 2,
     "featured_media": 160,
-    "featured_media_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/late-night-healthy-snacks.jpg",
-    "author_name": "Sohini Kar"
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-134",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/134",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=134"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/134/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 161,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/134/revisions/161"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/160"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media?parent=134"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories?post=134"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/tags?post=134"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 2,
+          "name": "bot.admin",
+          "url": "",
+          "description": "",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/author/bot-admin/",
+          "slug": "bot-admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "id": 160,
+          "date": "2026-11-03T16:11:25",
+          "slug": "late-night-healthy-snacks",
+          "type": "attachment",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/late-night-healthy-snacks/",
+          "title": {
+            "rendered": "late-night-healthy-snacks"
+          },
+          "author": 2,
+          "featured_media": 0,
+          "caption": {
+            "rendered": ""
+          },
+          "alt_text": "",
+          "media_type": "image",
+          "mime_type": "image/jpeg",
+          "media_details": {
+            "width": 1376,
+            "height": 768,
+            "file": "2026/11/late-night-healthy-snacks.jpg",
+            "filesize": 790552,
+            "sizes": {
+              "medium": {
+                "file": "late-night-healthy-snacks-300x167.jpg",
+                "width": 300,
+                "height": 167,
+                "filesize": 13151,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/late-night-healthy-snacks-300x167.jpg"
+              },
+              "large": {
+                "file": "late-night-healthy-snacks-1024x572.jpg",
+                "width": 1024,
+                "height": 572,
+                "filesize": 97401,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/late-night-healthy-snacks-1024x572.jpg"
+              },
+              "thumbnail": {
+                "file": "late-night-healthy-snacks-150x150.jpg",
+                "width": 150,
+                "height": 150,
+                "filesize": 6710,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/late-night-healthy-snacks-150x150.jpg"
+              },
+              "medium_large": {
+                "file": "late-night-healthy-snacks-768x429.jpg",
+                "width": 768,
+                "height": 429,
+                "filesize": 61349,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/late-night-healthy-snacks-768x429.jpg"
+              },
+              "woocommerce_thumbnail": {
+                "file": "late-night-healthy-snacks-300x300.jpg",
+                "width": 300,
+                "height": 300,
+                "filesize": 20784,
+                "uncropped": false,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/late-night-healthy-snacks-300x300.jpg"
+              },
+              "woocommerce_single": {
+                "file": "late-night-healthy-snacks-600x335.jpg",
+                "width": 600,
+                "height": 335,
+                "filesize": 41022,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/late-night-healthy-snacks-600x335.jpg"
+              },
+              "woocommerce_gallery_thumbnail": {
+                "file": "late-night-healthy-snacks-100x100.jpg",
+                "width": 100,
+                "height": 100,
+                "filesize": 3565,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/late-night-healthy-snacks-100x100.jpg"
+              },
+              "full": {
+                "file": "late-night-healthy-snacks.jpg",
+                "width": 1376,
+                "height": 768,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/late-night-healthy-snacks.jpg"
+              }
+            },
+            "image_meta": {
+              "aperture": "0",
+              "credit": "",
+              "camera": "",
+              "caption": "",
+              "created_timestamp": "0",
+              "copyright": "",
+              "focal_length": "0",
+              "iso": "0",
+              "shutter_speed": "0",
+              "title": "",
+              "orientation": "0",
+              "keywords": [],
+              "alt": ""
+            }
+          },
+          "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/late-night-healthy-snacks.jpg",
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/160",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/attachment"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+              }
+            ],
+            "replies": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=160"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:term": [
+        [
+          {
+            "id": 1,
+            "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/category/uncategorized/",
+            "name": "Uncategorized",
+            "slug": "uncategorized",
+            "taxonomy": "category",
+            "_links": {
+              "self": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories/1",
+                  "targetHints": {
+                    "allow": [
+                      "GET"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories"
+                }
+              ],
+              "about": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/taxonomies/category"
+                }
+              ],
+              "wp:post_type": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts?categories=1"
+                }
+              ],
+              "curies": [
+                {
+                  "name": "wp",
+                  "href": "https://api.w.org/{rel}",
+                  "templated": true
+                }
+              ]
+            }
+          }
+        ],
+        []
+      ]
+    }
   },
   {
     "id": 135,
     "date": "2026-08-25T10:15:00",
+    "date_gmt": "2026-08-25T10:15:00",
+    "guid": {
+      "rendered": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/top-5-healthy-snacks-for-desk-jobs/"
+    },
+    "modified": "2026-11-03T16:11:28",
+    "modified_gmt": "2026-11-03T16:11:28",
     "slug": "top-5-healthy-snacks-for-desk-jobs",
     "status": "publish",
+    "type": "post",
+    "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/top-5-healthy-snacks-for-desk-jobs/",
     "title": {
       "rendered": "Top 4 Healthy Snacks for Desk Jobs"
     },
@@ -115,15 +1738,342 @@
       "rendered": "<p>Office desk jobs involve long periods of sitting and back-to-back meetings, not to mention the convenience of opting for unhealthy snacks. The choice of healthy snacks for desk jobs makes these breaks healthier and more thoughtful without sacrificing taste and texture. The most ideal options would always be those that are easy to store and [&hellip;]</p>\n",
       "protected": false
     },
+    "author": 2,
     "featured_media": 157,
-    "featured_media_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/desk-job-healthy-snacks.jpg",
-    "author_name": "Sohini Kar"
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-135",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/135",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=135"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/135/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 162,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/135/revisions/162"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/157"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media?parent=135"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories?post=135"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/tags?post=135"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 2,
+          "name": "bot.admin",
+          "url": "",
+          "description": "",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/author/bot-admin/",
+          "slug": "bot-admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "id": 157,
+          "date": "2026-11-03T16:11:18",
+          "slug": "desk-job-healthy-snacks",
+          "type": "attachment",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/desk-job-healthy-snacks/",
+          "title": {
+            "rendered": "desk-job-healthy-snacks"
+          },
+          "author": 2,
+          "featured_media": 0,
+          "caption": {
+            "rendered": ""
+          },
+          "alt_text": "",
+          "media_type": "image",
+          "mime_type": "image/jpeg",
+          "media_details": {
+            "width": 1376,
+            "height": 768,
+            "file": "2026/11/desk-job-healthy-snacks.jpg",
+            "filesize": 769880,
+            "sizes": {
+              "medium": {
+                "file": "desk-job-healthy-snacks-300x167.jpg",
+                "width": 300,
+                "height": 167,
+                "filesize": 13066,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/desk-job-healthy-snacks-300x167.jpg"
+              },
+              "large": {
+                "file": "desk-job-healthy-snacks-1024x572.jpg",
+                "width": 1024,
+                "height": 572,
+                "filesize": 96342,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/desk-job-healthy-snacks-1024x572.jpg"
+              },
+              "thumbnail": {
+                "file": "desk-job-healthy-snacks-150x150.jpg",
+                "width": 150,
+                "height": 150,
+                "filesize": 6911,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/desk-job-healthy-snacks-150x150.jpg"
+              },
+              "medium_large": {
+                "file": "desk-job-healthy-snacks-768x429.jpg",
+                "width": 768,
+                "height": 429,
+                "filesize": 60651,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/desk-job-healthy-snacks-768x429.jpg"
+              },
+              "woocommerce_thumbnail": {
+                "file": "desk-job-healthy-snacks-300x300.jpg",
+                "width": 300,
+                "height": 300,
+                "filesize": 21192,
+                "uncropped": false,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/desk-job-healthy-snacks-300x300.jpg"
+              },
+              "woocommerce_single": {
+                "file": "desk-job-healthy-snacks-600x335.jpg",
+                "width": 600,
+                "height": 335,
+                "filesize": 40545,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/desk-job-healthy-snacks-600x335.jpg"
+              },
+              "woocommerce_gallery_thumbnail": {
+                "file": "desk-job-healthy-snacks-100x100.jpg",
+                "width": 100,
+                "height": 100,
+                "filesize": 3682,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/desk-job-healthy-snacks-100x100.jpg"
+              },
+              "full": {
+                "file": "desk-job-healthy-snacks.jpg",
+                "width": 1376,
+                "height": 768,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/desk-job-healthy-snacks.jpg"
+              }
+            },
+            "image_meta": {
+              "aperture": "0",
+              "credit": "",
+              "camera": "",
+              "caption": "",
+              "created_timestamp": "0",
+              "copyright": "",
+              "focal_length": "0",
+              "iso": "0",
+              "shutter_speed": "0",
+              "title": "",
+              "orientation": "0",
+              "keywords": [],
+              "alt": ""
+            }
+          },
+          "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/desk-job-healthy-snacks.jpg",
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/157",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/attachment"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+              }
+            ],
+            "replies": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=157"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:term": [
+        [
+          {
+            "id": 1,
+            "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/category/uncategorized/",
+            "name": "Uncategorized",
+            "slug": "uncategorized",
+            "taxonomy": "category",
+            "_links": {
+              "self": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories/1",
+                  "targetHints": {
+                    "allow": [
+                      "GET"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories"
+                }
+              ],
+              "about": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/taxonomies/category"
+                }
+              ],
+              "wp:post_type": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts?categories=1"
+                }
+              ],
+              "curies": [
+                {
+                  "name": "wp",
+                  "href": "https://api.w.org/{rel}",
+                  "templated": true
+                }
+              ]
+            }
+          }
+        ],
+        []
+      ]
+    }
   },
   {
     "id": 136,
     "date": "2026-08-05T09:24:00",
+    "date_gmt": "2026-08-05T09:24:00",
+    "guid": {
+      "rendered": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/healthy-makhana-recipes-you-can-make-at-home/"
+    },
+    "modified": "2026-11-03T16:11:28",
+    "modified_gmt": "2026-11-03T16:11:28",
     "slug": "healthy-makhana-recipes-you-can-make-at-home",
     "status": "publish",
+    "type": "post",
+    "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/healthy-makhana-recipes-you-can-make-at-home/",
     "title": {
       "rendered": "Healthy Makhana Recipes You Can Make at Home"
     },
@@ -135,15 +2085,342 @@
       "rendered": "<p>If you&#8217;ve been staring at a bag of fox nuts wondering what to actually do with them beyond roasting and salting, you&#8217;re not alone. Makhana has quietly become one of those snacks everyone knows is &#8220;good for you&#8221; but nobody quite knows how to cook. It shows up in Ayurvedic texts, in postpartum diets across [&hellip;]</p>\n",
       "protected": false
     },
+    "author": 2,
     "featured_media": 154,
-    "featured_media_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-makhana-recipes.jpg",
-    "author_name": "Sohini Kar"
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-136",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/136",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=136"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/136/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 163,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/136/revisions/163"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/154"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media?parent=136"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories?post=136"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/tags?post=136"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 2,
+          "name": "bot.admin",
+          "url": "",
+          "description": "",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/author/bot-admin/",
+          "slug": "bot-admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "id": 154,
+          "date": "2026-11-03T16:11:10",
+          "slug": "healthy-makhana-recipes",
+          "type": "attachment",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/healthy-makhana-recipes/",
+          "title": {
+            "rendered": "healthy-makhana-recipes"
+          },
+          "author": 2,
+          "featured_media": 0,
+          "caption": {
+            "rendered": ""
+          },
+          "alt_text": "",
+          "media_type": "image",
+          "mime_type": "image/jpeg",
+          "media_details": {
+            "width": 1376,
+            "height": 768,
+            "file": "2026/11/healthy-makhana-recipes.jpg",
+            "filesize": 871456,
+            "sizes": {
+              "medium": {
+                "file": "healthy-makhana-recipes-300x167.jpg",
+                "width": 300,
+                "height": 167,
+                "filesize": 15734,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-makhana-recipes-300x167.jpg"
+              },
+              "large": {
+                "file": "healthy-makhana-recipes-1024x572.jpg",
+                "width": 1024,
+                "height": 572,
+                "filesize": 118723,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-makhana-recipes-1024x572.jpg"
+              },
+              "thumbnail": {
+                "file": "healthy-makhana-recipes-150x150.jpg",
+                "width": 150,
+                "height": 150,
+                "filesize": 8034,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-makhana-recipes-150x150.jpg"
+              },
+              "medium_large": {
+                "file": "healthy-makhana-recipes-768x429.jpg",
+                "width": 768,
+                "height": 429,
+                "filesize": 74354,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-makhana-recipes-768x429.jpg"
+              },
+              "woocommerce_thumbnail": {
+                "file": "healthy-makhana-recipes-300x300.jpg",
+                "width": 300,
+                "height": 300,
+                "filesize": 25199,
+                "uncropped": false,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-makhana-recipes-300x300.jpg"
+              },
+              "woocommerce_single": {
+                "file": "healthy-makhana-recipes-600x335.jpg",
+                "width": 600,
+                "height": 335,
+                "filesize": 49399,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-makhana-recipes-600x335.jpg"
+              },
+              "woocommerce_gallery_thumbnail": {
+                "file": "healthy-makhana-recipes-100x100.jpg",
+                "width": 100,
+                "height": 100,
+                "filesize": 4268,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-makhana-recipes-100x100.jpg"
+              },
+              "full": {
+                "file": "healthy-makhana-recipes.jpg",
+                "width": 1376,
+                "height": 768,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-makhana-recipes.jpg"
+              }
+            },
+            "image_meta": {
+              "aperture": "0",
+              "credit": "",
+              "camera": "",
+              "caption": "",
+              "created_timestamp": "0",
+              "copyright": "",
+              "focal_length": "0",
+              "iso": "0",
+              "shutter_speed": "0",
+              "title": "",
+              "orientation": "0",
+              "keywords": [],
+              "alt": ""
+            }
+          },
+          "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/healthy-makhana-recipes.jpg",
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/154",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/attachment"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+              }
+            ],
+            "replies": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=154"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:term": [
+        [
+          {
+            "id": 1,
+            "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/category/uncategorized/",
+            "name": "Uncategorized",
+            "slug": "uncategorized",
+            "taxonomy": "category",
+            "_links": {
+              "self": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories/1",
+                  "targetHints": {
+                    "allow": [
+                      "GET"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories"
+                }
+              ],
+              "about": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/taxonomies/category"
+                }
+              ],
+              "wp:post_type": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts?categories=1"
+                }
+              ],
+              "curies": [
+                {
+                  "name": "wp",
+                  "href": "https://api.w.org/{rel}",
+                  "templated": true
+                }
+              ]
+            }
+          }
+        ],
+        []
+      ]
+    }
   },
   {
     "id": 137,
     "date": "2026-07-27T06:27:59",
+    "date_gmt": "2026-07-27T06:27:59",
+    "guid": {
+      "rendered": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/why-cheese-makhana-is-becoming-india-s-favorite-healthy-snack/"
+    },
+    "modified": "2026-11-03T16:11:29",
+    "modified_gmt": "2026-11-03T16:11:29",
     "slug": "why-cheese-makhana-is-becoming-india-s-favorite-healthy-snack",
     "status": "publish",
+    "type": "post",
+    "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/why-cheese-makhana-is-becoming-india-s-favorite-healthy-snack/",
     "title": {
       "rendered": "Why Cheese Makhana Is Becoming India’s Favorite Healthy Snack"
     },
@@ -155,15 +2432,342 @@
       "rendered": "<p>Healthy snacking habits in India are shifting kinda fast. Lots more people are moving away from fried chips, and processed snack packets, to look for something more nutritious that still hits the cravings, without messing up their health. One snack that’s showing up everywhere is Garlic cheese makhana. It’s made using roasted fox nuts, then layered [&hellip;]</p>\n",
       "protected": false
     },
+    "author": 2,
     "featured_media": 158,
-    "featured_media_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/cheese-makhana.jpg",
-    "author_name": "Sohini Kar"
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-137",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/137",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=137"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/137/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 164,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/137/revisions/164"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/158"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media?parent=137"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories?post=137"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/tags?post=137"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 2,
+          "name": "bot.admin",
+          "url": "",
+          "description": "",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/author/bot-admin/",
+          "slug": "bot-admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "id": 158,
+          "date": "2026-11-03T16:11:20",
+          "slug": "cheese-makhana",
+          "type": "attachment",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/cheese-makhana/",
+          "title": {
+            "rendered": "cheese-makhana"
+          },
+          "author": 2,
+          "featured_media": 0,
+          "caption": {
+            "rendered": ""
+          },
+          "alt_text": "",
+          "media_type": "image",
+          "mime_type": "image/jpeg",
+          "media_details": {
+            "width": 1376,
+            "height": 768,
+            "file": "2026/11/cheese-makhana.jpg",
+            "filesize": 762384,
+            "sizes": {
+              "medium": {
+                "file": "cheese-makhana-300x167.jpg",
+                "width": 300,
+                "height": 167,
+                "filesize": 11945,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/cheese-makhana-300x167.jpg"
+              },
+              "large": {
+                "file": "cheese-makhana-1024x572.jpg",
+                "width": 1024,
+                "height": 572,
+                "filesize": 88032,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/cheese-makhana-1024x572.jpg"
+              },
+              "thumbnail": {
+                "file": "cheese-makhana-150x150.jpg",
+                "width": 150,
+                "height": 150,
+                "filesize": 6430,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/cheese-makhana-150x150.jpg"
+              },
+              "medium_large": {
+                "file": "cheese-makhana-768x429.jpg",
+                "width": 768,
+                "height": 429,
+                "filesize": 55246,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/cheese-makhana-768x429.jpg"
+              },
+              "woocommerce_thumbnail": {
+                "file": "cheese-makhana-300x300.jpg",
+                "width": 300,
+                "height": 300,
+                "filesize": 20199,
+                "uncropped": false,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/cheese-makhana-300x300.jpg"
+              },
+              "woocommerce_single": {
+                "file": "cheese-makhana-600x335.jpg",
+                "width": 600,
+                "height": 335,
+                "filesize": 36658,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/cheese-makhana-600x335.jpg"
+              },
+              "woocommerce_gallery_thumbnail": {
+                "file": "cheese-makhana-100x100.jpg",
+                "width": 100,
+                "height": 100,
+                "filesize": 3455,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/cheese-makhana-100x100.jpg"
+              },
+              "full": {
+                "file": "cheese-makhana.jpg",
+                "width": 1376,
+                "height": 768,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/cheese-makhana.jpg"
+              }
+            },
+            "image_meta": {
+              "aperture": "0",
+              "credit": "",
+              "camera": "",
+              "caption": "",
+              "created_timestamp": "0",
+              "copyright": "",
+              "focal_length": "0",
+              "iso": "0",
+              "shutter_speed": "0",
+              "title": "",
+              "orientation": "0",
+              "keywords": [],
+              "alt": ""
+            }
+          },
+          "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/cheese-makhana.jpg",
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/158",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/attachment"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+              }
+            ],
+            "replies": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=158"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:term": [
+        [
+          {
+            "id": 1,
+            "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/category/uncategorized/",
+            "name": "Uncategorized",
+            "slug": "uncategorized",
+            "taxonomy": "category",
+            "_links": {
+              "self": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories/1",
+                  "targetHints": {
+                    "allow": [
+                      "GET"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories"
+                }
+              ],
+              "about": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/taxonomies/category"
+                }
+              ],
+              "wp:post_type": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts?categories=1"
+                }
+              ],
+              "curies": [
+                {
+                  "name": "wp",
+                  "href": "https://api.w.org/{rel}",
+                  "templated": true
+                }
+              ]
+            }
+          }
+        ],
+        []
+      ]
+    }
   },
   {
     "id": 138,
     "date": "2026-06-29T02:16:00",
+    "date_gmt": "2026-06-29T02:16:00",
+    "guid": {
+      "rendered": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/makhana-vs-other-snacks-why-its-the-healthiest/"
+    },
+    "modified": "2026-11-03T16:11:30",
+    "modified_gmt": "2026-11-03T16:11:30",
     "slug": "makhana-vs-other-snacks-why-its-the-healthiest",
     "status": "publish",
+    "type": "post",
+    "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/makhana-vs-other-snacks-why-its-the-healthiest/",
     "title": {
       "rendered": "Makhana vs Other Snacks: Why It&#8217;s the Healthiest?"
     },
@@ -175,15 +2779,342 @@
       "rendered": "<p>It is important to snack right along with your healthy meal options. The miscellaneous fats and carbs that get stored in your body due to the processed snacks are as harmful as a wrong meal choice. Other snacks contain little to no health benefits. However, makhana is rising as a supercool snack that is natural, [&hellip;]</p>\n",
       "protected": false
     },
+    "author": 2,
     "featured_media": 153,
-    "featured_media_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-vs-other-snacks.jpg",
-    "author_name": "Sohini Kar"
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-138",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/138",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=138"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/138/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 165,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/138/revisions/165"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/153"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media?parent=138"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories?post=138"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/tags?post=138"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 2,
+          "name": "bot.admin",
+          "url": "",
+          "description": "",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/author/bot-admin/",
+          "slug": "bot-admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "id": 153,
+          "date": "2026-11-03T16:11:08",
+          "slug": "makhana-vs-other-snacks",
+          "type": "attachment",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/makhana-vs-other-snacks/",
+          "title": {
+            "rendered": "makhana-vs-other-snacks"
+          },
+          "author": 2,
+          "featured_media": 0,
+          "caption": {
+            "rendered": ""
+          },
+          "alt_text": "",
+          "media_type": "image",
+          "mime_type": "image/jpeg",
+          "media_details": {
+            "width": 1376,
+            "height": 768,
+            "file": "2026/11/makhana-vs-other-snacks.jpg",
+            "filesize": 1035606,
+            "sizes": {
+              "medium": {
+                "file": "makhana-vs-other-snacks-300x167.jpg",
+                "width": 300,
+                "height": 167,
+                "filesize": 16920,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-vs-other-snacks-300x167.jpg"
+              },
+              "large": {
+                "file": "makhana-vs-other-snacks-1024x572.jpg",
+                "width": 1024,
+                "height": 572,
+                "filesize": 146196,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-vs-other-snacks-1024x572.jpg"
+              },
+              "thumbnail": {
+                "file": "makhana-vs-other-snacks-150x150.jpg",
+                "width": 150,
+                "height": 150,
+                "filesize": 8049,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-vs-other-snacks-150x150.jpg"
+              },
+              "medium_large": {
+                "file": "makhana-vs-other-snacks-768x429.jpg",
+                "width": 768,
+                "height": 429,
+                "filesize": 88310,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-vs-other-snacks-768x429.jpg"
+              },
+              "woocommerce_thumbnail": {
+                "file": "makhana-vs-other-snacks-300x300.jpg",
+                "width": 300,
+                "height": 300,
+                "filesize": 26840,
+                "uncropped": false,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-vs-other-snacks-300x300.jpg"
+              },
+              "woocommerce_single": {
+                "file": "makhana-vs-other-snacks-600x335.jpg",
+                "width": 600,
+                "height": 335,
+                "filesize": 57227,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-vs-other-snacks-600x335.jpg"
+              },
+              "woocommerce_gallery_thumbnail": {
+                "file": "makhana-vs-other-snacks-100x100.jpg",
+                "width": 100,
+                "height": 100,
+                "filesize": 4242,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-vs-other-snacks-100x100.jpg"
+              },
+              "full": {
+                "file": "makhana-vs-other-snacks.jpg",
+                "width": 1376,
+                "height": 768,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-vs-other-snacks.jpg"
+              }
+            },
+            "image_meta": {
+              "aperture": "0",
+              "credit": "",
+              "camera": "",
+              "caption": "",
+              "created_timestamp": "0",
+              "copyright": "",
+              "focal_length": "0",
+              "iso": "0",
+              "shutter_speed": "0",
+              "title": "",
+              "orientation": "0",
+              "keywords": [],
+              "alt": ""
+            }
+          },
+          "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-vs-other-snacks.jpg",
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/153",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/attachment"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+              }
+            ],
+            "replies": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=153"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:term": [
+        [
+          {
+            "id": 1,
+            "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/category/uncategorized/",
+            "name": "Uncategorized",
+            "slug": "uncategorized",
+            "taxonomy": "category",
+            "_links": {
+              "self": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories/1",
+                  "targetHints": {
+                    "allow": [
+                      "GET"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories"
+                }
+              ],
+              "about": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/taxonomies/category"
+                }
+              ],
+              "wp:post_type": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts?categories=1"
+                }
+              ],
+              "curies": [
+                {
+                  "name": "wp",
+                  "href": "https://api.w.org/{rel}",
+                  "templated": true
+                }
+              ]
+            }
+          }
+        ],
+        []
+      ]
+    }
   },
   {
     "id": 139,
     "date": "2026-06-20T02:00:00",
+    "date_gmt": "2026-06-20T02:00:00",
+    "guid": {
+      "rendered": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/makhana-for-weight-loss-how-to-eat/"
+    },
+    "modified": "2026-11-03T16:11:31",
+    "modified_gmt": "2026-11-03T16:11:31",
     "slug": "makhana-for-weight-loss-how-to-eat",
     "status": "publish",
+    "type": "post",
+    "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/makhana-for-weight-loss-how-to-eat/",
     "title": {
       "rendered": "Makhana for Weight Loss: How to Eat?"
     },
@@ -195,15 +3126,342 @@
       "rendered": "<p>If you are among those people who would like to make their life easier in attempting to alter their dietary habits, then incorporating makhana in your routine diet with respect to weight loss is definitely the best option that you have. makhana for weight loss, which is also known as &#8216;fox nuts&#8217; or &#8216;lotus seeds&#8217;, [&hellip;]</p>\n",
       "protected": false
     },
+    "author": 2,
     "featured_media": 152,
-    "featured_media_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-weight-loss.jpg",
-    "author_name": "Sohini Kar"
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-139",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/139",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=139"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/139/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 166,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/139/revisions/166"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/152"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media?parent=139"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories?post=139"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/tags?post=139"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 2,
+          "name": "bot.admin",
+          "url": "",
+          "description": "",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/author/bot-admin/",
+          "slug": "bot-admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "id": 152,
+          "date": "2026-11-03T16:11:06",
+          "slug": "makhana-weight-loss",
+          "type": "attachment",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/makhana-weight-loss/",
+          "title": {
+            "rendered": "makhana-weight-loss"
+          },
+          "author": 2,
+          "featured_media": 0,
+          "caption": {
+            "rendered": ""
+          },
+          "alt_text": "",
+          "media_type": "image",
+          "mime_type": "image/jpeg",
+          "media_details": {
+            "width": 1376,
+            "height": 768,
+            "file": "2026/11/makhana-weight-loss.jpg",
+            "filesize": 714824,
+            "sizes": {
+              "medium": {
+                "file": "makhana-weight-loss-300x167.jpg",
+                "width": 300,
+                "height": 167,
+                "filesize": 9723,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-weight-loss-300x167.jpg"
+              },
+              "large": {
+                "file": "makhana-weight-loss-1024x572.jpg",
+                "width": 1024,
+                "height": 572,
+                "filesize": 70889,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-weight-loss-1024x572.jpg"
+              },
+              "thumbnail": {
+                "file": "makhana-weight-loss-150x150.jpg",
+                "width": 150,
+                "height": 150,
+                "filesize": 5012,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-weight-loss-150x150.jpg"
+              },
+              "medium_large": {
+                "file": "makhana-weight-loss-768x429.jpg",
+                "width": 768,
+                "height": 429,
+                "filesize": 43697,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-weight-loss-768x429.jpg"
+              },
+              "woocommerce_thumbnail": {
+                "file": "makhana-weight-loss-300x300.jpg",
+                "width": 300,
+                "height": 300,
+                "filesize": 14079,
+                "uncropped": false,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-weight-loss-300x300.jpg"
+              },
+              "woocommerce_single": {
+                "file": "makhana-weight-loss-600x335.jpg",
+                "width": 600,
+                "height": 335,
+                "filesize": 29052,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-weight-loss-600x335.jpg"
+              },
+              "woocommerce_gallery_thumbnail": {
+                "file": "makhana-weight-loss-100x100.jpg",
+                "width": 100,
+                "height": 100,
+                "filesize": 2806,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-weight-loss-100x100.jpg"
+              },
+              "full": {
+                "file": "makhana-weight-loss.jpg",
+                "width": 1376,
+                "height": 768,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-weight-loss.jpg"
+              }
+            },
+            "image_meta": {
+              "aperture": "0",
+              "credit": "",
+              "camera": "",
+              "caption": "",
+              "created_timestamp": "0",
+              "copyright": "",
+              "focal_length": "0",
+              "iso": "0",
+              "shutter_speed": "0",
+              "title": "",
+              "orientation": "0",
+              "keywords": [],
+              "alt": ""
+            }
+          },
+          "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-weight-loss.jpg",
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/152",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/attachment"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+              }
+            ],
+            "replies": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=152"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:term": [
+        [
+          {
+            "id": 1,
+            "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/category/uncategorized/",
+            "name": "Uncategorized",
+            "slug": "uncategorized",
+            "taxonomy": "category",
+            "_links": {
+              "self": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories/1",
+                  "targetHints": {
+                    "allow": [
+                      "GET"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories"
+                }
+              ],
+              "about": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/taxonomies/category"
+                }
+              ],
+              "wp:post_type": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts?categories=1"
+                }
+              ],
+              "curies": [
+                {
+                  "name": "wp",
+                  "href": "https://api.w.org/{rel}",
+                  "templated": true
+                }
+              ]
+            }
+          }
+        ],
+        []
+      ]
+    }
   },
   {
     "id": 140,
     "date": "2026-06-10T12:04:00",
+    "date_gmt": "2026-06-10T12:04:00",
+    "guid": {
+      "rendered": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/top-health-benefits-of-makhana-fox-nuts-lotus-seeds/"
+    },
+    "modified": "2026-11-03T16:11:32",
+    "modified_gmt": "2026-11-03T16:11:32",
     "slug": "top-health-benefits-of-makhana-fox-nuts-lotus-seeds",
     "status": "publish",
+    "type": "post",
+    "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/top-health-benefits-of-makhana-fox-nuts-lotus-seeds/",
     "title": {
       "rendered": "Top Health Benefits of Makhana (Fox Nuts / Lotus Seeds)"
     },
@@ -215,8 +3473,327 @@
       "rendered": "<p>Makhana, which is alternatively called fox nuts or lotus seeds, is your simplest way of enjoying your snacks in an extremely tasty manner. Having makhanas as snacks will not only ensure that you feel full but also give you everything that you need in terms of nutrition in one day. Nutritional Value of Makhana (Per [&hellip;]</p>\n",
       "protected": false
     },
+    "author": 2,
     "featured_media": 159,
-    "featured_media_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-health-benefits.jpg",
-    "author_name": "Sohini Kar"
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "class_list": [
+      "post-140",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-uncategorized"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/140",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=140"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/140/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 167,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts/140/revisions/167"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/159"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media?parent=140"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories?post=140"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/tags?post=140"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 2,
+          "name": "bot.admin",
+          "url": "",
+          "description": "",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/author/bot-admin/",
+          "slug": "bot-admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/5ab089ebbde447f15e81400368f54bb25ce188feaab147625a8fead85386696b?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "id": 159,
+          "date": "2026-11-03T16:11:23",
+          "slug": "makhana-health-benefits",
+          "type": "attachment",
+          "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/makhana-health-benefits/",
+          "title": {
+            "rendered": "makhana-health-benefits"
+          },
+          "author": 2,
+          "featured_media": 0,
+          "caption": {
+            "rendered": ""
+          },
+          "alt_text": "",
+          "media_type": "image",
+          "mime_type": "image/jpeg",
+          "media_details": {
+            "width": 1376,
+            "height": 768,
+            "file": "2026/11/makhana-health-benefits.jpg",
+            "filesize": 1047710,
+            "sizes": {
+              "medium": {
+                "file": "makhana-health-benefits-300x167.jpg",
+                "width": 300,
+                "height": 167,
+                "filesize": 13671,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-health-benefits-300x167.jpg"
+              },
+              "large": {
+                "file": "makhana-health-benefits-1024x572.jpg",
+                "width": 1024,
+                "height": 572,
+                "filesize": 138637,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-health-benefits-1024x572.jpg"
+              },
+              "thumbnail": {
+                "file": "makhana-health-benefits-150x150.jpg",
+                "width": 150,
+                "height": 150,
+                "filesize": 7394,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-health-benefits-150x150.jpg"
+              },
+              "medium_large": {
+                "file": "makhana-health-benefits-768x429.jpg",
+                "width": 768,
+                "height": 429,
+                "filesize": 78498,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-health-benefits-768x429.jpg"
+              },
+              "woocommerce_thumbnail": {
+                "file": "makhana-health-benefits-300x300.jpg",
+                "width": 300,
+                "height": 300,
+                "filesize": 24583,
+                "uncropped": false,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-health-benefits-300x300.jpg"
+              },
+              "woocommerce_single": {
+                "file": "makhana-health-benefits-600x335.jpg",
+                "width": 600,
+                "height": 335,
+                "filesize": 48449,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-health-benefits-600x335.jpg"
+              },
+              "woocommerce_gallery_thumbnail": {
+                "file": "makhana-health-benefits-100x100.jpg",
+                "width": 100,
+                "height": 100,
+                "filesize": 3897,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-health-benefits-100x100.jpg"
+              },
+              "full": {
+                "file": "makhana-health-benefits.jpg",
+                "width": 1376,
+                "height": 768,
+                "mime_type": "image/jpeg",
+                "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-health-benefits.jpg"
+              }
+            },
+            "image_meta": {
+              "aperture": "0",
+              "credit": "",
+              "camera": "",
+              "caption": "",
+              "created_timestamp": "0",
+              "copyright": "",
+              "focal_length": "0",
+              "iso": "0",
+              "shutter_speed": "0",
+              "title": "",
+              "orientation": "0",
+              "keywords": [],
+              "alt": ""
+            }
+          },
+          "source_url": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/2026/11/makhana-health-benefits.jpg",
+          "_links": {
+            "self": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media/159",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/media"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/types/attachment"
+              }
+            ],
+            "author": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/users/2"
+              }
+            ],
+            "replies": [
+              {
+                "embeddable": true,
+                "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/comments?post=159"
+              }
+            ]
+          }
+        }
+      ],
+      "wp:term": [
+        [
+          {
+            "id": 1,
+            "link": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/category/uncategorized/",
+            "name": "Uncategorized",
+            "slug": "uncategorized",
+            "taxonomy": "category",
+            "_links": {
+              "self": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories/1",
+                  "targetHints": {
+                    "allow": [
+                      "GET"
+                    ]
+                  }
+                }
+              ],
+              "collection": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/categories"
+                }
+              ],
+              "about": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/taxonomies/category"
+                }
+              ],
+              "wp:post_type": [
+                {
+                  "href": "https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/wp/v2/posts?categories=1"
+                }
+              ],
+              "curies": [
+                {
+                  "name": "wp",
+                  "href": "https://api.w.org/{rel}",
+                  "templated": true
+                }
+              ]
+            }
+          }
+        ],
+        []
+      ]
+    }
   }
 ]
