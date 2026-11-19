@@ -15,7 +15,7 @@ if os.path.exists(env_file):
                 k, v = line.split('=', 1)
                 os.environ[k.strip()] = v.strip().strip('"').strip("'")
 
-WP_URL = os.environ.get('WORDPRESS_URL', 'https://backend-korigo.sampledomain.online').rstrip('/')
+WP_URL = os.environ.get('WORDPRESS_URL', 'https://sound-blanchedalmond-guanaco-02.hostingersite.com').rstrip('/')
 WP_USER = os.environ.get('WORDPRESS_ADMIN_USER', 'admin')
 WP_APP_PASS = os.environ.get('WORDPRESS_APPLICATION_PASSWORD', '')
 WC_KEY = os.environ.get('WOOCOMMERCE_CONSUMER_KEY', '')

@@ -61,7 +61,7 @@ const andada = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://backend-korigo.sampledomain.online"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://korigosnacks.com"),
   title: {
     default: "Korigo Snacks — Crunchy Flavoured Makhana | Roasted Superfood Pops",
     template: "%s | Korigo Snacks",

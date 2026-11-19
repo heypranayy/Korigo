@@ -143,7 +143,7 @@ def reconcile():
         "",
         "## 5. Frontend Asset Loading Strategy",
         "",
-        "1. **Product Images & Blog Thumbnails**: Consumed dynamically from WordPress Media Library / WooCommerce Store API URLs (`https://backend-korigo.sampledomain.online/wp-content/uploads/...`).",
+        "1. **Product Images & Blog Thumbnails**: Consumed dynamically from WordPress Media Library / WooCommerce Store API URLs (`https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-content/uploads/...`).",
         "2. **Static Brand UI & Icons (Logo, Certification Badges, Moodshots)**: Sourced from `/public/assets/korigo/*` as fast static assets in Next.js, with WordPress Media URL fallbacks.",
         "3. **Zero Hotlinks**: No runtime network requests will ever be sent to `cdn.shopify.com`."
     ])

@@ -69,7 +69,7 @@ def validate_all():
 
         # Check images
         imgs = wp_p.get("images", [])
-        has_imgs = len(imgs) > 0 and all("backend-korigo.sampledomain.online" in img['src'] for img in imgs)
+        has_imgs = len(imgs) > 0 and all("sound-blanchedalmond-guanaco-02.hostingersite.com" in img['src'] for img in imgs)
 
         # Check metadata
         meta_keys = [m['key'] for m in wp_p.get('meta_data', [])]

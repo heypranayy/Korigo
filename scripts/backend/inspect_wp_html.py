@@ -8,7 +8,7 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 headers = {'User-Agent': 'Mozilla/5.0'}
 
-req = urllib.request.Request('https://backend-korigo.sampledomain.online/', headers=headers)
+req = urllib.request.Request('https://sound-blanchedalmond-guanaco-02.hostingersite.com/', headers=headers)
 with urllib.request.urlopen(req, context=ctx, timeout=10) as resp:
     html = resp.read().decode('utf-8', errors='ignore')
 
@@ -33,7 +33,7 @@ print("Sample post links:", post_links)
 
 # RSS Feed
 try:
-    req_feed = urllib.request.Request('https://backend-korigo.sampledomain.online/feed/', headers=headers)
+    req_feed = urllib.request.Request('https://sound-blanchedalmond-guanaco-02.hostingersite.com/feed/', headers=headers)
     with urllib.request.urlopen(req_feed, context=ctx, timeout=10) as rfeed:
         feed_xml = rfeed.read().decode('utf-8', errors='ignore')
         gen_feed = re.findall(r'<generator>(.*?)</generator>', feed_xml)
@@ -43,7 +43,7 @@ except Exception as e:
 
 # Check wp-login.php
 try:
-    req_login = urllib.request.Request('https://backend-korigo.sampledomain.online/wp-login.php', headers=headers)
+    req_login = urllib.request.Request('https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-login.php', headers=headers)
     with urllib.request.urlopen(req_login, context=ctx, timeout=10) as rlogin:
         print("wp-login.php status:", rlogin.status)
 except Exception as e:

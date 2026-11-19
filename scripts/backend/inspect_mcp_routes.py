@@ -4,7 +4,7 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 headers = {'User-Agent': 'Mozilla/5.0'}
 
-req = urllib.request.Request('https://backend-korigo.sampledomain.online/wp-json/', headers=headers)
+req = urllib.request.Request('https://sound-blanchedalmond-guanaco-02.hostingersite.com/wp-json/', headers=headers)
 with urllib.request.urlopen(req, context=ctx, timeout=10) as resp:
     data = json.loads(resp.read().decode('utf-8'))
 

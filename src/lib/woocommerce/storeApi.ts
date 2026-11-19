@@ -3,7 +3,7 @@ import catalogFallback from "../../../crawl_data/full_catalog_extracted.json";
 import recipesFallback from "../../../crawl_data/product_recipes.json";
 import productDataMap from "./productData.json";
 
-const WP_URL = process.env.NEXT_PUBLIC_WORDPRESS_URL || "https://backend-korigo.sampledomain.online";
+const WP_URL = process.env.NEXT_PUBLIC_WORDPRESS_URL || "https://sound-blanchedalmond-guanaco-02.hostingersite.com";
 
 // Convert Store API price (paisa/minor units) to formatted rupee string e.g. "9900" -> "99.00"
 export function formatStorePrice(minorUnits: string | number, decimals: number = 2): string {

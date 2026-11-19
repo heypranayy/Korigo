@@ -2,7 +2,7 @@ import { WordPressPost, WordPressPage } from "../woocommerce/types";
 import mediaMapping from "../../../crawl_data/wp_media_mapping.json";
 import postsCache from "./posts_cache.json";
 
-const WP_URL = process.env.NEXT_PUBLIC_WORDPRESS_URL || "https://backend-korigo.sampledomain.online";
+const WP_URL = process.env.NEXT_PUBLIC_WORDPRESS_URL || "https://sound-blanchedalmond-guanaco-02.hostingersite.com";
 
 export const LOCAL_BLOG_IMAGES: Record<string, string> = {
   "healthy-travel-snacks-flights-train-journeys": "/assets/korigo/blogs/healthy-travel-snacks.jpg",

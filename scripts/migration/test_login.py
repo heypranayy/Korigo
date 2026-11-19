@@ -17,7 +17,7 @@ with open(env_file, 'r', encoding='utf-8') as f:
             k, v = line.split('=', 1)
             env_vars[k.strip()] = v.strip().strip('"').strip("'")
 
-WP_URL = env_vars.get('WORDPRESS_URL', 'https://backend-korigo.sampledomain.online').rstrip('/')
+WP_URL = env_vars.get('WORDPRESS_URL', 'https://sound-blanchedalmond-guanaco-02.hostingersite.com').rstrip('/')
 USER = env_vars.get('WORDPRESS_ADMIN_USER', '')
 PASS = env_vars.get('WORDPRESS_ADMIN_PASSWORD', '')
 

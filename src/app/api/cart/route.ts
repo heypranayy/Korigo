@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const WP_URL = process.env.NEXT_PUBLIC_WORDPRESS_URL || "https://backend-korigo.sampledomain.online";
+const WP_URL = process.env.NEXT_PUBLIC_WORDPRESS_URL || "https://sound-blanchedalmond-guanaco-02.hostingersite.com";
 
 export async function GET(req: NextRequest) {
   try {

@@ -14,12 +14,12 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'backend-korigo.sampledomain.online',
+        hostname: 'sound-blanchedalmond-guanaco-02.hostingersite.com',
         pathname: '/**',
       },
       {
         protocol: 'https',
-        hostname: '*.sampledomain.online',
+        hostname: '*.hostingersite.com',
         pathname: '/**',
       },
       {

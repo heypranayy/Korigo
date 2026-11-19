@@ -9,7 +9,7 @@ from html_generator import (
     build_travel_snacks
 )
 
-WP_URL = 'https://backend-korigo.sampledomain.online'
+WP_URL = 'https://sound-blanchedalmond-guanaco-02.hostingersite.com'
 AUTH = ('bot.admin', 'lG4t c3fM vado 1JBz Hla8 ibrS')
 
 TARGET_DIR = r"d:\SOFTWARE DEVELOPMENT\KORIGO SNACKS\public\assets\korigo\blogs"
